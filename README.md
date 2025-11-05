@@ -1,5 +1,9 @@
 # 🚁 Análise de Geomarketing: Drones Agrícolas em Santa Catarina
 
+## 🌐 Acesso Rápido
+
+**🎯 Dashboard Interativo Principal:** [https://caetanoronan.github.io/geomarketing-drones-sc/](https://caetanoronan.github.io/geomarketing-drones-sc/)
+
 ## 📊 Sobre o Projeto
 
 Análise completa do potencial de mercado para operações de **aluguel e venda de drones agrícolas** em Santa Catarina, utilizando dados oficiais do IBGE (PAM 2024).
