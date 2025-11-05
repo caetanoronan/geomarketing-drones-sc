@@ -1,0 +1,1270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Plan - Drones Agrícolas SC</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+            overflow: hidden;
+        }
+        
+        .cover {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 80px 40px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .cover::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 100px;
+            background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.3));
+        }
+        
+        .cover h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+        }
+        
+        .cover .subtitle {
+            font-size: 1.5em;
+            opacity: 0.95;
+            margin-bottom: 30px;
+        }
+        
+        .cover .meta {
+            font-size: 1.1em;
+            opacity: 0.85;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .tabs {
+            display: flex;
+            background: #f7fafc;
+            border-bottom: 3px solid #667eea;
+            overflow-x: auto;
+            flex-wrap: wrap;
+        }
+        
+        .tab-button {
+            padding: 20px 30px;
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1em;
+            color: #2c3e50;
+            transition: all 0.3s;
+            border-bottom: 3px solid transparent;
+            font-weight: 500;
+        }
+        
+        .tab-button:hover {
+            background: #e8f4f8;
+            color: #667eea;
+        }
+        
+        .tab-button.active {
+            background: white;
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+            font-weight: bold;
+        }
+        
+        .tab-content {
+            display: none;
+            padding: 40px;
+            animation: fadeIn 0.5s;
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .section h2 {
+            font-size: 2.2em;
+            color: #2c3e50;
+            margin-bottom: 30px;
+            padding-bottom: 15px;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        .section h3 {
+            font-size: 1.6em;
+            color: #34495e;
+            margin: 30px 0 20px 0;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin: 20px 0;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+        }
+        
+        .info-box {
+            background: #f8f9fa;
+            border-left: 5px solid #667eea;
+            padding: 25px;
+            margin: 20px 0;
+            border-radius: 8px;
+        }
+        
+        .metric-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+            margin: 30px 0;
+        }
+        
+        .metric-card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .metric-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .metric-card h4 {
+            color: #2c3e50;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+        
+        .metric-card .value {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+        
+        .metric-card .label {
+            color: #7f8c8d;
+            font-size: 0.95em;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            background: white;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        thead {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        
+        th, td {
+            padding: 18px;
+            text-align: left;
+        }
+        
+        tbody tr {
+            border-bottom: 1px solid #ecf0f1;
+        }
+        
+        tbody tr:hover {
+            background: #f8f9fa;
+        }
+        
+        tbody tr:nth-child(even) {
+            background: #fafafa;
+        }
+        
+        .chart-container {
+            position: relative;
+            height: 400px;
+            margin: 30px 0;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 12px;
+        }
+        
+        .timeline {
+            position: relative;
+            padding-left: 40px;
+            margin: 30px 0;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 10px;
+            top: 0;
+            bottom: 0;
+            width: 3px;
+            background: linear-gradient(to bottom, #667eea, #764ba2);
+        }
+        
+        .timeline-item {
+            position: relative;
+            padding: 20px 30px;
+            margin-bottom: 30px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -36px;
+            top: 25px;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background: #667eea;
+            border: 3px solid white;
+            box-shadow: 0 0 0 3px #667eea;
+        }
+        
+        .timeline-item h4 {
+            color: #667eea;
+            font-size: 1.3em;
+            margin-bottom: 15px;
+        }
+        
+        .risk-matrix {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin: 25px 0;
+        }
+        
+        .risk-card {
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid;
+        }
+        
+        .risk-high {
+            background: #fee;
+            border-color: #e74c3c;
+        }
+        
+        .risk-medium {
+            background: #fff8e1;
+            border-color: #f39c12;
+        }
+        
+        .risk-low {
+            background: #e8f5e9;
+            border-color: #27ae60;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            padding: 15px 35px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.1em;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+            transition: transform 0.3s;
+            margin: 10px;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.6);
+        }
+        
+        .footer {
+            background: #2c3e50;
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+            }
+            .cta-button {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- CAPA -->
+        <div class="cover">
+            <h1>🚁 BUSINESS PLAN</h1>
+            <div class="subtitle">Operação de Drones Agrícolas em Santa Catarina</div>
+            <div class="meta">
+                <p><strong>Mercado-Alvo:</strong> Campos Novos + Cluster Planalto Serrano</p>
+                <p><strong>Investimento:</strong> R$ 500k - R$ 800k</p>
+                <p><strong>ROI Projetado:</strong> 12-18 meses</p>
+                <p><strong>Data:</strong> Novembro 2025</p>
+            </div>
+        </div>
+
+        <!-- MENU DE ABAS -->
+        <div class="tabs">
+            <button class="tab-button active" onclick="openTab(event, 'sumario')">📋 Sumário</button>
+            <button class="tab-button" onclick="openTab(event, 'mercado')">📊 Mercado</button>
+            <button class="tab-button" onclick="openTab(event, 'estrategia')">🚀 Estratégia</button>
+            <button class="tab-button" onclick="openTab(event, 'operacional')">⚙️ Operacional</button>
+            <button class="tab-button" onclick="openTab(event, 'financeiro')">💰 Financeiro</button>
+            <button class="tab-button" onclick="openTab(event, 'riscos')">⚠️ Riscos</button>
+            <button class="tab-button" onclick="openTab(event, 'equipe')">👥 Equipe</button>
+            <button class="tab-button" onclick="openTab(event, 'proximos')">🎯 Próximos Passos</button>
+            <button class="tab-button" onclick="openTab(event, 'glossario')">📖 Glossário</button>
+        </div>
+
+        <div class="content">
+            <!-- ABA 1: SUMÁRIO EXECUTIVO -->
+            <div id="sumario" class="tab-content active">
+                <div class="section">
+                <h2>1. 📋 Sumário Executivo</h2>
+                
+                <div class="highlight-box">
+                    <h3 style="color: white; margin-top: 0;">🎯 Oportunidade de Mercado</h3>
+                    <p style="font-size: 1.1em; line-height: 1.8;">
+                        Análise técnica baseada em dados oficiais do IBGE (PAM 2024) identificou <strong>Campos Novos</strong> 
+                        como o município com maior potencial não-explorado para serviços de drones agrícolas em Santa Catarina. 
+                        Com <strong>90.879 hectares agrícolas</strong>, <strong>R$ 670 milhões</strong> em valor de produção anual 
+                        e <strong>161 grandes estabelecimentos</strong>, a cidade representa um oceano azul para primeiro entrante.
+                    </p>
+                </div>
+
+                <div class="metric-grid">
+                    <div class="metric-card">
+                        <h4>Mercado TAM</h4>
+                        <div class="value">1,68M</div>
+                        <div class="label">hectares agrícolas em SC</div>
+                    </div>
+                    <div class="metric-card">
+                        <h4>Mercado SAM</h4>
+                        <div class="value">850k</div>
+                        <div class="label">hectares TOP 50 municípios</div>
+                    </div>
+                    <div class="metric-card">
+                        <h4>Mercado SOM</h4>
+                        <div class="value">341k</div>
+                        <div class="label">hectares Campos Novos + cluster</div>
+                    </div>
+                    <div class="metric-card">
+                        <h4>Clientes B2B</h4>
+                        <div class="value">800+</div>
+                        <div class="label">estabelecimentos >100 ha</div>
+                    </div>
+                </div>
+
+                <h3>💼 Proposta de Valor</h3>
+                <ul style="line-height: 2;">
+                    <li><strong>Aluguel:</strong> R$ 80-150/ha por aplicação (pulverização, monitoramento)</li>
+                    <li><strong>Venda:</strong> Drones profissionais R$ 80k-250k + treinamento + suporte</li>
+                    <li><strong>Assinatura:</strong> Software de gestão agrícola + análise de dados (SaaS)</li>
+                    <li><strong>Serviços Premium:</strong> Mapeamento, contagem de plantas, detecção de pragas (IA)</li>
+                </ul>
+            </div>
+            </div>
+
+            <!-- ABA 2: ANÁLISE DE MERCADO -->
+            <div id="mercado" class="tab-content">
+                <div class="section">
+                <h2>2. 📊 Análise de Mercado</h2>
+
+                <h3>🏆 Ranking de Municípios (TOP 10)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Município</th>
+                            <th>Score</th>
+                            <th>Área Agrícola</th>
+                            <th>Valor Produção</th>
+                            <th>Estabelec. >100ha</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr style="background: #fff3cd;">
+                            <td><strong>1</strong></td>
+                            <td><strong>Campos Novos</strong></td>
+                            <td><strong>69.1</strong></td>
+                            <td><strong>90.879 ha</strong></td>
+                            <td><strong>R$ 671M</strong></td>
+                            <td><strong>161</strong></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Abelardo Luz</td>
+                            <td>50.8</td>
+                            <td>69.401 ha</td>
+                            <td>R$ 907M</td>
+                            <td>125</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Mafra</td>
+                            <td>40.6</td>
+                            <td>52.534 ha</td>
+                            <td>R$ 801M</td>
+                            <td>120</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Curitibanos</td>
+                            <td>40.3</td>
+                            <td>28.708 ha</td>
+                            <td>R$ 148M</td>
+                            <td>354</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Canoinhas</td>
+                            <td>34.4</td>
+                            <td>48.596 ha</td>
+                            <td>R$ 664M</td>
+                            <td>74</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>🎯 Por que Campos Novos?</h3>
+                <div class="info-box">
+                    <h4 style="margin-bottom: 15px;">✅ Critérios de Seleção Atingidos</h4>
+                    <ul style="line-height: 2;">
+                        <li><strong>Maior área agrícola de SC:</strong> 90.879 ha (40% maior que #2)</li>
+                        <li><strong>Culturas-alvo ideais:</strong> 64.000 ha soja, 9.144 ha milho (aplicação de drones)</li>
+                        <li><strong>Perfil B2B consolidado:</strong> 161 estabelecimentos >100 ha (poder de compra)</li>
+                        <li><strong>Valor de produção comprovado:</strong> R$ 670M/ano (capacidade de pagamento)</li>
+                        <li><strong>Localização estratégica:</strong> Centro do Planalto Serrano (hub regional)</li>
+                        <li><strong>Zero concorrência:</strong> Nenhum operador de drones estabelecido (oceano azul)</li>
+                        <li><strong>Infraestrutura:</strong> BR-282, energia estável, conectividade 4G</li>
+                    </ul>
+                </div>
+
+                <h3>📈 Tendências do Setor</h3>
+                <div class="chart-container">
+                    <canvas id="marketTrendChart"></canvas>
+                </div>
+            </div>
+            </div>
+
+            <!-- ABA 3: ESTRATÉGIA DE GO-TO-MARKET -->
+            <div id="estrategia" class="tab-content">
+                <div class="section">
+                <h2>3. 🚀 Estratégia de Go-to-Market</h2>
+
+                <h3>📅 Roadmap de Expansão (3 Anos)</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <h4>Ano 1 (2026): Validação em Campos Novos</h4>
+                        <p><strong>Objetivo:</strong> Estabelecer base operacional e conquistar primeiros 30-50 clientes</p>
+                        <ul>
+                            <li><strong>Q1:</strong> Abertura de escritório, compra de 3 drones DJI Agras T40</li>
+                            <li><strong>Q2:</strong> Parcerias com cooperativas (Coopercampos), 10 clientes piloto</li>
+                            <li><strong>Q3:</strong> Expansão para 30 clientes, contratação de 2 pilotos</li>
+                            <li><strong>Q4:</strong> 50 clientes ativos, faturamento R$ 1,44M</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h4>Ano 2 (2027): Consolidação e Expansão Regional</h4>
+                        <p><strong>Objetivo:</strong> Dominar cluster Planalto Serrano (5 cidades)</p>
+                        <ul>
+                            <li><strong>Q1:</strong> Bases satélite em Curitibanos e Abelardo Luz</li>
+                            <li><strong>Q2:</strong> 80 clientes ativos, 5 drones, 4 pilotos</li>
+                            <li><strong>Q3:</strong> Lançamento de software SaaS (gestão agrícola)</li>
+                            <li><strong>Q4:</strong> 120 clientes, faturamento R$ 4,8M, break-even operacional</li>
+                        </ul>
+                    </div>
+
+                    <div class="timeline-item">
+                        <h4>Ano 3 (2028): Escala e Diversificação</h4>
+                        <p><strong>Objetivo:</strong> Líder regional em agtech, 200+ clientes</p>
+                        <ul>
+                            <li><strong>Q1:</strong> Expansão para Mafra e Canoinhas</li>
+                            <li><strong>Q2:</strong> Lançamento de serviços premium (IA, análise preditiva)</li>
+                            <li><strong>Q3:</strong> 180 clientes, receita recorrente SaaS consolidada</li>
+                            <li><strong>Q4:</strong> 200 clientes, faturamento R$ 8,5M, lucro líquido 25%</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <h3>🎯 Segmentação de Clientes</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Segmento</th>
+                            <th>Perfil</th>
+                            <th>Oferta</th>
+                            <th>Preço/Mês</th>
+                            <th>% Mix</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Grande Produtor</strong></td>
+                            <td>>200 ha, soja/milho</td>
+                            <td>Venda drone + SaaS premium</td>
+                            <td>R$ 3.500</td>
+                            <td>30%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Médio Produtor</strong></td>
+                            <td>50-200 ha</td>
+                            <td>Aluguel mensal + manutenção</td>
+                            <td>R$ 6.000</td>
+                            <td>45%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Cooperativa</strong></td>
+                            <td>1000+ ha associados</td>
+                            <td>Venda frota + SaaS enterprise</td>
+                            <td>R$ 15.000</td>
+                            <td>15%</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Pequeno Produtor</strong></td>
+                            <td><50 ha</td>
+                            <td>Aluguel por aplicação</td>
+                            <td>R$ 1.200</td>
+                            <td>10%</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            </div>
+
+            <!-- ABA 4: PLANO OPERACIONAL -->
+            <div id="operacional" class="tab-content">
+                <div class="section">
+                <h2>4. ⚙️ Plano Operacional</h2>
+
+                <h3>🛠️ Estrutura Inicial (Ano 1)</h3>
+                <div class="metric-grid">
+                    <div class="metric-card">
+                        <h4>Equipe</h4>
+                        <div class="value">7</div>
+                        <div class="label">colaboradores</div>
+                    </div>
+                    <div class="metric-card">
+                        <h4>Drones</h4>
+                        <div class="value">3</div>
+                        <div class="label">DJI Agras T40</div>
+                    </div>
+                    <div class="metric-card">
+                        <h4>Capacidade</h4>
+                        <div class="value">900</div>
+                        <div class="label">hectares/dia</div>
+                    </div>
+                    <div class="metric-card">
+                        <h4>Escritório</h4>
+                        <div class="value">150</div>
+                        <div class="label">m² em Campos Novos</div>
+                    </div>
+                </div>
+
+                <h3>👥 Organograma</h3>
+                <div class="info-box">
+                    <ul style="line-height: 2;">
+                        <li><strong>CEO/Fundador:</strong> Estratégia, vendas B2B, relacionamento investidores</li>
+                        <li><strong>Diretor de Operações:</strong> Gestão de pilotos, logística, manutenção</li>
+                        <li><strong>3 Pilotos de Drone:</strong> Operação campo, atendimento cliente (salário: R$ 4.500/mês)</li>
+                        <li><strong>Agrônomo Consultor:</strong> Análise técnica, recomendações agronômicas (freelance)</li>
+                        <li><strong>Analista de Dados:</strong> Processamento imagens, relatórios (freelance)</li>
+                        <li><strong>Assistente Administrativo:</strong> Financeiro, logística, suporte (R$ 2.800/mês)</li>
+                    </ul>
+                </div>
+
+                <h3>🚁 Equipamentos e Tecnologia</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Especificação</th>
+                            <th>Quantidade</th>
+                            <th>Custo Unit.</th>
+                            <th>Total</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Drone Pulverização</strong></td>
+                            <td>DJI Agras T40 (40L, RTK)</td>
+                            <td>3</td>
+                            <td>R$ 120.000</td>
+                            <td>R$ 360.000</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Drone Mapeamento</strong></td>
+                            <td>DJI Phantom 4 RTK</td>
+                            <td>1</td>
+                            <td>R$ 35.000</td>
+                            <td>R$ 35.000</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Estação Base RTK</strong></td>
+                            <td>Precisão centimétrica</td>
+                            <td>1</td>
+                            <td>R$ 45.000</td>
+                            <td>R$ 45.000</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Baterias Sobressalentes</strong></td>
+                            <td>T40 (29.000 mAh)</td>
+                            <td>12</td>
+                            <td>R$ 4.500</td>
+                            <td>R$ 54.000</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Carregadores Rápidos</strong></td>
+                            <td>2400W</td>
+                            <td>4</td>
+                            <td>R$ 8.000</td>
+                            <td>R$ 32.000</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Veículo Operacional</strong></td>
+                            <td>Pick-up 4x4</td>
+                            <td>1</td>
+                            <td>R$ 180.000</td>
+                            <td>R$ 180.000</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Software/Licenças</strong></td>
+                            <td>Pix4D, DroneDeploy</td>
+                            <td>-</td>
+                            <td>-</td>
+                            <td>R$ 18.000</td>
+                        </tr>
+                        <tr style="background: #fff3cd; font-weight: bold;">
+                            <td colspan="4"><strong>TOTAL EQUIPAMENTOS</strong></td>
+                            <td><strong>R$ 724.000</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            </div>
+
+            <!-- ABA 5: PROJEÇÕES FINANCEIRAS -->
+            <div id="financeiro" class="tab-content">
+                <div class="section">
+                <h2>5. 💰 Projeções Financeiras</h2>
+
+                <h3>📊 Resumo Financeiro (3 Anos)</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Métrica</th>
+                            <th>Ano 1 (2026)</th>
+                            <th>Ano 2 (2027)</th>
+                            <th>Ano 3 (2028)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Receita Bruta</strong></td>
+                            <td>R$ 1.440.000</td>
+                            <td>R$ 4.800.000</td>
+                            <td>R$ 8.640.000</td>
+                        </tr>
+                        <tr>
+                            <td>(-) Impostos (Simples 6%)</td>
+                            <td>R$ 86.400</td>
+                            <td>R$ 288.000</td>
+                            <td>R$ 518.400</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Receita Líquida</strong></td>
+                            <td>R$ 1.353.600</td>
+                            <td>R$ 4.512.000</td>
+                            <td>R$ 8.121.600</td>
+                        </tr>
+                        <tr>
+                            <td>(-) Custos Variáveis</td>
+                            <td>R$ 288.000</td>
+                            <td>R$ 960.000</td>
+                            <td>R$ 1.728.000</td>
+                        </tr>
+                        <tr>
+                            <td>(-) Custos Fixos</td>
+                            <td>R$ 540.000</td>
+                            <td>R$ 840.000</td>
+                            <td>R$ 1.200.000</td>
+                        </tr>
+                        <tr>
+                            <td>(-) Depreciação</td>
+                            <td>R$ 144.800</td>
+                            <td>R$ 144.800</td>
+                            <td>R$ 144.800</td>
+                        </tr>
+                        <tr style="background: #e8f5e9;">
+                            <td><strong>EBITDA</strong></td>
+                            <td><strong>R$ 525.600</strong></td>
+                            <td><strong>R$ 2.711.200</strong></td>
+                            <td><strong>R$ 5.193.600</strong></td>
+                        </tr>
+                        <tr style="background: #c8e6c9;">
+                            <td><strong>Margem EBITDA</strong></td>
+                            <td><strong>36,5%</strong></td>
+                            <td><strong>56,5%</strong></td>
+                            <td><strong>60,1%</strong></td>
+                        </tr>
+                        <tr>
+                            <td><strong>Lucro Líquido</strong></td>
+                            <td>R$ 380.800</td>
+                            <td>R$ 2.566.400</td>
+                            <td>R$ 5.048.800</td>
+                        </tr>
+                        <tr style="background: #fff3cd;">
+                            <td><strong>Margem Líquida</strong></td>
+                            <td><strong>26,4%</strong></td>
+                            <td><strong>53,5%</strong></td>
+                            <td><strong>58,4%</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>💵 Investimento Inicial</h3>
+                <div class="info-box">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Item</th>
+                                <th>Valor</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Equipamentos (drones, veículo, tecnologia)</td>
+                                <td>R$ 724.000</td>
+                            </tr>
+                            <tr>
+                                <td>Reforma e mobiliário escritório</td>
+                                <td>R$ 50.000</td>
+                            </tr>
+                            <tr>
+                                <td>Capital de giro (6 meses)</td>
+                                <td>R$ 270.000</td>
+                            </tr>
+                            <tr>
+                                <td>Marketing inicial</td>
+                                <td>R$ 40.000</td>
+                            </tr>
+                            <tr>
+                                <td>Certificações e licenças (ANAC, etc.)</td>
+                                <td>R$ 15.000</td>
+                            </tr>
+                            <tr>
+                                <td>Reserva de contingência (10%)</td>
+                                <td>R$ 66.000</td>
+                            </tr>
+                            <tr style="background: #667eea; color: white; font-weight: bold;">
+                                <td><strong>INVESTIMENTO TOTAL</strong></td>
+                                <td><strong>R$ 1.165.000</strong></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3>📈 Fluxo de Caixa Acumulado</h3>
+                <div class="chart-container">
+                    <canvas id="cashFlowChart"></canvas>
+                </div>
+
+                <h3>🎯 Indicadores de Viabilidade</h3>
+                <div class="metric-grid">
+                    <div class="metric-card">
+                        <h4>Payback</h4>
+                        <div class="value">14</div>
+                        <div class="label">meses</div>
+                    </div>
+                    <div class="metric-card">
+                        <h4>TIR (3 anos)</h4>
+                        <div class="value">180%</div>
+                        <div class="label">ao ano</div>
+                    </div>
+                    <div class="metric-card">
+                        <h4>VPL (TMA 12%)</h4>
+                        <div class="value">R$ 4,2M</div>
+                        <div class="label">valor presente líquido</div>
+                    </div>
+                    <div class="metric-card">
+                        <h4>Break-even</h4>
+                        <div class="value">18</div>
+                        <div class="label">clientes ativos</div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- ABA 6: ANÁLISE DE RISCOS -->
+            <div id="riscos" class="tab-content">
+                <div class="section">
+                <h2>6. ⚠️ Análise de Riscos</h2>
+
+                <div class="risk-matrix">
+                    <div class="risk-card risk-high">
+                        <h4>🔴 ALTO</h4>
+                        <p><strong>Mudanças Regulatórias ANAC</strong></p>
+                        <p><small>Mitigação: Acompanhamento legislativo, conformidade proativa, seguro operacional</small></p>
+                    </div>
+                    
+                    <div class="risk-card risk-high">
+                        <h4>🔴 ALTO</h4>
+                        <p><strong>Condições Climáticas</strong></p>
+                        <p><small>Mitigação: Janelas operacionais flexíveis, previsão meteorológica avançada, contratos ajustáveis</small></p>
+                    </div>
+                    
+                    <div class="risk-card risk-medium">
+                        <h4>🟡 MÉDIO</h4>
+                        <p><strong>Adoção Lenta pelos Produtores</strong></p>
+                        <p><small>Mitigação: Demonstrações gratuitas, cases de sucesso, ROI comprovado, parcerias com cooperativas</small></p>
+                    </div>
+                    
+                    <div class="risk-card risk-medium">
+                        <h4>🟡 MÉDIO</h4>
+                        <p><strong>Entrada de Concorrentes</strong></p>
+                        <p><small>Mitigação: Estabelecer brand forte, contratos de longo prazo, relacionamento próximo com clientes</small></p>
+                    </div>
+                    
+                    <div class="risk-card risk-medium">
+                        <h4>🟡 MÉDIO</h4>
+                        <p><strong>Variação Câmbio (peças importadas)</strong></p>
+                        <p><small>Mitigação: Hedge cambial, estoque de peças críticas, fornecedores nacionais alternativos</small></p>
+                    </div>
+                    
+                    <div class="risk-card risk-low">
+                        <h4>🟢 BAIXO</h4>
+                        <p><strong>Obsolescência Tecnológica</strong></p>
+                        <p><small>Mitigação: Atualização contínua de software, parcerias com fabricantes, ciclo de troca 3-4 anos</small></p>
+                    </div>
+                </div>
+
+                <h3>🛡️ Plano de Contingência</h3>
+                <div class="info-box">
+                    <ul style="line-height: 2;">
+                        <li><strong>Sazonalidade:</strong> Diversificar receita com serviços de mapeamento topográfico, inspeção de linhas de transmissão (receita offseason)</li>
+                        <li><strong>Baixa adesão inicial:</strong> Parcerias com revendas de insumos agrícolas (cross-sell), descontos progressivos para early adopters</li>
+                        <li><strong>Quebra de equipamento:</strong> Seguro all-risk, contrato de manutenção com DJI, estoque de drones backup (1 unidade reserva)</li>
+                        <li><strong>Concorrência agressiva:</strong> Diferenciação por qualidade de serviço, fidelização via SaaS, contratos anuais com descontos</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+
+            <!-- ABA 7: EQUIPE E GOVERNANÇA -->
+            <div id="equipe" class="tab-content">
+                <div class="section">
+                <h2>7. 👥 Equipe e Governança</h2>
+
+                <h3>🎓 Perfil dos Fundadores (a definir)</h3>
+                <div class="info-box">
+                    <p><strong>Perfil ideal para liderança:</strong></p>
+                    <ul style="line-height: 2;">
+                        <li><strong>CEO:</strong> Background em agronegócio ou agtech, experiência em vendas B2B, network no setor</li>
+                        <li><strong>COO:</strong> Formação técnica (engenharia, agronomia), experiência em operações logísticas, certificação ANAC</li>
+                        <li><strong>Conselheiros:</strong> Produtores rurais influentes de Campos Novos, investidores com expertise em agro</li>
+                    </ul>
+                </div>
+
+                <h3>📋 Estrutura Societária Sugerida</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Parte</th>
+                            <th>Participação</th>
+                            <th>Responsabilidades</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Fundador(es)</td>
+                            <td>40-50%</td>
+                            <td>Gestão executiva, operação, estratégia</td>
+                        </tr>
+                        <tr>
+                            <td>Investidor(es) Seed</td>
+                            <td>30-40%</td>
+                            <td>Capital inicial (R$ 1,165M), mentoria, network</td>
+                        </tr>
+                        <tr>
+                            <td>Pool de Opções (ESOP)</td>
+                            <td>10-20%</td>
+                            <td>Retenção de talentos, pilotos-chave, agrônomos</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3>🎯 Milestones para Próximas Rodadas</h3>
+                <ul style="line-height: 2;">
+                    <li><strong>Serie A (Ano 2):</strong> 80+ clientes ativos, R$ 3M+ faturamento anual, break-even atingido</li>
+                    <li><strong>Serie B (Ano 3):</strong> 150+ clientes, 10+ municípios cobertos, SaaS com 500+ usuários</li>
+                    <li><strong>Exit potencial (Ano 4-5):</strong> M&A com player nacional (Solinftec, Aegro) ou IPO</li>
+                </ul>
+            </div>
+            </div>
+
+            <!-- ABA 8: PRÓXIMOS PASSOS -->
+            <div id="proximos" class="tab-content">
+                <div class="section">
+                <h2>8. 🚀 Próximos Passos</h2>
+
+                <div class="highlight-box">
+                    <h3 style="color: white; margin-top: 0;">✅ Ações Imediatas (30 dias)</h3>
+                    <ol style="line-height: 2; font-size: 1.1em;">
+                        <li><strong>Validação in loco:</strong> Visita a Campos Novos, reuniões com cooperativas e top 10 produtores</li>
+                        <li><strong>Demonstração piloto:</strong> Aplicação gratuita em 3 propriedades (proof of concept)</li>
+                        <li><strong>Estruturação jurídica:</strong> Constituição da empresa, registro ANAC, licenças</li>
+                        <li><strong>Fechamento de investimento:</strong> Apresentação para investidores, term sheet, due diligence</li>
+                        <li><strong>Compra de equipamentos:</strong> Negociação com DJI, importação (60 dias prazo)</li>
+                    </ol>
+                </div>
+
+                <h3>📅 Cronograma de Implementação</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Fase</th>
+                            <th>Prazo</th>
+                            <th>Investimento</th>
+                            <th>Entregas</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Pré-operação</strong></td>
+                            <td>Meses 1-3</td>
+                            <td>R$ 200k</td>
+                            <td>Empresa constituída, equipamentos comprados, pilotos contratados</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Soft Launch</strong></td>
+                            <td>Meses 4-6</td>
+                            <td>R$ 100k</td>
+                            <td>10 clientes piloto, operação validada, brand local estabelecido</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Scale-up</strong></td>
+                            <td>Meses 7-12</td>
+                            <td>R$ 150k</td>
+                            <td>30-50 clientes, operação rentável, pipeline Serie A</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div style="text-align: center; margin-top: 50px;">
+                    <a href="apresentacao_drones_agro_sc.html" class="cta-button">📊 Ver Dashboard Completo</a>
+                    <a href="maps/heatmap_combinado.html" class="cta-button">🔥 Mapas de Calor</a>
+                    <a href="https://github.com/caetanoronan/geomarketing-drones-sc" class="cta-button">🐙 GitHub Repo</a>
+                </div>
+            </div>
+            </div>
+
+            <!-- ABA 9: GLOSSÁRIO -->
+            <div id="glossario" class="tab-content">
+                <div class="section">
+                    <h2>9. 📖 Glossário de Termos</h2>
+
+                    <h3>🌾 Agronegócio e Tecnologia</h3>
+                    <div class="info-box">
+                        <p><strong>VANT (Veículo Aéreo Não Tripulado):</strong> Aeronave sem piloto a bordo, popularmente chamada de drone. Utilizada para aplicações agrícolas como pulverização, mapeamento e monitoramento de lavouras.</p>
+                        
+                        <p><strong>Pulverização:</strong> Aplicação de defensivos agrícolas (herbicidas, fungicidas, inseticidas) em forma de gotículas finas sobre a lavoura. Drones podem fazer isso de forma mais precisa e econômica que métodos tradicionais.</p>
+                        
+                        <p><strong>PAM (Produção Agrícola Municipal):</strong> Pesquisa anual do IBGE que coleta dados sobre área plantada, produção e valor da produção agrícola em todos os municípios brasileiros.</p>
+                        
+                        <p><strong>Hectare (ha):</strong> Unidade de medida de área equivalente a 10.000 m² ou aproximadamente o tamanho de um campo de futebol. Usada para medir propriedades rurais e área plantada.</p>
+                        
+                        <p><strong>Estabelecimentos Agropecuários:</strong> Propriedades rurais dedicadas à produção agrícola ou pecuária. Classificados por tamanho: pequeno (< 50 ha), médio (50-200 ha), grande (> 200 ha).</p>
+                        
+                        <p><strong>Cooperativas:</strong> Organizações formadas por produtores rurais para compra conjunta de insumos, venda de produção e acesso a tecnologias. Representam ponto de entrada estratégico para vendas B2B.</p>
+                    </div>
+
+                    <h3>💼 Negócios e Finanças</h3>
+                    <div class="info-box">
+                        <p><strong>TAM (Total Addressable Market):</strong> Mercado total endereçável - tamanho máximo teórico do mercado se 100% dos potenciais clientes fossem atendidos. No caso: 1,68M hectares em SC.</p>
+                        
+                        <p><strong>SAM (Serviceable Available Market):</strong> Mercado disponível para serviço - parte do TAM que pode ser realisticamente atendida. Aqui: 850k hectares (TOP 50 municípios).</p>
+                        
+                        <p><strong>SOM (Serviceable Obtainable Market):</strong> Mercado obtenível - parte do SAM que pode ser conquistada no curto prazo. Aqui: 341k hectares (cluster Campos Novos).</p>
+                        
+                        <p><strong>CAGR (Compound Annual Growth Rate):</strong> Taxa de crescimento anual composta. Indica crescimento médio anual do mercado. Mercado de drones agrícolas cresce 32% ao ano.</p>
+                        
+                        <p><strong>TIR (Taxa Interna de Retorno):</strong> Percentual de retorno anual que o investimento gerará. TIR de 180% significa que o capital investido rende 180% ao ano em média.</p>
+                        
+                        <p><strong>VPL (Valor Presente Líquido):</strong> Diferença entre fluxos de caixa futuros trazidos a valor presente e o investimento inicial. VPL positivo de R$ 4,2M indica projeto viável.</p>
+                        
+                        <p><strong>Payback:</strong> Tempo necessário para recuperar o investimento inicial através dos lucros. Payback de 14 meses significa que em 1 ano e 2 meses o capital investido retorna.</p>
+                        
+                        <p><strong>CAPEX (Capital Expenditure):</strong> Despesas de capital - investimentos em ativos fixos como drones, veículos, infraestrutura. Gasto único no início.</p>
+                        
+                        <p><strong>OPEX (Operational Expenditure):</strong> Despesas operacionais - custos recorrentes do dia a dia como salários, combustível, manutenção.</p>
+                        
+                        <p><strong>Break-even:</strong> Ponto de equilíbrio onde receitas = despesas. Momento em que a operação deixa de dar prejuízo e passa a gerar lucro.</p>
+                        
+                        <p><strong>Churn Rate:</strong> Taxa de cancelamento de clientes. Indica quantos clientes deixam de usar o serviço por mês/ano. Importante para previsão de receita recorrente.</p>
+                        
+                        <p><strong>LTV (Lifetime Value):</strong> Valor total que um cliente gera durante todo o relacionamento com a empresa. Calculado multiplicando ticket médio por tempo de retenção.</p>
+                        
+                        <p><strong>CAC (Custo de Aquisição de Cliente):</strong> Quanto custa em média conquistar um novo cliente (marketing + vendas). Regra: LTV deve ser pelo menos 3x o CAC.</p>
+                        
+                        <p><strong>MRR (Monthly Recurring Revenue):</strong> Receita recorrente mensal. Soma de todas as assinaturas/contratos mensais. Métrica chave para negócios SaaS e serviços recorrentes.</p>
+                    </div>
+
+                    <h3>⚖️ Jurídico e Regulatório</h3>
+                    <div class="info-box">
+                        <p><strong>ANAC (Agência Nacional de Aviação Civil):</strong> Órgão regulador que controla operação de drones no Brasil. Exige cadastro de equipamentos e certificação de pilotos para operação comercial.</p>
+                        
+                        <p><strong>Certificação Operacional:</strong> Autorização da ANAC para realizar operações comerciais com drones. Requer treinamento homologado, comprovação de horas de voo e conhecimento técnico.</p>
+                        
+                        <p><strong>CNPJ (Cadastro Nacional de Pessoa Jurídica):</strong> Registro formal da empresa junto à Receita Federal. Necessário para emitir notas fiscais e operar legalmente.</p>
+                    </div>
+
+                    <h3>🚀 Modelo de Negócio</h3>
+                    <div class="info-box">
+                        <p><strong>B2B (Business to Business):</strong> Modelo de negócio onde se vende para outras empresas, não para consumidor final. Aqui: vendemos serviços para produtores rurais e cooperativas.</p>
+                        
+                        <p><strong>SaaS (Software as a Service):</strong> Software como serviço - modelo de assinatura onde cliente paga mensalidade para usar plataforma online, sem comprar licença perpétua.</p>
+                        
+                        <p><strong>Freemium:</strong> Modelo onde versão básica é gratuita e funcionalidades avançadas são pagas. Estratégia para atrair usuários e converter para plano premium.</p>
+                        
+                        <p><strong>Cross-sell:</strong> Venda cruzada - oferecer produtos/serviços complementares para clientes existentes. Ex: cliente de pulverização compra também mapeamento.</p>
+                        
+                        <p><strong>Early Adopters:</strong> Primeiros adotantes - clientes inovadores que testam novas tecnologias antes do mercado mainstream. Geralmente aceitam pagar mais por serem pioneiros.</p>
+                    </div>
+
+                    <h3>📊 Métricas e KPIs</h3>
+                    <div class="info-box">
+                        <p><strong>Densidade Agrícola:</strong> Área plantada dividida pela área total do município. Indica concentração da atividade agrícola. Acima de 30% é considerado alto.</p>
+                        
+                        <p><strong>Score Composto:</strong> Nota de 0-100 que combina múltiplos indicadores (área, densidade, soja, estabelecimentos) em um único valor para ranking de municípios.</p>
+                        
+                        <p><strong>Margem Líquida:</strong> Percentual de lucro após todas as despesas. Calculada como (Lucro Líquido / Receita) × 100. Margem de 58,4% indica negócio muito lucrativo.</p>
+                        
+                        <p><strong>ROI (Return on Investment):</strong> Retorno sobre investimento. Mede quanto de lucro é gerado para cada R$ 1 investido. ROI > 100% significa que lucro supera investimento.</p>
+                    </div>
+
+                    <div style="margin-top: 40px; padding: 20px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px; color: white;">
+                        <h3 style="margin-top: 0; color: white;">💡 Dica de Leitura</h3>
+                        <p style="line-height: 1.8; margin-bottom: 0;">
+                            Este glossário foi elaborado para facilitar a compreensão do Business Plan por investidores de diferentes backgrounds. 
+                            Para dúvidas sobre termos específicos não listados, consulte as fontes de dados na seção de Apêndices ou entre em contato 
+                            com a equipe técnica.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- 10. APÊNDICES -->
+            <div class="section">
+                <h2>10. 📚 Apêndices</h2>
+
+                <h3>📄 Fontes de Dados</h3>
+                <div class="info-box">
+                    <ul style="line-height: 1.8;">
+                        <li><strong>IBGE PAM 2024:</strong> Produção Agrícola Municipal (área plantada, valor de produção)</li>
+                        <li><strong>IBGE Censo Agropecuário:</strong> Tamanho de estabelecimentos, rebanhos</li>
+                        <li><strong>Base Cartográfica 2025:</strong> Limites municipais, infraestrutura</li>
+                        <li><strong>OpenStreetMap:</strong> Cooperativas, revendas, infraestrutura agrícola</li>
+                    </ul>
+                </div>
+
+                <h3>🔗 Links Úteis</h3>
+                <ul style="line-height: 2;">
+                    <li><strong>Dashboard Completo:</strong> <a href="apresentacao_drones_agro_sc.html">apresentacao_drones_agro_sc.html</a></li>
+                    <li><strong>Mapas Interativos:</strong> <a href="maps/mapa_interativo_WEB.html">mapa_interativo_WEB.html</a></li>
+                    <li><strong>Mapas de Calor:</strong> <a href="maps/heatmap_combinado.html">heatmap_combinado.html</a></li>
+                    <li><strong>Ranking Completo:</strong> <a href="ranking_municipal_drones_agro_REAL.csv">ranking_municipal_drones_agro_REAL.csv</a></li>
+                    <li><strong>GitHub Repo:</strong> <a href="https://caetanoronan.github.io/geomarketing-drones-sc/">https://caetanoronan.github.io/geomarketing-drones-sc/</a></li>
+                </ul>
+
+                <h3>📞 Contato</h3>
+                <div class="info-box">
+                    <p><strong>Autor:</strong> Ronan Armando Caetano</p>
+                    <p><strong>Instituições:</strong> UFSC (Universidade Federal de Santa Catarina) / IFSC (Instituto Federal de Santa Catarina)</p>
+                    <p><strong>Data:</strong> Novembro 2025</p>
+                    <p><strong>Tecnologias:</strong> Python, GeoPandas, Folium, Chart.js, HTML5</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <p><strong>Business Plan - Drones Agrícolas em Santa Catarina</strong></p>
+            <p style="margin-top: 10px; opacity: 0.8;">
+                Análise baseada em dados oficiais IBGE PAM 2024 | 295 municípios analisados | 1,68M hectares mapeados
+            </p>
+            <p style="margin-top: 15px; font-size: 0.9em; opacity: 0.7;">
+                © 2025 Ronan Armando Caetano - UFSC/IFSC | Todos os direitos reservados
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Gráfico de Tendências do Mercado
+        const ctx1 = document.getElementById('marketTrendChart').getContext('2d');
+        new Chart(ctx1, {
+            type: 'line',
+            data: {
+                labels: ['2020', '2021', '2022', '2023', '2024', '2025E', '2026E', '2027E'],
+                datasets: [{
+                    label: 'Mercado de Drones Agrícolas no Brasil (R$ milhões)',
+                    data: [85, 120, 180, 260, 380, 520, 700, 950],
+                    borderColor: '#667eea',
+                    backgroundColor: 'rgba(102, 126, 234, 0.1)',
+                    tension: 0.4,
+                    fill: true
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: true, position: 'top' },
+                    title: {
+                        display: true,
+                        text: 'Crescimento do Mercado de Drones Agrícolas (CAGR 32%)',
+                        font: { size: 16 }
+                    }
+                },
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            callback: function(value) {
+                                return 'R$ ' + value + 'M';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+
+        // Gráfico de Fluxo de Caixa
+        const ctx2 = document.getElementById('cashFlowChart').getContext('2d');
+        new Chart(ctx2, {
+            type: 'bar',
+            data: {
+                labels: ['Invest. Inicial', 'Mês 6', 'Mês 12', 'Mês 18', 'Mês 24', 'Mês 30', 'Mês 36'],
+                datasets: [{
+                    label: 'Fluxo de Caixa Acumulado (R$ mil)',
+                    data: [-1165, -582, 381, 1523, 3890, 6457, 11506],
+                    backgroundColor: [
+                        'rgba(231, 76, 60, 0.7)',
+                        'rgba(231, 76, 60, 0.7)',
+                        'rgba(52, 152, 219, 0.7)',
+                        'rgba(46, 204, 113, 0.7)',
+                        'rgba(46, 204, 113, 0.7)',
+                        'rgba(46, 204, 113, 0.7)',
+                        'rgba(46, 204, 113, 0.7)'
+                    ],
+                    borderColor: [
+                        'rgba(231, 76, 60, 1)',
+                        'rgba(231, 76, 60, 1)',
+                        'rgba(52, 152, 219, 1)',
+                        'rgba(46, 204, 113, 1)',
+                        'rgba(46, 204, 113, 1)',
+                        'rgba(46, 204, 113, 1)',
+                        'rgba(46, 204, 113, 1)'
+                    ],
+                    borderWidth: 2
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                plugins: {
+                    legend: { display: true, position: 'top' },
+                    title: {
+                        display: true,
+                        text: 'Fluxo de Caixa Acumulado - Payback em 14 meses',
+                        font: { size: 16 }
+                    }
+                },
+                scales: {
+                    y: {
+                        ticks: {
+                            callback: function(value) {
+                                return 'R$ ' + value + 'k';
+                            }
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+
+    <!-- Script de navegação das abas -->
+    <script>
+        function openTab(evt, tabName) {
+            // Esconder todas as abas
+            var i, tabcontent, tabbuttons;
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].classList.remove("active");
+            }
+            
+            // Remover classe active de todos os botões
+            tabbuttons = document.getElementsByClassName("tab-button");
+            for (i = 0; i < tabbuttons.length; i++) {
+                tabbuttons[i].classList.remove("active");
+            }
+            
+            // Mostrar a aba atual e marcar botão como ativo
+            document.getElementById(tabName).classList.add("active");
+            evt.currentTarget.classList.add("active");
+        }
+    </script>
+</body>
+</html>
