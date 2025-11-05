@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitch Deck - Drones Agrícolas SC</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a365d 0%, #2C5F8D 100%);
+            color: #333;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            color: white;
+            padding: 40px 20px;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .header p {
+            font-size: 1.3em;
+            opacity: 0.95;
+            margin-bottom: 5px;
+        }
+        
+        .header .subtitle {
+            font-size: 1em;
+            opacity: 0.8;
+            font-style: italic;
+        }
+        
+        .slide {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+            animation: slideIn 0.6s ease-out;
+        }
+        
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .slide h2 {
+            color: #1a365d;
+            font-size: 2.2em;
+            margin-bottom: 20px;
+            border-bottom: 4px solid #4299e1;
+            padding-bottom: 10px;
+        }
+        
+        .slide h3 {
+            color: #2C5F8D;
+            font-size: 1.5em;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+        
+        .slide img {
+            width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+            margin: 20px 0;
+            transition: transform 0.3s ease;
+        }
+        
+        .slide img:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.25);
+        }
+        
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .metric-card {
+            background: linear-gradient(135deg, #ebf8ff 0%, #bee3f8 100%);
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            border: 2px solid #4299e1;
+            transition: transform 0.3s ease;
+        }
+        
+        .metric-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(66, 153, 225, 0.3);
+        }
+        
+        .metric-card .icon {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .metric-card .value {
+            font-size: 2em;
+            font-weight: bold;
+            color: #1a365d;
+            margin-bottom: 5px;
+        }
+        
+        .metric-card .label {
+            font-size: 0.95em;
+            color: #2d3748;
+        }
+        
+        .cta-section {
+            background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+            color: white;
+            padding: 40px;
+            border-radius: 20px;
+            text-align: center;
+            margin: 40px 0;
+            box-shadow: 0 10px 40px rgba(72, 187, 120, 0.4);
+        }
+        
+        .cta-section h2 {
+            color: white;
+            border: none;
+            margin-bottom: 20px;
+        }
+        
+        .cta-section a {
+            display: inline-block;
+            background: white;
+            color: #22543d;
+            padding: 15px 40px;
+            margin: 10px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .cta-section a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 25px rgba(0,0,0,0.3);
+            background: #f7fafc;
+        }
+        
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .gallery-item {
+            position: relative;
+            overflow: hidden;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+            transition: transform 0.3s ease;
+        }
+        
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            display: block;
+            margin: 0;
+        }
+        
+        .gallery-item .caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+            color: white;
+            padding: 15px;
+            font-size: 0.9em;
+            font-weight: bold;
+        }
+        
+        .footer {
+            text-align: center;
+            color: white;
+            padding: 30px;
+            margin-top: 40px;
+            border-top: 2px solid rgba(255,255,255,0.2);
+        }
+        
+        .footer p {
+            margin: 5px 0;
+            opacity: 0.9;
+        }
+        
+        .highlight-box {
+            background: linear-gradient(135deg, #fff5f0 0%, #fed7aa 100%);
+            border-left: 5px solid #ed8936;
+            padding: 20px;
+            margin: 25px 0;
+            border-radius: 10px;
+        }
+        
+        .highlight-box h3 {
+            color: #7c2d12;
+            margin-top: 0;
+        }
+        
+        .progress-bar {
+            background: #e2e8f0;
+            height: 8px;
+            border-radius: 10px;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #48bb78 0%, #38a169 100%);
+            animation: fillBar 2s ease-out;
+        }
+        
+        @keyframes fillBar {
+            from { width: 0; }
+            to { width: 100%; }
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .slide {
+                padding: 20px;
+            }
+            
+            .slide h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER -->
+        <div class="header">
+            <h1>🚁 Pitch Deck</h1>
+            <p>Estratégia Cold Spots para Drones Agrícolas</p>
+            <p class="subtitle">Santa Catarina • Novembro 2025</p>
+        </div>
+        
+        <!-- SLIDE 1: PROBLEMA & OPORTUNIDADE -->
+        <div class="slide">
+            <h2>🎯 O Desafio</h2>
+            <p style="font-size: 1.2em; line-height: 1.8; margin-bottom: 20px;">
+                <strong>Onde instalar uma empresa de drones agrícolas em SC para maximizar receita e minimizar custos?</strong>
+            </p>
+            
+            <div class="metrics-grid">
+                <div class="metric-card">
+                    <div class="icon">📊</div>
+                    <div class="value">295</div>
+                    <div class="label">Municípios Analisados</div>
+                </div>
+                <div class="metric-card">
+                    <div class="icon">🌾</div>
+                    <div class="value">1,68M ha</div>
+                    <div class="label">Área Agrícola Total</div>
+                </div>
+                <div class="metric-card">
+                    <div class="icon">🎓</div>
+                    <div class="value">IBGE</div>
+                    <div class="label">Dados Reais PAM 2024</div>
+                </div>
+            </div>
+            
+            <img src="maps/linkedin_banner_drones_agro.png" alt="Banner Principal">
+        </div>
+        
+        <!-- SLIDE 2: SOLUÇÃO - COLD SPOTS -->
+        <div class="slide">
+            <h2>💡 A Solução: Cold Spots Estratégicos</h2>
+            
+            <div class="highlight-box">
+                <h3>O que são Cold Spots?</h3>
+                <p style="line-height: 1.7;">
+                    Cidades com <strong>baixa atividade agrícola direta</strong>, mas com <strong>infraestrutura superior</strong> 
+                    (rodovias, aeroportos, universidades) e <strong>localização central</strong> para atender vários 
+                    <strong>Hot Spots</strong> (municípios de alta demanda) no entorno com <strong>custo 30–50% menor</strong>.
+                </p>
+            </div>
+            
+            <img src="maps/linkedin_post_unico_cold_spots.png" alt="Estratégia Cold Spots Completa">
+            
+            <h3>📍 As 3 Bases Estratégicas:</h3>
+            <div class="metrics-grid">
+                <div class="metric-card" style="background: linear-gradient(135deg, #f0fff4 0%, #c6f6d5 100%); border-color: #48bb78;">
+                    <div class="icon">🟢</div>
+                    <div class="value">Curitibanos</div>
+                    <div class="label">Fase 1 • 240k ha</div>
+                </div>
+                <div class="metric-card" style="background: linear-gradient(135deg, #ebf8ff 0%, #bee3f8 100%); border-color: #4299e1;">
+                    <div class="icon">🔵</div>
+                    <div class="value">Chapecó</div>
+                    <div class="label">Fase 2 • 280k ha</div>
+                </div>
+                <div class="metric-card" style="background: linear-gradient(135deg, #fffaf0 0%, #fed7aa 100%); border-color: #ed8936;">
+                    <div class="icon">🟠</div>
+                    <div class="value">Mafra</div>
+                    <div class="label">Fase 3 • 180k ha</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- SLIDE 3: MAPA INTERATIVO -->
+        <div class="slide">
+            <h2>🗺️ Visualização Geoespacial</h2>
+            <p style="font-size: 1.1em; margin-bottom: 20px;">
+                Mapa interativo mostrando as 3 bases estratégicas e suas áreas de cobertura:
+            </p>
+            
+            <img src="maps/mapa_cold_spots_estrategicos.png" alt="Mapa de Cold Spots - Preview">
+            
+            <div style="text-align: center; margin-top: 20px;">
+                <a href="maps/mapa_cold_spots_estrategicos.html" target="_blank" 
+                   style="display: inline-block; background: #2C5F8D; color: white; padding: 15px 30px; 
+                          border-radius: 50px; text-decoration: none; font-weight: bold; 
+                          transition: all 0.3s ease; box-shadow: 0 4px 15px rgba(44,95,141,0.3);">
+                    🗺️ Abrir Mapa Interativo
+                </a>
+            </div>
+        </div>
+        
+        <!-- SLIDE 4: INFOGRÁFICOS -->
+        <div class="slide">
+            <h2>📊 Análise Comparativa</h2>
+            
+            <h3>Comparativo de Cold Spots</h3>
+            <img src="maps/infografico_cold_spots.png" alt="Infográfico Cold Spots">
+            
+            <h3>Estratégia em 3 Fases</h3>
+            <img src="maps/infografico_estrategia_3_fases.png" alt="Estratégia em 3 Fases">
+        </div>
+        
+        <!-- SLIDE 5: VIABILIDADE FINANCEIRA -->
+        <div class="slide">
+            <h2>💰 Viabilidade Financeira</h2>
+            
+            <div class="metrics-grid">
+                <div class="metric-card" style="background: linear-gradient(135deg, #f0fff4 0%, #c6f6d5 100%); border-color: #48bb78;">
+                    <div class="icon">📈</div>
+                    <div class="value">180%</div>
+                    <div class="label">TIR (Taxa Interna de Retorno)</div>
+                </div>
+                <div class="metric-card" style="background: linear-gradient(135deg, #ebf8ff 0%, #bee3f8 100%); border-color: #4299e1;">
+                    <div class="icon">⏱️</div>
+                    <div class="value">14 meses</div>
+                    <div class="label">Payback</div>
+                </div>
+                <div class="metric-card" style="background: linear-gradient(135deg, #fff5f0 0%, #fed7aa 100%); border-color: #ed8936;">
+                    <div class="icon">💵</div>
+                    <div class="value">R$ 4,2M</div>
+                    <div class="label">VPL (Valor Presente Líquido)</div>
+                </div>
+            </div>
+            
+            <div class="highlight-box">
+                <h3>💼 Investimento Inicial</h3>
+                <p style="font-size: 1.2em; font-weight: bold;">R$ 1.165.000</p>
+                <div class="progress-bar">
+                    <div class="progress-fill" style="width: 85%;"></div>
+                </div>
+                <p style="margin-top: 10px;">Equipamentos (60%) • Infraestrutura (25%) • Capital de Giro (15%)</p>
+            </div>
+            
+            <h3>🎯 Projeção de Receita</h3>
+            <p style="line-height: 1.8;">
+                • <strong>Ano 1:</strong> R$ 1,44M (operação Curitibanos)<br>
+                • <strong>Ano 2:</strong> R$ 4,32M (expansão Chapecó)<br>
+                • <strong>Ano 3:</strong> R$ 8,64M (cobertura completa + Mafra)
+            </p>
+        </div>
+        
+        <!-- SLIDE 6: GALERIA DE RECURSOS -->
+        <div class="slide">
+            <h2>📁 Recursos Disponíveis</h2>
+            <p style="margin-bottom: 20px;">Todos os materiais criados para apresentação e divulgação:</p>
+            
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="maps/linkedin_banner_drones_agro.png" alt="Banner LinkedIn">
+                    <div class="caption">Banner LinkedIn (1200x627px)</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="maps/linkedin_carousel_slide_1.png" alt="Carrossel Slide 1">
+                    <div class="caption">Carrossel - Capa (1080x1080px)</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="maps/linkedin_carousel_slide_2.png" alt="Carrossel Slide 2">
+                    <div class="caption">Carrossel - Curitibanos</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="maps/linkedin_carousel_slide_3.png" alt="Carrossel Slide 3">
+                    <div class="caption">Carrossel - Chapecó</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="maps/linkedin_carousel_slide_4.png" alt="Carrossel Slide 4">
+                    <div class="caption">Carrossel - Mafra</div>
+                </div>
+                <div class="gallery-item">
+                    <img src="maps/linkedin_carousel_slide_5.png" alt="Carrossel Slide 5">
+                    <div class="caption">Carrossel - Comparativo</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- CTA FINAL -->
+        <div class="cta-section">
+            <h2>🚀 Acesse a Análise Completa</h2>
+            <p style="font-size: 1.2em; margin-bottom: 30px;">
+                Dashboards interativos, mapas de calor, business plan detalhado e muito mais!
+            </p>
+            
+            <a href="apresentacao_drones_agro_sc.html" target="_blank">
+                📊 Dashboard Interativo
+            </a>
+            <a href="business_plan_drones_agro_sc.html" target="_blank">
+                💼 Business Plan Completo
+            </a>
+            <a href="maps/mapa_cold_spots_estrategicos.html" target="_blank">
+                🧊 Mapa Cold Spots
+            </a>
+            <a href="https://github.com/caetanoronan/geomarketing-drones-sc" target="_blank">
+                📁 Repositório GitHub
+            </a>
+        </div>
+        
+        <!-- FOOTER -->
+        <div class="footer">
+            <p><strong>Ronan Armando Caetano</strong></p>
+            <p>📚 Graduando em Ciências Biológicas - UFSC</p>
+            <p>🗺️ Técnico em Geoprocessamento - IFSC</p>
+            <p style="margin-top: 15px; opacity: 0.8;">
+                🛠️ Tecnologias: Python • GeoPandas • Folium • Matplotlib • IBGE SIDRA
+            </p>
+            <p style="margin-top: 10px; opacity: 0.7;">
+                © 2025 • Powered by GitHub Copilot
+            </p>
+        </div>
+    </div>
+</body>
+</html>
