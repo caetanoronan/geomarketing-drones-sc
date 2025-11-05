@@ -266,6 +266,38 @@
                 font-size: 1.5em;
             }
         }
+
+        /* Tabs */
+        .tabs {
+            display: flex;
+            gap: 8px;
+            background: #f7fafc;
+            border-bottom: 3px solid #e2e8f0;
+            overflow-x: auto;
+            padding: 10px 12px;
+            border-radius: 12px;
+            margin: 0 0 20px 0;
+        }
+        .tab-button {
+            padding: 12px 18px;
+            background: white;
+            border: 2px solid #e2e8f0;
+            border-radius: 999px;
+            cursor: pointer;
+            font-size: 0.95em;
+            font-weight: 600;
+            color: #2d3748;
+            transition: all 0.2s ease;
+            white-space: nowrap;
+        }
+        .tab-button:hover { background: #edf2f7; }
+        .tab-button.active {
+            color: #2C5F8D;
+            border-color: #2C5F8D;
+            box-shadow: 0 4px 12px rgba(44,95,141,0.2);
+        }
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
     </style>
 </head>
 <body>
@@ -277,8 +309,19 @@
             <p class="subtitle">Santa Catarina • Novembro 2025</p>
         </div>
         
+        <!-- TABS NAVIGATION -->
+        <div class="tabs">
+            <button class="tab-button active" onclick="openTab('tab-desafio', this)">Resumo</button>
+            <button class="tab-button" onclick="openTab('tab-solucao', this)">Solução</button>
+            <button class="tab-button" onclick="openTab('tab-mapa', this)">Mapa</button>
+            <button class="tab-button" onclick="openTab('tab-infograficos', this)">Infográficos</button>
+            <button class="tab-button" onclick="openTab('tab-financeiro', this)">Financeiro</button>
+            <button class="tab-button" onclick="openTab('tab-recursos', this)">Recursos</button>
+            <button class="tab-button" onclick="openTab('tab-cta', this)">CTA</button>
+        </div>
+        
         <!-- SLIDE 1: PROBLEMA & OPORTUNIDADE -->
-        <div class="slide">
+        <div id="tab-desafio" class="slide tab-content active">
             <h2>🎯 O Desafio</h2>
             <p style="font-size: 1.2em; line-height: 1.8; margin-bottom: 20px;">
                 <strong>Onde instalar uma empresa de drones agrícolas em SC para maximizar receita e minimizar custos?</strong>
@@ -306,7 +349,7 @@
         </div>
         
         <!-- SLIDE 2: SOLUÇÃO - COLD SPOTS -->
-        <div class="slide">
+        <div id="tab-solucao" class="slide tab-content">
             <h2>💡 A Solução: Cold Spots Estratégicos</h2>
             
             <div class="highlight-box">
@@ -341,7 +384,7 @@
         </div>
         
         <!-- SLIDE 3: MAPA INTERATIVO -->
-        <div class="slide">
+        <div id="tab-mapa" class="slide tab-content">
             <h2>🗺️ Visualização Geoespacial</h2>
             <p style="font-size: 1.1em; margin-bottom: 20px;">
                 Mapa interativo mostrando as 3 bases estratégicas e suas áreas de cobertura:
@@ -362,7 +405,7 @@
         </div>
         
         <!-- SLIDE 4: INFOGRÁFICOS -->
-        <div class="slide">
+        <div id="tab-infograficos" class="slide tab-content">
             <h2>📊 Análise Comparativa</h2>
             
             <h3>Comparativo de Cold Spots</h3>
@@ -373,7 +416,7 @@
         </div>
         
         <!-- SLIDE 5: VIABILIDADE FINANCEIRA -->
-        <div class="slide">
+        <div id="tab-financeiro" class="slide tab-content">
             <h2>💰 Viabilidade Financeira</h2>
             
             <div class="metrics-grid">
@@ -412,7 +455,7 @@
         </div>
         
         <!-- SLIDE 6: GALERIA DE RECURSOS -->
-        <div class="slide">
+        <div id="tab-recursos" class="slide tab-content">
             <h2>📁 Recursos Disponíveis</h2>
             <p style="margin-bottom: 20px;">Todos os materiais criados para apresentação e divulgação:</p>
             
@@ -445,24 +488,26 @@
         </div>
         
         <!-- CTA FINAL -->
-        <div class="cta-section">
-            <h2>🚀 Acesse a Análise Completa</h2>
-            <p style="font-size: 1.2em; margin-bottom: 30px;">
-                Dashboards interativos, mapas de calor, business plan detalhado e muito mais!
-            </p>
-            
-            <a href="apresentacao_drones_agro_sc.html" target="_blank">
-                📊 Dashboard Interativo
-            </a>
-            <a href="business_plan_drones_agro_sc.html" target="_blank">
-                💼 Business Plan Completo
-            </a>
-            <a href="maps/mapa_cold_spots_estrategicos.html" target="_blank">
-                🧊 Mapa Cold Spots
-            </a>
-            <a href="https://github.com/caetanoronan/geomarketing-drones-sc" target="_blank">
-                📁 Repositório GitHub
-            </a>
+        <div id="tab-cta" class="tab-content">
+            <div class="cta-section">
+                <h2>🚀 Acesse a Análise Completa</h2>
+                <p style="font-size: 1.2em; margin-bottom: 30px;">
+                    Dashboards interativos, mapas de calor, business plan detalhado e muito mais!
+                </p>
+                
+                <a href="apresentacao_drones_agro_sc.html" target="_blank">
+                    📊 Dashboard Interativo
+                </a>
+                <a href="business_plan_drones_agro_sc.html" target="_blank">
+                    💼 Business Plan Completo
+                </a>
+                <a href="maps/mapa_cold_spots_estrategicos.html" target="_blank">
+                    🧊 Mapa Cold Spots
+                </a>
+                <a href="https://github.com/caetanoronan/geomarketing-drones-sc" target="_blank">
+                    📁 Repositório GitHub
+                </a>
+            </div>
         </div>
         
         <!-- FOOTER -->
@@ -478,5 +523,16 @@
             </p>
         </div>
     </div>
+
+    <script>
+        function openTab(id, btn) {
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'));
+            const tgt = document.getElementById(id);
+            if (tgt) tgt.classList.add('active');
+            if (btn) btn.classList.add('active');
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+    </script>
 </body>
 </html>
