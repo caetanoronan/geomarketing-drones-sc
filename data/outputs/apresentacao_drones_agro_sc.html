@@ -430,6 +430,7 @@
             <button class="tab-button" onclick="openTab(event, 'ranking')">🏆 Ranking TOP 15</button>
             <button class="tab-button" onclick="openTab(event, 'regioes')">🗺️ Análise Regional</button>
             <button class="tab-button" onclick="openTab(event, 'mapas')">📍 Mapas</button>
+            <button class="tab-button" onclick="openTab(event, 'heatmaps')">🔥 Mapas de Calor</button>
             <button class="tab-button" onclick="openTab(event, 'modelo')">💼 Modelo de Negócio</button>
             <button class="tab-button" onclick="openTab(event, 'operacional')">⚙️ Operacional</button>
             <button class="tab-button" onclick="openTab(event, 'proximos')">🚀 Próximos Passos</button>
@@ -805,7 +806,125 @@
             </div>
         </div>
         
-        <!-- ABA 5: MODELO DE NEGÓCIO -->
+        <!-- ABA 5: MAPAS DE CALOR -->
+        <div id="heatmaps" class="tab-content">
+            <h2 class="section-title">🔥 Mapas de Calor - Análise de Concentração</h2>
+            
+            <div class="alert alert-info">
+                <strong>💡 O que são mapas de calor?</strong> Visualizam a intensidade/concentração de indicadores através de gradientes de cor. Cores quentes (vermelho/amarelo) = alta concentração, cores frias (azul/verde) = baixa concentração.
+            </div>
+            
+            <h3 style="margin-top: 30px; margin-bottom: 15px;">🎯 Mapa Combinado (RECOMENDADO)</h3>
+            
+            <div class="info-box" style="background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); border-left: 4px solid #ff6f00;">
+                <h4 style="margin-bottom: 15px; color: #e65100;">🔥 Mapa Multi-Camadas Interativo</h4>
+                <p><strong>✨ Recursos:</strong></p>
+                <ul style="margin-top: 10px; padding-left: 20px;">
+                    <li><strong>5 Heatmaps em 1:</strong> Score composto, área agrícola, densidade, soja, estabelecimentos</li>
+                    <li><strong>Controle de camadas:</strong> Alterne entre indicadores no canto superior direito</li>
+                    <li><strong>Limites municipais e estadual:</strong> Ative/desative conforme necessário</li>
+                    <li><strong>Zoom inteligente:</strong> Limitado à extensão de SC (6-13)</li>
+                    <li><strong>Tooltip detalhado:</strong> Nome do município ao passar o mouse</li>
+                </ul>
+                <p style="margin-top: 15px;">
+                    <a href="maps/heatmap_combinado.html" target="_blank" style="display: inline-block; padding: 12px 24px; background: linear-gradient(135deg, #ff6f00 0%, #e65100 100%); color: white; text-decoration: none; border-radius: 5px; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+                        🗺️ Abrir Mapa Combinado (71,8 MB)
+                    </a>
+                </p>
+            </div>
+            
+            <h3 style="margin-top: 40px; margin-bottom: 15px;">🌟 Mapas Individuais</h3>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px;">
+                <div class="info-box" style="background: #e8f5e9; border-left: 4px solid #4caf50;">
+                    <h4 style="color: #2e7d32; margin-bottom: 10px;">📊 Score Composto</h4>
+                    <p style="font-size: 0.9em;">Potencial geral para drones agrícolas (todos indicadores combinados)</p>
+                    <p style="margin-top: 10px;">
+                        <a href="maps/heatmap_score_composto.html" target="_blank" style="display: inline-block; padding: 8px 16px; background: #4caf50; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9em;">
+                            Abrir (71,7 MB)
+                        </a>
+                    </p>
+                </div>
+                
+                <div class="info-box" style="background: #fff3e0; border-left: 4px solid #ff9800;">
+                    <h4 style="color: #e65100; margin-bottom: 10px;">🌾 Área Agrícola Total</h4>
+                    <p style="font-size: 0.9em;">Hectares de área agrícola por município (PAM 2024)</p>
+                    <p style="margin-top: 10px;">
+                        <a href="maps/heatmap_area_agricola.html" target="_blank" style="display: inline-block; padding: 8px 16px; background: #ff9800; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9em;">
+                            Abrir (71,7 MB)
+                        </a>
+                    </p>
+                </div>
+                
+                <div class="info-box" style="background: #f3e5f5; border-left: 4px solid #9c27b0;">
+                    <h4 style="color: #6a1b9a; margin-bottom: 10px;">📍 Densidade Agrícola</h4>
+                    <p style="font-size: 0.9em;">Hectares agrícolas por km² (intensidade do uso do solo)</p>
+                    <p style="margin-top: 10px;">
+                        <a href="maps/heatmap_densidade.html" target="_blank" style="display: inline-block; padding: 8px 16px; background: #9c27b0; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9em;">
+                            Abrir (71,7 MB)
+                        </a>
+                    </p>
+                </div>
+                
+                <div class="info-box" style="background: #fff9c4; border-left: 4px solid #fbc02d;">
+                    <h4 style="color: #f57f17; margin-bottom: 10px;">🌱 Área de Soja</h4>
+                    <p style="font-size: 0.9em;">Concentração de cultivo de soja (cultura-chave para drones)</p>
+                    <p style="margin-top: 10px;">
+                        <a href="maps/heatmap_soja.html" target="_blank" style="display: inline-block; padding: 8px 16px; background: #fbc02d; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9em;">
+                            Abrir (71,7 MB)
+                        </a>
+                    </p>
+                </div>
+                
+                <div class="info-box" style="background: #e1f5fe; border-left: 4px solid #03a9f4;">
+                    <h4 style="color: #01579b; margin-bottom: 10px;">🏭 Estabelecimentos Grandes</h4>
+                    <p style="font-size: 0.9em;">Concentração de propriedades >100 ha (perfil B2B)</p>
+                    <p style="margin-top: 10px;">
+                        <a href="maps/heatmap_estabelecimentos.html" target="_blank" style="display: inline-block; padding: 8px 16px; background: #03a9f4; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9em;">
+                            Abrir (71,7 MB)
+                        </a>
+                    </p>
+                </div>
+                
+                <div class="info-box" style="background: #ffebee; border-left: 4px solid #f44336;">
+                    <h4 style="color: #c62828; margin-bottom: 10px;">🎯 TOP 50 Municípios</h4>
+                    <p style="font-size: 0.9em;">Versão otimizada com marcadores nos TOP 5 (recomendado para apresentações)</p>
+                    <p style="margin-top: 10px;">
+                        <a href="maps/heatmap_top50_WEB.html" target="_blank" style="display: inline-block; padding: 8px 16px; background: #f44336; color: white; text-decoration: none; border-radius: 4px; font-size: 0.9em;">
+                            Abrir (71,7 MB)
+                        </a>
+                    </p>
+                </div>
+            </div>
+            
+            <h3 style="margin-top: 40px; margin-bottom: 15px;">📖 Como Usar os Mapas de Calor</h3>
+            
+            <div class="recommendation-card">
+                <h3>💡 Dicas de Interpretação</h3>
+                <ul>
+                    <li><strong>Cores quentes (vermelho/laranja):</strong> Alta concentração/potencial - priorize estas áreas</li>
+                    <li><strong>Cores intermediárias (amarelo/verde):</strong> Potencial médio - oportunidades secundárias</li>
+                    <li><strong>Cores frias (azul/roxo):</strong> Baixo potencial - considere apenas se houver demanda específica</li>
+                    <li><strong>Clusters visíveis:</strong> Regiões com concentração de "calor" indicam mercados estabelecidos</li>
+                    <li><strong>Use o controle de camadas:</strong> Compare diferentes indicadores para insights mais profundos</li>
+                </ul>
+            </div>
+            
+            <h3 style="margin-top: 30px; margin-bottom: 15px;">🎯 Insights Estratégicos dos Heatmaps</h3>
+            
+            <div class="info-box" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white;">
+                <h4 style="margin-bottom: 15px;">🚀 Descobertas-Chave</h4>
+                <ul style="padding-left: 20px;">
+                    <li><strong>Planalto Serrano:</strong> Concentração máxima de calor em todas as métricas</li>
+                    <li><strong>Norte Catarinense:</strong> Cluster secundário com alto potencial</li>
+                    <li><strong>Vale do Itajaí/Litoral:</strong> Baixa intensidade (foco em outras culturas/turismo)</li>
+                    <li><strong>Oeste:</strong> Calor moderado, oportunidades em suinocultura/avicultura</li>
+                    <li><strong>Campos Novos:</strong> Epicentro do "calor" - mercado prioritário absoluto</li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- ABA 6: MODELO DE NEGÓCIO -->
         <div id="modelo" class="tab-content">
             <h2 class="section-title">💼 Modelo de Negócio</h2>
             
