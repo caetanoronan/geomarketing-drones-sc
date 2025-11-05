@@ -290,11 +290,13 @@
             transition: all 0.2s ease;
             white-space: nowrap;
         }
-        .tab-button:hover { background: #edf2f7; }
+        .tab-button:hover { background: #edf2f7; border-color: #cbd5e0; }
+        .tab-button:focus { outline: 3px solid rgba(102,126,234,0.35); outline-offset: 2px; }
         .tab-button.active {
-            color: #2C5F8D;
-            border-color: #2C5F8D;
-            box-shadow: 0 4px 12px rgba(44,95,141,0.2);
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #ffffff;
+            border-color: #667eea;
+            box-shadow: 0 6px 16px rgba(102,126,234,0.35);
         }
         .tab-content { display: none; }
         .tab-content.active { display: block; }
@@ -311,13 +313,13 @@
         
         <!-- TABS NAVIGATION -->
         <div class="tabs">
-            <button class="tab-button active" onclick="openTab('tab-desafio', this)">Resumo</button>
-            <button class="tab-button" onclick="openTab('tab-solucao', this)">Solução</button>
-            <button class="tab-button" onclick="openTab('tab-mapa', this)">Mapa</button>
-            <button class="tab-button" onclick="openTab('tab-infograficos', this)">Infográficos</button>
-            <button class="tab-button" onclick="openTab('tab-financeiro', this)">Financeiro</button>
-            <button class="tab-button" onclick="openTab('tab-recursos', this)">Recursos</button>
-            <button class="tab-button" onclick="openTab('tab-cta', this)">CTA</button>
+            <button class="tab-button active" onclick="openTab('tab-desafio', this)">📊 Resumo</button>
+            <button class="tab-button" onclick="openTab('tab-solucao', this)">💡 Solução</button>
+            <button class="tab-button" onclick="openTab('tab-mapa', this)">🗺️ Mapa</button>
+            <button class="tab-button" onclick="openTab('tab-infograficos', this)">📈 Infográficos</button>
+            <button class="tab-button" onclick="openTab('tab-financeiro', this)">💰 Financeiro</button>
+            <button class="tab-button" onclick="openTab('tab-recursos', this)">📁 Recursos</button>
+            <button class="tab-button" onclick="openTab('tab-cta', this)">🚀 CTA</button>
         </div>
         
         <!-- SLIDE 1: PROBLEMA & OPORTUNIDADE -->
