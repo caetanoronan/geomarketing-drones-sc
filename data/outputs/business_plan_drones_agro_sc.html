@@ -368,10 +368,63 @@
         }
         
         /* Dark mode: global overrides for readability */
-        body.dark h4, body.dark h5, body.dark h6 { color: #e5e7eb; }
-        body.dark p, body.dark li, body.dark td { color: #e5e7eb; }
-        body.dark strong, body.dark b { color: #f3f4f6; }
-        body.dark th { color: white; }
+        body.dark h3 { color: #93c5fd !important; }
+        body.dark h4, body.dark h5, body.dark h6 { color: #e5e7eb !important; }
+        body.dark p, body.dark li, body.dark td { color: #e5e7eb !important; }
+        body.dark strong, body.dark b { color: #f3f4f6 !important; }
+        body.dark th { color: white !important; }
+        
+        /* Dark mode: Timeline items (Roadmap) */
+        body.dark .timeline-item h4 { color: #93c5fd !important; border-bottom-color: #60a5fa !important; }
+        body.dark .timeline-item p { color: #e5e7eb !important; }
+        body.dark .timeline-item li { color: #d1d5db !important; }
+        body.dark .timeline-item strong { color: #f9fafb !important; }
+        
+        /* Dark mode: Table TOTAL rows - force high contrast */
+        body.dark table tbody tr[style*="background: #fff3cd"] {
+            background: #1f2937 !important;
+        }
+        body.dark table tbody tr[style*="background: #fff3cd"] td {
+            color: #f3f4f6 !important;
+            font-weight: bold !important;
+        }
+        body.dark table tbody tr[style*="background: #fff3cd"] strong {
+            color: #fbbf24 !important;
+        }
+        
+        /* Dark mode: EBITDA rows (green background) */
+        body.dark table tbody tr[style*="background: #e8f5e9"],
+        body.dark table tbody tr[style*="background: #c8e6c9"] {
+            background: #1e3a2e !important;
+        }
+        body.dark table tbody tr[style*="background: #e8f5e9"] td,
+        body.dark table tbody tr[style*="background: #c8e6c9"] td {
+            color: #bbf7d0 !important;
+            font-weight: bold !important;
+        }
+        body.dark table tbody tr[style*="background: #e8f5e9"] strong,
+        body.dark table tbody tr[style*="background: #c8e6c9"] strong {
+            color: #86efac !important;
+        }
+        
+        /* Dark mode: Risk cards - complete override */
+        body.dark .risk-card { background: #0e1621 !important; border-color: #334155 !important; }
+        body.dark .risk-card h4 { color: #f3f4f6 !important; }
+        body.dark .risk-card p { color: #d1d5db !important; }
+        body.dark .risk-card small { color: #9ca3af !important; }
+        body.dark .risk-high { border-left-color: #ef4444 !important; }
+        body.dark .risk-medium { border-left-color: #f59e0b !important; }
+        body.dark .risk-low { border-left-color: #10b981 !important; }
+        
+        /* Dark mode: Info-box lists with line-height */
+        body.dark .info-box ul[style*="line-height"] li { color: #d1d5db !important; }
+        body.dark .info-box ul[style*="line-height"] strong { color: #fbbf24 !important; }
+        
+        /* Dark mode: Highlight box with white h3 */
+        body.dark .highlight-box h3[style*="color: white"] { color: #93c5fd !important; }
+        body.dark .highlight-box p[style*="font-size"] { color: #e5e7eb !important; }
+        body.dark .highlight-box ol[style*="line-height"] li { color: #d1d5db !important; }
+        body.dark .highlight-box ol[style*="line-height"] strong { color: #fbbf24 !important; }
         
         /* Theme toggle button */
         .theme-toggle {
