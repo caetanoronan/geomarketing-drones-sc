@@ -16,22 +16,30 @@
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             min-height: 100vh;
             padding: 20px;
+            color: #1f2937;
+        }
+        /* Dark mode base */
+        body.dark {
+            background: linear-gradient(135deg, #0b1220 0%, #0e1b2a 100%);
+            color: #e5e7eb;
         }
         
         .container {
             max-width: 1400px;
             margin: 0 auto;
-            background: white;
+            background: #ffffcc;
             border-radius: 20px;
             box-shadow: 0 20px 60px rgba(0,0,0,0.3);
             overflow: hidden;
         }
+        body.dark .container { background: #0f172a; box-shadow: 0 20px 60px rgba(0,0,0,0.6); }
         
         .header {
             background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
             color: white;
             padding: 40px;
             text-align: center;
+            position: relative;
         }
         
         .header h1 {
@@ -50,7 +58,12 @@
             background: #f7fafc;
             border-bottom: 3px solid #e2e8f0;
             overflow-x: auto;
+            position: sticky; /* sticky tab bar */
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
         }
+        body.dark .tabs { background: #0b1220; border-bottom-color: #1f2937; box-shadow: 0 6px 14px rgba(0,0,0,0.35); }
         
         .tab-button {
             padding: 20px 30px;
@@ -74,8 +87,9 @@
         .tab-button.active {
             color: #667eea;
             border-bottom-color: #667eea;
-            background: white;
+            background: #ffffcc;
         }
+        body.dark .tab-button { color: #e5e7eb; }
         
         .tab-content {
             display: none;
@@ -140,6 +154,7 @@
             border-radius: 10px;
             overflow: hidden;
         }
+        body.dark .ranking-table { box-shadow: 0 2px 10px rgba(0,0,0,0.35); }
         
         .ranking-table thead {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -164,6 +179,9 @@
         .ranking-table tbody tr:nth-child(even) {
             background: #fafafa;
         }
+        body.dark .ranking-table tbody tr { border-bottom-color: #334155; }
+        body.dark .ranking-table tbody tr:hover { background: #1f2937; }
+        body.dark .ranking-table tbody tr:nth-child(even) { background: #111827; }
         
         .ranking-badge {
             display: inline-block;
@@ -199,6 +217,7 @@
             padding-bottom: 10px;
             border-bottom: 3px solid #667eea;
         }
+        body.dark .section-title { color: #e5e7eb; border-bottom-color: #60a5fa; }
         
         .info-box {
             background: #edf2f7;
@@ -207,6 +226,12 @@
             margin: 20px 0;
             border-radius: 5px;
         }
+        body.dark .info-box {
+            background: #0b1220;
+            border-left-color: #60a5fa;
+            color: #e5e7eb;
+        }
+        body.dark .info-box * { color: #e5e7eb !important; }
         
         .info-box h3 {
             color: #2d3748;
@@ -214,13 +239,14 @@
         }
         
         .recommendation-card {
-            background: white;
+            background: #ffffcc;
             border: 2px solid #e2e8f0;
             border-radius: 10px;
             padding: 25px;
             margin: 20px 0;
             transition: all 0.3s;
         }
+        body.dark .recommendation-card { background: #111827; border-color: #1f2937; color: #e5e7eb; }
         
         .recommendation-card:hover {
             border-color: #667eea;
@@ -232,6 +258,7 @@
             margin-bottom: 15px;
             font-size: 1.3em;
         }
+        body.dark .recommendation-card h3 { color: #93c5fd; }
         
         .recommendation-card ul {
             list-style: none;
@@ -253,12 +280,13 @@
         }
         
         .chart-container {
-            background: white;
+            background: #ffffcc;
             border-radius: 10px;
             padding: 20px;
             margin: 20px 0;
             box-shadow: 0 2px 10px rgba(0,0,0,0.1);
         }
+        body.dark .chart-container { background: #0b1220; box-shadow: 0 2px 10px rgba(0,0,0,0.35); }
         
         .footer {
             background: #2d3748;
@@ -267,6 +295,7 @@
             text-align: center;
             margin-top: 40px;
         }
+        body.dark .footer { background: #111827; }
         
         .map-embed {
             width: 100%;
@@ -289,12 +318,14 @@
             border: 1px solid #e2e8f0;
             text-align: left;
         }
+        body.dark .model-table th, body.dark .model-table td { border-color: #334155; color: #e5e7eb; }
         
         .model-table th {
             background: #f7fafc;
             font-weight: 600;
             color: #2d3748;
         }
+        body.dark .model-table th { background: #111827; color: #e5e7eb; }
         
         .cost-table {
             width: 100%;
@@ -307,6 +338,7 @@
             padding: 12px;
             border-bottom: 1px solid #e2e8f0;
         }
+        body.dark .cost-table th, body.dark .cost-table td { border-bottom-color: #334155; color: #e5e7eb; }
         
         .cost-table th {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -317,6 +349,7 @@
         .cost-table tr:hover {
             background: #f7fafc;
         }
+        body.dark .cost-table tr:hover { background: #1f2937; }
         
         .timeline {
             position: relative;
@@ -333,6 +366,7 @@
             width: 3px;
             background: #667eea;
         }
+        body.dark .timeline:before { background: #60a5fa; }
         
         .timeline-item {
             position: relative;
@@ -352,6 +386,7 @@
             border: 3px solid white;
             box-shadow: 0 0 0 3px #667eea;
         }
+        body.dark .timeline-item:before { background: #60a5fa; border-color: #0f172a; box-shadow: 0 0 0 3px #60a5fa; }
         
         .timeline-item h4 {
             color: #667eea;
@@ -371,17 +406,53 @@
             border-color: #f59e0b;
             color: #92400e;
         }
+        body.dark .alert-warning { background: #4a3719; border-color: #f59e0b; color: #fde68a; }
         
         .alert-info {
             background: #dbeafe;
             border-color: #3b82f6;
             color: #1e40af;
         }
+        body.dark .alert-info { background: #0c2a4a; border-color: #3b82f6; color: #bfdbfe; }
         
         .alert-success {
             background: #d1fae5;
             border-color: #10b981;
             color: #065f46;
+        }
+        body.dark .alert-success { background: #0d3b2a; border-color: #10b981; color: #bbf7d0; }
+        
+        /* Dark mode: inline styled elements in specific sections */
+        body.dark h3, body.dark h4 { color: #e5e7eb !important; }
+        body.dark .info-box h3, body.dark .info-box h4 { color: #93c5fd !important; }
+        body.dark .info-box p, body.dark .info-box li { color: #e5e7eb !important; }
+        body.dark .info-box strong, body.dark .info-box b { color: #f3f4f6 !important; }
+        
+        /* Dark mode: table totals */
+        body.dark .cost-table tr[style*="background"] td strong,
+        body.dark .cost-table tbody tr:last-child strong { color: #f3f4f6 !important; }
+        
+        /* Dark mode: override inline background gradients in info-boxes (Mapas/Heatmaps/Cold Spots) */
+        body.dark .info-box[style*="background: linear-gradient"],
+        body.dark .info-box[style*="background: #e8f5e9"],
+        body.dark .info-box[style*="background: #fff3e0"],
+        body.dark .info-box[style*="background: #f3e5f5"],
+        body.dark .info-box[style*="background: #fff9c4"],
+        body.dark .info-box[style*="background: #e1f5fe"],
+        body.dark .info-box[style*="background: #ffebee"] {
+            background: #0b1220 !important;
+        }
+        
+        /* Dark mode: colored spans in tables (model-table) */
+        body.dark .model-table span[style*="color"] { color: #93c5fd !important; }
+        
+        /* Dark mode: TOTAL rows in cost tables */
+        body.dark .cost-table tr[style*="background: #f7fafc"] {
+            background: #1f2937 !important;
+        }
+        body.dark .cost-table tr[style*="background: #f7fafc"] td,
+        body.dark .cost-table tr[style*="background: #f7fafc"] strong {
+            color: #f3f4f6 !important;
         }
         
         @media (max-width: 768px) {
@@ -416,6 +487,22 @@
                 padding: 10px 5px;
             }
         }
+
+        /* Theme toggle button */
+        .theme-toggle {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            background: rgba(255,255,255,0.15);
+            color: white;
+            border: 2px solid rgba(255,255,255,0.35);
+            padding: 8px 14px;
+            border-radius: 999px;
+            cursor: pointer;
+            font-weight: 600;
+            backdrop-filter: blur(6px);
+        }
+        body.dark .theme-toggle { background: rgba(15,23,42,0.6); border-color: rgba(255,255,255,0.25); }
     </style>
 </head>
 <body>
@@ -423,6 +510,7 @@
         <div class="header">
             <h1>🚁 Análise de Geomarketing</h1>
             <p>Drones Agrícolas em Santa Catarina · Novembro 2025</p>
+            <button class="theme-toggle" id="themeToggle" aria-label="Alternar modo claro/escuro">🌙 Modo escuro</button>
         </div>
         
         <div class="tabs">
@@ -1010,6 +1098,11 @@
 
         <!-- ABA 7: MODELO DE NEGÓCIO -->
         <div id="modelo" class="tab-content">
+            <div class="info-box" style="background: linear-gradient(135deg, #e0f7fa 0%, #b2ebf2 100%); border-left: 4px solid #00acc1; margin-bottom: 20px;">
+                <h3 style="margin-bottom: 10px; color: #006064;">📽️ Pitch Deck (versão compacta)</h3>
+                <p style="line-height: 1.7;">Apresentação em abas com <strong>Resumo</strong>, <strong>Solução</strong>, <strong>Mapa</strong>, <strong>Infográficos</strong>, <strong>Financeiro</strong>, <strong>Recursos</strong> e <strong>CTA</strong> — ideal para compartilhar com investidores e parceiros.</p>
+                <p style="margin-top: 10px;"><a href="pitch_deck_drones_agro_sc.html" target="_blank" style="display: inline-block; padding: 10px 16px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-decoration: none; border-radius: 8px; font-weight: 600;">🎞️ Abrir Pitch Deck</a></p>
+            </div>
             <h2 class="section-title">💼 Modelo de Negócio</h2>
             
             <h3 style="margin-bottom: 20px;">Aluguel vs. Venda (por perfil de cliente)</h3>
@@ -1438,6 +1531,25 @@
                 }
             });
         });
+
+        // Theme toggle with localStorage + system preference
+        (function() {
+            const btn = document.getElementById('themeToggle');
+            const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const saved = localStorage.getItem('theme_dashboard');
+            const isDark = saved ? saved === 'dark' : prefersDark;
+
+            function applyTheme(dark) {
+                document.body.classList.toggle('dark', dark);
+                if (btn) {
+                    btn.textContent = dark ? '☀️ Modo claro' : '🌙 Modo escuro';
+                }
+                localStorage.setItem('theme_dashboard', dark ? 'dark' : 'light');
+            }
+
+            applyTheme(isDark);
+            if (btn) btn.addEventListener('click', () => applyTheme(!document.body.classList.contains('dark')));
+        })();
     </script>
 </body>
 </html>

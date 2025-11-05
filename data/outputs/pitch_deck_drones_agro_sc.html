@@ -17,6 +17,12 @@
             color: #333;
             overflow-x: hidden;
         }
+
+        /* Dark mode base overrides */
+        body.dark {
+            background: linear-gradient(135deg, #0b1220 0%, #0e1b2a 100%);
+            color: #e5e7eb;
+        }
         
         .container {
             max-width: 1200px;
@@ -29,6 +35,7 @@
             color: white;
             padding: 40px 20px;
             margin-bottom: 30px;
+            position: relative;
         }
         
         .header h1 {
@@ -50,12 +57,19 @@
         }
         
         .slide {
-            background: white;
+            /* light mode: replace white with pale ColorBrewer-style yellow */
+            background: #ffffcc;
             border-radius: 20px;
             padding: 40px;
             margin-bottom: 30px;
             box-shadow: 0 10px 40px rgba(0,0,0,0.3);
             animation: slideIn 0.6s ease-out;
+        }
+
+        /* Dark mode cards */
+        body.dark .slide {
+            background: #0f172a;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.6);
         }
         
         @keyframes slideIn {
@@ -76,6 +90,7 @@
             border-bottom: 4px solid #4299e1;
             padding-bottom: 10px;
         }
+        body.dark .slide h2 { color: #93c5fd; border-bottom-color: #60a5fa; }
         
         .slide h3 {
             color: #2C5F8D;
@@ -112,6 +127,7 @@
             border: 2px solid #4299e1;
             transition: transform 0.3s ease;
         }
+        body.dark .metric-card { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); border-color: #334155; color: #e5e7eb; }
         
         .metric-card:hover {
             transform: translateY(-5px);
@@ -153,7 +169,7 @@
         
         .cta-section a {
             display: inline-block;
-            background: white;
+            background: #ffffcc; /* light mode: yellow instead of white */
             color: #22543d;
             padding: 15px 40px;
             margin: 10px;
@@ -168,8 +184,9 @@
         .cta-section a:hover {
             transform: translateY(-3px);
             box-shadow: 0 6px 25px rgba(0,0,0,0.3);
-            background: #f7fafc;
+            background: #fff9bf;
         }
+        body.dark .cta-section a { background: #e2e8f0; color: #1f2937; }
         
         .gallery {
             display: grid;
@@ -228,6 +245,7 @@
             margin: 25px 0;
             border-radius: 10px;
         }
+        body.dark .highlight-box { background: linear-gradient(135deg, #3f2d20 0%, #4a2a16 100%); border-left-color: #fb923c; color: #e5e7eb; }
         
         .highlight-box h3 {
             color: #7c2d12;
@@ -277,10 +295,15 @@
             padding: 10px 12px;
             border-radius: 12px;
             margin: 0 0 20px 0;
+            position: sticky;   /* sticky nav */
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
         }
+        body.dark .tabs { background: #0b1220; border-bottom-color: #1f2937; box-shadow: 0 6px 14px rgba(0,0,0,0.35); }
         .tab-button {
             padding: 12px 18px;
-            background: white;
+            background: #ffffcc; /* light mode: yellow instead of white */
             border: 2px solid #e2e8f0;
             border-radius: 999px;
             cursor: pointer;
@@ -298,8 +321,31 @@
             border-color: #667eea;
             box-shadow: 0 6px 16px rgba(102,126,234,0.35);
         }
+        body.dark .tab-button { background: #111827; color: #e5e7eb; border-color: #1f2937; }
         .tab-content { display: none; }
         .tab-content.active { display: block; }
+        
+        /* Dark mode: improve readability of inline styled elements */
+        body.dark h3, body.dark h4 { color: #e5e7eb !important; }
+        body.dark .slide h3 { color: #93c5fd !important; }
+        body.dark p, body.dark li { color: #e5e7eb; }
+        body.dark strong, body.dark b { color: #f3f4f6; }
+
+        /* Theme toggle button */
+        .theme-toggle {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            background: rgba(255,255,255,0.15);
+            color: white;
+            border: 2px solid rgba(255,255,255,0.35);
+            padding: 8px 14px;
+            border-radius: 999px;
+            cursor: pointer;
+            font-weight: 600;
+            backdrop-filter: blur(6px);
+        }
+        body.dark .theme-toggle { background: rgba(15,23,42,0.6); border-color: rgba(255,255,255,0.25); }
     </style>
 </head>
 <body>
@@ -309,6 +355,7 @@
             <h1>🚁 Pitch Deck</h1>
             <p>Estratégia Cold Spots para Drones Agrícolas</p>
             <p class="subtitle">Santa Catarina • Novembro 2025</p>
+            <button class="theme-toggle" id="themeToggle" aria-label="Alternar modo claro/escuro">🌙 Modo escuro</button>
         </div>
         
         <!-- TABS NAVIGATION -->
@@ -535,6 +582,25 @@
             if (btn) btn.classList.add('active');
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
+
+        // Theme toggle with localStorage + system preference
+        (function() {
+            const btn = document.getElementById('themeToggle');
+            const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const saved = localStorage.getItem('theme');
+            const isDark = saved ? saved === 'dark' : prefersDark;
+
+            function applyTheme(dark) {
+                document.body.classList.toggle('dark', dark);
+                if (btn) {
+                    btn.textContent = dark ? '☀️ Modo claro' : '🌙 Modo escuro';
+                }
+                localStorage.setItem('theme', dark ? 'dark' : 'light');
+            }
+
+            applyTheme(isDark);
+            if (btn) btn.addEventListener('click', () => applyTheme(!document.body.classList.contains('dark')));
+        })();
     </script>
 </body>
 </html>
