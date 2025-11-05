@@ -374,11 +374,36 @@
         body.dark strong, body.dark b { color: #f3f4f6 !important; }
         body.dark th { color: white !important; }
         
-        /* Dark mode: Timeline items (Roadmap) */
-        body.dark .timeline-item h4 { color: #93c5fd !important; border-bottom-color: #60a5fa !important; }
-        body.dark .timeline-item p { color: #e5e7eb !important; }
-        body.dark .timeline-item li { color: #d1d5db !important; }
-        body.dark .timeline-item strong { color: #f9fafb !important; }
+        /* Dark mode: Timeline items (Roadmap) - complete override */
+        body.dark .timeline-item {
+            background: #0e1621 !important;
+            border: 1px solid #334155 !important;
+            box-shadow: 0 6px 18px rgba(0,0,0,0.4) !important;
+        }
+        body.dark .timeline-item::before {
+            background: #60a5fa !important;
+            border-color: #0f172a !important;
+            box-shadow: 0 0 0 3px #60a5fa !important;
+        }
+        body.dark .timeline-item h4 { 
+            color: #93c5fd !important; 
+            border-bottom-color: #60a5fa !important;
+        }
+        body.dark .timeline-item p { 
+            color: #e5e7eb !important; 
+        }
+        body.dark .timeline-item ul { 
+            color: #d1d5db !important; 
+        }
+        body.dark .timeline-item li { 
+            color: #d1d5db !important; 
+        }
+        body.dark .timeline-item strong { 
+            color: #fbbf24 !important; 
+        }
+        body.dark .timeline::before {
+            background: linear-gradient(to bottom, #60a5fa, #3b82f6) !important;
+        }
         
         /* Dark mode: Table TOTAL rows - force high contrast */
         body.dark table tbody tr[style*="background: #fff3cd"] {
