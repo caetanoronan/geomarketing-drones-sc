@@ -1,0 +1,14 @@
+﻿Conversion results:
+aer_pista_ponto_pouso_a: OK -> C:\Users\caetanoronan\OneDrive - UFSC\┴rea de Trabalho\Geomarkenting\data\bc25_geojson\aer_pista_ponto_pouso_a.geojson (features: 87)
+aer_pista_ponto_pouso_l: OK -> C:\Users\caetanoronan\OneDrive - UFSC\┴rea de Trabalho\Geomarkenting\data\bc25_geojson\aer_pista_ponto_pouso_l.geojson (features: 15)
+aer_pista_ponto_pouso_p: OK -> C:\Users\caetanoronan\OneDrive - UFSC\┴rea de Trabalho\Geomarkenting\data\bc25_geojson\aer_pista_ponto_pouso_p.geojson (features: 23)
+tra_caminho_aereo_l: OK -> C:\Users\caetanoronan\OneDrive - UFSC\┴rea de Trabalho\Geomarkenting\data\bc25_geojson\tra_caminho_aereo_l.geojson (features: 1)
+enc_torre_energia_p: OK -> C:\Users\caetanoronan\OneDrive - UFSC\┴rea de Trabalho\Geomarkenting\data\bc25_geojson\enc_torre_energia_p.geojson (features: 16469)
+enc_trecho_energia_l: OK -> C:\Users\caetanoronan\OneDrive - UFSC\┴rea de Trabalho\Geomarkenting\data\bc25_geojson\enc_trecho_energia_l.geojson (features: 733)
+edf_edificacao_a: OK -> C:\Users\caetanoronan\OneDrive - UFSC\┴rea de Trabalho\Geomarkenting\data\bc25_geojson\edf_edificacao_a.geojson (features: 1117)
+edf_edificacao_p: OK -> C:\Users\caetanoronan\OneDrive - UFSC\┴rea de Trabalho\Geomarkenting\data\bc25_geojson\edf_edificacao_p.geojson (features: 8000)
+cbge_area_uso_especifico_a: OK -> C:\Users\caetanoronan\OneDrive - UFSC\┴rea de Trabalho\Geomarkenting\data\bc25_geojson\cbge_area_uso_especifico_a.geojson (features: 126)
+lml_area_densamente_edificada_a: OK -> C:\Users\caetanoronan\OneDrive - UFSC\┴rea de Trabalho\Geomarkenting\data\bc25_geojson\lml_area_densamente_edificada_a.geojson (features: 1051)
+lml_municipio_a: OK -> C:\Users\caetanoronan\OneDrive - UFSC\┴rea de Trabalho\Geomarkenting\data\bc25_geojson\lml_municipio_a.geojson (features: 295)
+
+Done.

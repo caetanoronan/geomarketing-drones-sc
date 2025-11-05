@@ -1,0 +1,691 @@
+ INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SANTA CATARINA
+ CAMPUS FLORIANÓPOLIS
+ DEPARTAMENTO ACADÊMICO DA CONSTRUÇAO CIVIL
+ CURSO TÉCNICO DE GEOPROCESSAMENTO – Disciplina: Geoprocessamento Aplicado.
+
+
+
+
+                Apostila:
+Geomarketing na Prática: Desvendando o
+  Território com QGIS e Dados Abertos
+
+
+
+
+                         Professor:
+                    Angelo Martins Fraga
+
+
+
+
+                       Florianópolis-SC
+                         Junho/2025
+              INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SANTA CATARINA
+              CAMPUS FLORIANÓPOLIS
+              DEPARTAMENTO ACADÊMICO DA CONSTRUÇAO CIVIL
+              CURSO TÉCNICO DE GEOPROCESSAMENTO – Disciplina: Geoprocessamento Aplicado.
+
+
+
+
+                                                    Sumário
+1      Introdução ao Geomarketing: Uma Perspectiva Profunda .......................... 3
+1.1.      O Que é Geomarketing e Por Que Ele é Crucial? .................................... 3
+       1.1.1 Breve Histórico e Evolução: Da Cartografia à Inteligência Espacial
+       Profunda...................................................................................................... 4
+       1.1.2 O Papel dos Sistemas de Informação Geográfica (SIG) no
+       Geomarketing .............................................................................................. 4
+2 Dados e Fontes de Informação para Geomarketing: A Base para uma
+Análise Profunda ................................................................................................ 5
+    2.1     Tipos de Dados Utilizados: Construindo uma Visão do Mercado .......... 5
+       2.1.1      Dados primários.............................................................................. 5
+       2.1.2      Dados secundários ......................................................................... 5
+    2.2     A Força dos Dados Abertos no Brasil: Democratizando a Análise ........ 6
+    2.3     Privacidade e Ética no Uso de Dados (LGPD): Um Pilar da Abordagem
+            7
+3      Análises Espaciais Essenciais em Geomarketing com QGIS ..................... 8
+    3.1     Mapeamento Temático e Visualização de Dados: ................................ 8
+    3.2     Análise de Proximidade (Buffer): ......................................................... 10
+    3.3     Análise de Ponto Quente (Hot Spot Analysis): .................................... 10
+    3.4     Análise de Acessibilidade e Rede: ...................................................... 10
+    3.5     Segmentação Geográfica de Mercado: ............................................... 10
+    3.6     Mapeamento e Análise da Concorrência: ........................................... 10
+4 Exercício Aplicado com QGIS e Dados Abertos: Otimização de Localização
+para um Novo Negócio em Florianópolis ......................................................... 11
+    4.1     Opções de Comércio para Estudo (Escolha 1): .................................. 11
+    4.2     Passos Guiados no QGIS: .................................................................. 12
+5      Referências Bibliográficas ......................................................................... 15
+         INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SANTA CATARINA
+         CAMPUS FLORIANÓPOLIS
+         DEPARTAMENTO ACADÊMICO DA CONSTRUÇAO CIVIL
+         CURSO TÉCNICO DE GEOPROCESSAMENTO – Disciplina: Geoprocessamento Aplicado.
+
+      Porquê Geomarketing?
+
+      Você já parou para pensar como a localização influencia tudo na nossa
+vida? Desde onde compramos o pãozinho até a melhor área para abrir um
+novo negócio, a geografia está no centro das decisões. É exatamente isso que
+o Geomarketing explora: a fusão estratégica de dados geográficos com
+informações de mercado para tomar decisões mais inteligentes e assertivas.
+      Nesta apostila, você será guiado por uma jornada que não apenas
+ensinará a teoria por trás do Geomarketing, mas também capacitará você a
+colocar a mão na massa com o QGIS. Prepare-se para descobrir como mapas
+podem contar histórias de mercado e impulsionar o sucesso de empresas, indo
+além da superfície para uma compreensão profunda do território e de suas
+dinâmicas.
+
+
+1   Introdução ao Geomarketing: Uma Perspectiva Profunda
+
+
+    1.1. O Que é Geomarketing e Por Que Ele é Crucial?
+       O Geomarketing é uma disciplina que transcende a simples visualização
+de dados em um mapa. Ele se configura como uma abordagem abrangente e
+profunda para a inteligência de mercado, integrando dados geográficos com
+informações de mercado para permitir que empresas e profissionais visualizem,
+analisam e compreendam o comportamento de consumidores, a localização de
+concorrentes e o potencial de novas áreas. Em sua essência, é a arte de usar a
+localização como um fator chave para o sucesso de estratégias de marketing e
+vendas, buscando ir à raiz do problema e considerar todas as partes do cenário
+de mercado.
+       Por que ele é crucial? Na era da informação, o "onde" é tão intrínseco
+quanto o "quem" ou o "o quê". Decisões de negócio baseadas apenas em
+dados demográficos ou financeiros podem ser incompletas, superficiais e,
+consequentemente, ineficazes. O Geomarketing adiciona a camada espacial,
+revelando padrões, tendências e, mais importante, as causas subjacentes e as
+ramificações de longo prazo do comportamento de mercado. Ele permite uma
+análise do ecossistema de mercado, considerando a interconexão de fatores
+socioeconômicos, culturais, de infraestrutura e ambientais que moldam um
+determinado território.
+       Essa abordagem profunda é indispensável para:
+     Expansão de Negócios: Não apenas onde abrir, mas por que aquela
+       localização específica oferece o maior potencial, considerando a
+       densidade populacional, o poder de compra, a concorrência e a
+       acessibilidade de forma interligada.
+     Segmentação de Clientes: Ir além da demografia para entender o perfil
+       geodemográfico e comportamental dos consumidores, permitindo uma
+       segmentação mais precisa e a identificação de nichos de mercado
+       ocultos.
+     Otimização de Campanhas Publicitárias: Direcionar anúncios para
+       áreas específicas com maior potencial de retorno, compreendendo as
+       características únicas de cada microrregião.
+         INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SANTA CATARINA
+         CAMPUS FLORIANÓPOLIS
+         DEPARTAMENTO ACADÊMICO DA CONSTRUÇAO CIVIL
+         CURSO TÉCNICO DE GEOPROCESSAMENTO – Disciplina: Geoprocessamento Aplicado.
+
+      Gestão de Força de Vendas: Otimizar rotas e áreas de atuação de
+       equipes comerciais, minimizando custos e maximizando a eficiência com
+       base em um entendimento profundo da logística territorial.
+      Análise de Concorrência: Visualizar a distribuição dos concorrentes e
+       identificar não apenas lacunas de mercado, mas também as razões
+       estruturais por trás da saturação ou da ausência de players em certas
+       áreas.
+      Logística e Distribuição: Planejar rotas de entrega e localização de
+       centros de distribuição, considerando a complexidade da rede viária e os
+       fluxos de pessoas e mercadorias.
+1.1.1 Breve Histórico e Evolução: Da Cartografia à Inteligência Espacial
+      Profunda
+       A ideia de usar mapas para entender mercados não é nova.
+Comerciantes do passado já usavam esboços para entender onde estavam
+seus clientes. No entanto, a verdadeira revolução do Geomarketing começou
+com o advento dos Sistemas de Informação Geográfica (SIG). O que antes era
+feito manualmente, com mapas de papel e alfinetes coloridos, passou a ser
+processado digitalmente, permitindo uma análise mais abrangente e detalhada.
+       Nos anos 80 e 90, com a popularização dos computadores e o
+surgimento de bases de dados geográficos mais robustas, o Geomarketing
+começou a ganhar força. Hoje, com o volume gigantesco de Big Data, a
+geolocalização de dispositivos móveis e a proliferação de dados abertos, o
+Geomarketing se tornou uma área de inteligência de mercado sofisticada,
+dinâmica e acessível. A evolução do Geomarketing reflete uma busca contínua
+por uma compreensão mais profunda dos fenômenos de mercado, movendo-se
+de uma análise meramente descritiva para uma abordagem preditiva e
+estratégica, capaz de desvendar as complexas interações espaciais que
+moldam o sucesso dos negócios.
+1.1.2 O Papel dos Sistemas de Informação Geográfica (SIG) no Geomarketing
+       Os SIGs são a espinha dorsal do Geomarketing. Eles são sistemas
+projetados para capturar, armazenar, manipular, analisar, gerenciar e
+apresentar todos os tipos de dados geográficos. Sem um SIG, seria impossível
+realizar as análises complexas que o Geomarketing exige para uma
+compreensão profunda do mercado.
+       Dentro do vasto universo dos SIGs, destacamos o QGIS. Ele é um
+software de Sistema de Informações Geográficas gratuito e de código aberto
+(FOSS - Free and Open Source Software). Isso significa que ele é acessível a
+todos, em qualquer lugar, e possui uma comunidade global ativa que o
+desenvolve e aprimora continuamente. O QGIS é a porta de entrada perfeita
+para o Geomarketing, oferecendo todas as ferramentas necessárias para as
+análises que veremos, permitindo que você explore as camadas de dados e
+desvende as relações espaciais de forma abrangente.
+           INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SANTA CATARINA
+           CAMPUS FLORIANÓPOLIS
+           DEPARTAMENTO ACADÊMICO DA CONSTRUÇAO CIVIL
+           CURSO TÉCNICO DE GEOPROCESSAMENTO – Disciplina: Geoprocessamento Aplicado.
+
+2     Dados e Fontes de Informação para Geomarketing: A Base para uma
+      Análise Profunda
+       A qualidade das análises depende diretamente da qualidade e
+diversidade dos dados utilizados. Quanto mais informações, e de fontes
+variadas, mais rica e precisa será sua visão do mercado, permitindo uma
+análise verdadeiramente profunda.
+2.1     Tipos de Dados Utilizados: Construindo uma Visão do Mercado
+      Os dados em Geomarketing podem ser classificados em diferentes
+categorias:
+
+2.1.1    Dados primários
+
+     São dados coletados diretamente para um propósito específico,
+geralmente por meio de pesquisas, entrevistas, sensores ou GPS.
+
+      ● Pesquisas de campo: entrevistas e questionários aplicados a
+        consumidores para entender perfil, hábitos e preferências.
+      ● Coleta GPS e sensoriamento móvel: dados de localização em tempo
+        real, coletados por smartphones ou dispositivos IoT, para entender
+        fluxos de movimento e comportamento espacial.
+      ● Observação direta: análise manual de concorrência, tráfego e ambiente
+        urbano.
+
+2.1.2 Dados secundários
+       Dados já existentes, produzidos por terceiros, que podem ser
+reaproveitados para análises geomarketing.
+       É a combinação dos dados primários e secundários que permite uma
+visão integral do mercado, onde cada tipo de dado complementa o outro para
+formar um quadro completo com vários tipos de informações de interesse
+advindas de:
+
+  Dados Demográficos e Socioeconômicos: Essenciais para perfilar a
+   população e entender seu poder de compra e necessidades. Incluem:
+   1. População total, densidade populacional
+   2. Renda média, classes sociais
+   3. Idade, gênero, nível de escolaridade, ocupação
+   4. Composição familiar (número de pessoas por domicílio)
+        Profundidade na Análise: Não basta saber a renda média; é preciso
+entender a distribuição da renda, as tendências de crescimento populacional e
+como esses fatores se interligam com outros dados para formar o perfil de
+consumo de uma área. Uma análise superficial, caracterizada pela falta de
+profundidade, levará inevitavelmente a soluções fragmentadas ou incompletas.
+         INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SANTA CATARINA
+         CAMPUS FLORIANÓPOLIS
+         DEPARTAMENTO ACADÊMICO DA CONSTRUÇAO CIVIL
+         CURSO TÉCNICO DE GEOPROCESSAMENTO – Disciplina: Geoprocessamento Aplicado.
+
+ Dados Comportamentais: Revelam padrões de consumo e atividades das
+   pessoas, oferecendo insights sobre o "como" e o "porquê" das decisões de
+   compra:
+   1. Hábitos de compra (o que, onde e com que frequência compram)
+   2. Fluxo de pessoas (tráfego de pedestres e veículos em determinadas
+      áreas)
+   3. Preferências por produtos ou serviços
+        Profundidade na Análise: A análise do fluxo de pessoas, por exemplo,
+vai além da contagem, buscando entender os motivos do deslocamento e a
+origem/destino desses fluxos, revelando a verdadeira acessibilidade e
+atratividade de um local.
+
+ Dados de Localização (Espaciais): Fundamentais para a análise
+  geográfica e a contextualização de todos os outros dados:
+   Pontos de interesse (POI): escolas, hospitais, parques, shoppings, lojas
+     específicas.
+   Rede viária: ruas, avenidas, estradas (para análises de acessibilidade e
+     rotas).
+   Transporte público: localização de paradas de ônibus, estações de
+     metrô/trem.
+   Localização de concorrentes.
+   Limites administrativos (bairros, municípios, setores censitários).
+       Profundidade na Análise: A simples presença de um concorrente é um
+dado. A análise profunda busca entender a estratégia de localização desse
+concorrente, sua área de influência e como ele se relaciona com o público-alvo
+na região.
+2.2   A Força dos Dados Abertos no Brasil: Democratizando a Análise
+        Uma das grandes vantagens para quem trabalha com Geomarketing no
+Brasil é a crescente disponibilidade de dados abertos. São dados que podem
+ser livremente usados, reutilizados e redistribuídos por qualquer pessoa, com
+poucas ou nenhuma restrição. Isso democratiza o acesso à informação e
+permite análises robustas sem custos de licenciamento de dados, promovendo
+uma análise abrangente e acessível.
+Veja algumas das principais fontes de dados abertos no Brasil:
+       Instituto Brasileiro de Geografia e Estatística (IBGE): É a fonte
+primária de dados demográficos e socioeconômicos do Brasil.
+
+ Censo Demográfico: Realizado a cada 10 anos, fornece informações
+  detalhadas sobre a população, domicílios, renda, educação, etc.,
+  desagregadas até o nível de setor censitário (a menor unidade de coleta de
+  dados). Esses dados são a base para uma compreensão profunda da
+  estrutura social e econômica de qualquer região.
+ Pesquisa Nacional por Amostra de Domicílios (PNAD): Pesquisas
+  contínuas que complementam o censo com dados atualizados, permitindo
+  uma               visão          mais            dinâmica.            Link:
+  https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-
+  territoriais.html
+          INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SANTA CATARINA
+          CAMPUS FLORIANÓPOLIS
+          DEPARTAMENTO ACADÊMICO DA CONSTRUÇAO CIVIL
+          CURSO TÉCNICO DE GEOPROCESSAMENTO – Disciplina: Geoprocessamento Aplicado.
+
+   Malhas Territoriais: Oferecem os shapefiles (arquivos vetoriais para SIG)
+    dos limites de municípios, bairros e, crucialmente para Geomarketing, os
+    setores censitários. Link da fonte para Malhas Territoriais e dados:
+    https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-
+    territoriais.html (Você precisará selecionar o ano do censo e o estado
+    desejado para baixar a malha e os dados correspondentes).
+
+       OpenStreetMap (OSM): Uma iniciativa colaborativa global para criar um
+mapa livre e editável do mundo.
+ É uma excelente fonte para Pontos de Interesse (POIs) como lojas,
+   restaurantes, escolas, hospitais, além da rede viária (ruas, estradas). A
+   riqueza de detalhes depende da contribuição da comunidade em cada
+   região. O OSM permite uma visão da infraestrutura e dos pontos de
+   interesse que moldam o ambiente de negócios.
+ Link da fonte: https://www.openstreetmap.org/
+ No QGIS, você pode acessar facilmente os dados do OSM usando o plugin
+   QuickOSM.
+       Prefeituras e Órgãos Estaduais: Muitas prefeituras e governos
+estaduais têm portais de dados abertos onde disponibilizam informações sobre
+zoneamento urbano, transporte público, cadastro imobiliário, equipamentos
+públicos (saúde, educação). A disponibilidade varia muito de município para
+município. Uma busca por "dados abertos [nome da sua cidade/estado]" pode
+ser um bom ponto de partida para aprofundar a análise local.
+       Agências Reguladoras: Embora nem sempre diretamente para
+Geomarketing de varejo, agências como ANATEL (telecomunicações), ANEEL
+(energia elétrica) ou ANAC (aviação civil) podem disponibilizar dados
+agregados que, em certos contextos, podem ser relevantes para análises mais
+amplas e abrangentes.
+2.3   Privacidade e Ética no Uso de Dados (LGPD): Um Pilar da
+      Abordagem
+        Com o crescente volume de dados, a questão da privacidade se tornou
+central. No Brasil, a Lei Geral de Proteção de Dados (LGPD - Lei nº
+13.709/2018) regulamenta como dados pessoais devem ser coletados,
+armazenados e utilizados.
+        Para o Geomarketing, isso é crucial. Embora muitos dados que usamos
+(como os do IBGE ou OSM) sejam agregados ou não-identificáveis, é
+fundamental estar ciente das implicações da LGPD, especialmente se você for
+trabalhar com dados de clientes que uma empresa possa ter. O foco deve ser
+sempre em análises de padrões populacionais e de mercado, e não em
+informações que identifiquem indivíduos. A responsabilidade no tratamento e
+na ética no uso da informação são pilares para qualquer profissional da área.
+        A ética no uso de dados é um componente essencial de um profissional
+de Geomarketing. Assim como em "arcabouços de compensação ética" que
+integram considerações ambientais, sociais e de governança (ESG), ou no
+"direito holístico" que alinha riqueza com iniciativas de propósito, o
+Geomarketing ético garante que a busca por insights de mercado não
+comprometa a privacidade individual ou o bem-estar social. Isso reflete uma
+compreensão mais profunda da responsabilidade, onde o sucesso do negócio
+         INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SANTA CATARINA
+         CAMPUS FLORIANÓPOLIS
+         DEPARTAMENTO ACADÊMICO DA CONSTRUÇAO CIVIL
+         CURSO TÉCNICO DE GEOPROCESSAMENTO – Disciplina: Geoprocessamento Aplicado.
+
+não é medido apenas por métricas financeiras, mas também pelo impacto
+social e pela sustentabilidade a longo prazo. Link da LGPD:
+http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm
+
+
+3     Análises Espaciais Essenciais em Geomarketing com QGIS
+      O QGIS oferece um vasto conjunto de ferramentas de
+geoprocessamento que são a base das análises de Geomarketing. Cada uma
+dessas ferramentas, quando aplicada com uma mentalidade de investigação
+profunda, contribui para uma compreensão do mercado.
+3.1   Mapeamento Temático e Visualização de Dados:
+       Coropletos: Mapas que representam dados estatísticos por cores em
+áreas geográficas (ex: municípios, setores censitários), onde a intensidade da
+cor indica a magnitude do fenômeno (ex: mapa de renda média por setor
+censitário).
+
+
+
+
+                    Figura 1: Exemplo de mapa Coropleto.
+      Mapas de Calor (Heatmaps): Visualizam a densidade de pontos em
+uma área. Quanto mais pontos (ex: clientes, ocorrências de vendas), mais
+"quente" (intensa) a cor. Úteis para identificar áreas de alta concentração.
+        INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SANTA CATARINA
+        CAMPUS FLORIANÓPOLIS
+        DEPARTAMENTO ACADÊMICO DA CONSTRUÇAO CIVIL
+        CURSO TÉCNICO DE GEOPROCESSAMENTO – Disciplina: Geoprocessamento Aplicado.
+
+
+
+
+                    Figura 2: Exemplo de mapa de calor.
+       Símbolos Graduados/Proporcionais: Símbolos (círculos, quadrados)
+cujo tamanho varia de acordo com o valor de um atributo (ex: círculo maior
+para maior volume de vendas em uma loja).
+
+
+
+
+           Figura 3: Exemplo de utilização de símbolos graduados.
+       Objetivo Profundo: A visualização não é um fim em si mesma. O objetivo
+é revelar padrões espaciais que, à primeira vista, seriam invisíveis. Um mapa
+de coropletos de renda, por exemplo, não apenas mostra onde a renda é alta,
+mas convida à pergunta: por que essa distribuição? Quais fatores históricos,
+sociais ou de infraestrutura contribuem para essa concentração ou dispersão?
+Isso leva a uma análise abrangente das causas-raiz.
+         INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SANTA CATARINA
+         CAMPUS FLORIANÓPOLIS
+         DEPARTAMENTO ACADÊMICO DA CONSTRUÇAO CIVIL
+         CURSO TÉCNICO DE GEOPROCESSAMENTO – Disciplina: Geoprocessamento Aplicado.
+
+3.2   Análise de Proximidade (Buffer):
+       Cria uma área de influência ao redor de uma feição (ponto, linha ou
+polígono) a uma distância especificada.
+       Aplicabilidade Profunda: Vai além de simplesmente delimitar um raio.
+Permite calcular o potencial de clientes dentro de uma área de influência, mas
+também questionar a qualidade dessa influência. Um buffer de 1 km pode ter
+10.000 pessoas, mas qual o perfil delas? Elas são o público-alvo? A análise de
+buffer deve ser combinada com dados demográficos e comportamentais para
+uma avaliação completa do potencial de mercado.
+3.3   Análise de Ponto Quente (Hot Spot Analysis):
+       Identifica aglomerados estatisticamente significativos de valores altos ou
+baixos em uma área. Vai além do simples mapa de calor, indicando onde os
+"hot spots" (pontos quentes) e "cold spots" (pontos frios) são estatisticamente
+relevantes.
+       Aplicabilidade Profunda: Não se trata apenas de encontrar onde as
+vendas são altas, mas de entender as causas subjacentes dessa
+concentração. Há um evento específico? Uma mudança demográfica? Uma
+estratégia de marketing bem-sucedida? Essa análise busca a raiz do problema
+ou da oportunidade.
+3.4   Análise de Acessibilidade e Rede:
+       Utiliza a rede de ruas e estradas para calcular distâncias, tempos de
+percurso, rotas ótimas e áreas de serviço baseadas em tempo (isócronas).
+       Aplicabilidade Profunda: A acessibilidade é um fator crítico. Esta análise
+permite entender não apenas a distância física, mas a efetiva facilidade de
+acesso a um local, considerando o tráfego, o transporte público e as barreiras
+geográficas. Existem diferentes modais de transporte que se interligam e
+influenciam o fluxo de pessoas e mercadorias, impactando diretamente o
+potencial de um ponto de venda. Plugins como o "OR Tools" ou serviços como
+o OpenRouteService podem ser integrados ao QGIS para isso.
+
+3.5   Segmentação Geográfica de Mercado:
+        Dividir um mercado em grupos distintos de consumidores com base em
+sua localização e características geodemográficas. Isso permite que as
+empresas personalizem suas estratégias para cada segmento.
+        Aplicabilidade Profunda: A segmentação geográfica, quando feita de
+forma profunda, revela não apenas onde os clientes estão, mas quem eles são
+em termos de estilo de vida, necessidades e preferências, permitindo a criação
+de personas geodemográficas detalhadas. É uma forma de entender a
+totalidade do perfil do consumidor em um dado espaço.
+3.6   Mapeamento e Análise da Concorrência:
+        Visualizar a localização de empresas concorrentes e analisar sua
+distribuição espacial em relação aos seus próprios pontos de venda ou ao
+público-alvo.
+          INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SANTA CATARINA
+          CAMPUS FLORIANÓPOLIS
+          DEPARTAMENTO ACADÊMICO DA CONSTRUÇAO CIVIL
+          CURSO TÉCNICO DE GEOPROCESSAMENTO – Disciplina: Geoprocessamento Aplicado.
+
+       Aplicabilidade Profunda: Ir além da simples localização dos
+concorrentes. Analisar a densidade da concorrência, a área de influência de
+cada concorrente e identificar "lacunas" de mercado onde há pouca
+concorrência, mas alto potencial. Essa análise contribui para uma visão
+abrangente do cenário competitivo, permitindo decisões estratégicas sobre
+posicionamento e diferenciação.
+
+
+4     Exercício Aplicado com QGIS e Dados Abertos: Otimização de
+      Localização para um Novo Negócio em Florianópolis
+Contexto: Você foi contratado por um grupo de investidores que deseja abrir um novo
+negócio em Florianópolis - SC. Para tomar a melhor decisão de localização, a
+empresa precisa de uma análise profunda que combine o potencial de mercado
+(demografia e poder aquisitivo) com a concorrência existente. Seu trabalho é escolher
+um tipo de comércio e, em seguida, identificar e recomendar a melhor localização para
+a nova unidade.
+Duração Estimada: 3 a 4 horas
+Objetivos:
+   Escolher um tipo de comércio a ser estudado, dentre as opções.
+   Obter e preparar dados demográficos e socioeconômicos de setores censitários
+      de Florianópolis.
+   Mapear e analisar a distribuição da população e renda para identificar áreas de
+      alto potencial.
+   Obter e mapear a localização de concorrentes para o tipo de comércio escolhido
+      em Florianópolis.
+   Criar um mapa de densidade da concorrência para visualizar áreas saturadas.
+   Integrar as análises demográficas e de concorrência para identificar "lacunas de
+      mercado" e pontos candidatos.
+   Realizar uma análise de área de influência para os pontos candidatos e
+      quantificar seu potencial de mercado.
+   Elaborar uma recomendação final de localização baseada em dados e análises
+      espaciais.
+
+4.1    Opções de Comércio para Estudo (Escolha 1):
+Para este exercício, você pode escolher um dos seguintes tipos de comércio,
+utilizando as tags do OpenStreetMap (OSM) para buscar os concorrentes:
+   1. Cafeteria: amenity=cafe
+   2. Restaurante: amenity=restaurant
+   3. Farmácia: amenity=pharmacy
+   4. Academia: leisure=fitness_centre ou amenity=gym
+   5. Livraria: shop=books
+   6. Loja de Roupas: shop=clothes
+   7. Supermercado/Minimercado: shop=supermarket ou shop=convenience
+   8. Pet Shop: shop=pet
+   9. Salão de Beleza/Barbearia: shop=beauty ou shop=hairdresser
+   10. Padaria: shop=bakery
+   11. Loja de Eletrônicos/Informática: shop=electronics ou shop=computer
+   12. Clínica Médica/Odontológica: amenity=clinic ou amenity=dentist
+   13. Revendas de carros, sebos, cinemas, postos de combustível etc
+            INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SANTA CATARINA
+            CAMPUS FLORIANÓPOLIS
+            DEPARTAMENTO ACADÊMICO DA CONSTRUÇAO CIVIL
+            CURSO TÉCNICO DE GEOPROCESSAMENTO – Disciplina: Geoprocessamento Aplicado.
+
+4.2   Passos Guiados no QGIS:
+Parte 1: Preparação de Dados Demográficos e Contexto de Mercado (Estimativa:
+1 hora)
+   1. Download dos Dados do IBGE (Setores Censitários e Dados do Censo):
+        o Acesse o portal de Malhas Territoriais do IBGE:
+            https://www.ibge.gov.br/geociencias/cartas-e-mapas/bases-e-
+            geodados/15742-bases-cartograficas-vetoriais-e-de-relacionamento.html
+        o Navegue até a seção do Censo mais recente (ex: 2022).
+        o Em "Recortes e Malhas", procure por "Setores Censitários".
+        o Selecione o estado de "Santa Catarina" e baixe o arquivo
+            correspondente. Descompacte-o em uma pasta organizada (ex:
+            D:\dados\geoprocessamento\SEU_NOME\Geomarketing\Florianopolis).
+        o Localize a tabela de dados do censo (geralmente .xls ou .csv) que contém
+            informações sobre população total e renda (ex: PopTotal_2010,
+            Renda_Media_2010). Se for .xls, salve-o como .csv no Excel para facilitar
+            a importação no QGIS.
+2.     Importação e União de Dados no QGIS:
+        o Abra o QGIS Desktop.
+        o Adicione a camada vetorial dos setores censitários de Florianópolis (o
+            arquivo .shp descompactado). Vá em Camada > Adicionar Camada >
+            Adicionar Camada Vetorial...
+        o Adicione a tabela de dados do censo (o arquivo .csv). Vá em Camada >
+            Adicionar Camada > Adicionar Camada de Texto Delimitado... Marque
+            "Sem geometria".
+        o Una a tabela CSV à camada de setores censitários: Clique com o botão
+            direito na camada de setores censitários > Propriedades > União.
+            Adicione uma nova união, selecionando a tabela CSV e os campos de
+            código do setor censitário correspondentes em ambas as camadas (ex:
+            CD_GEOCODI no shapefile e COD_SETOR no CSV). Verifique a união
+            abrindo a tabela de atributos.
+3.     Criação de Mapas Temáticos de Potencial de Mercado:
+        o Crie um mapa temático de População Total por setor censitário: Clique
+            com o botão direito na camada de setores > Propriedades > Simbologia.
+            Mude para "Graduado", selecione a coluna de população, escolha um
+            esquema de cores e classifique (ex: "Quantil").
+        o Repita o processo para criar um mapa temático de Renda Média por setor
+            censitário.
+        o Reflexão Profunda: Observe os padrões. Onde estão as áreas de alta
+            densidade populacional e maior poder aquisitivo? Essas são as áreas com
+            maior potencial de mercado para o tipo de comércio que você escolheu?
+        o
+Parte 2: Análise da Concorrência e Identificação de Lacunas (Estimativa: 1.5
+horas)
+  1. Instalação do Plugin QuickOSM:
+        o No QGIS, vá em Plugins > Gerenciar e Instalar Plugins...
+        o Busque por "QuickOSM" e instale-o.
+     2.      Download de Dados de Concorrentes (para o seu tipo de comércio
+     escolhido) via OpenStreetMap:
+        o Vá em Vetor > QuickOSM > QuickOSM...
+        o Em "Chave" (Key), digite a chave correspondente ao seu tipo de comércio
+           (ex: amenity para cafeteria, shop para livraria).
+        o Em "Valor" (Value), digite o valor correspondente (ex: cafe para cafeteria,
+           books para livraria).
+            INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SANTA CATARINA
+            CAMPUS FLORIANÓPOLIS
+            DEPARTAMENTO ACADÊMICO DA CONSTRUÇAO CIVIL
+            CURSO TÉCNICO DE GEOPROCESSAMENTO – Disciplina: Geoprocessamento Aplicado.
+
+        o   Em "Dentro de" (Around/In), selecione "Cidade" e digite "Florianópolis,
+            Santa Catarina, Brazil".
+         o Certifique-se de que "Pontos" esteja marcado.
+         o Clique em "Executar consulta". A camada de pontos de concorrentes
+            será adicionada.
+      3.       Visualização da Distribuição da Concorrência:
+         o Adicione um mapa base para contexto: Web > QuickMapServices > OSM
+            > OSM Standard.
+         o Ajuste a simbologia dos pontos de concorrentes para que fiquem bem
+            visíveis (ex: um ícone de loja ou um círculo de cor contrastante).
+         o Reflexão Profunda: Observe a distribuição dos concorrentes. Há áreas
+            com alta concentração? Há áreas com pouca concorrência, mas que
+            parecem promissoras?
+      4.       Criação de Mapa de Densidade (Heatmap) da Concorrência:
+         o Vá em Processamento > Caixa de Ferramentas.
+         o Busque por "Mapa de Densidade de Kernel".
+         o Em "Camada de entrada", selecione a camada de pontos de concorrentes
+            que você baixou (ex: amenity_cafe_points).
+         o Em "Raio", experimente 500 metros.
+         o Em "Densidade de Kernel", salve o arquivo (ex:
+            Densidade_Concorrentes_Cafe.tif).
+         o Clique em Executar.
+         o Ajuste a simbologia do heatmap (Propriedades da camada > Simbologia >
+            "Banda simples falsa cor", escolha um esquema de cores de quente para
+            frio, ex: Inferno invertido, e ajuste a transparência para visualizar as
+            camadas por baixo).
+         o Reflexão Profunda: O heatmap revela os "hot spots" de concorrência.
+            Onde a cor é mais intensa, há mais concorrentes. Isso é crucial para
+            identificar áreas a serem evitadas ou onde a estratégia de diferenciação
+            precisa ser mais forte.
+Parte 3: Identificação de Áreas Potenciais e Análise de Influência Detalhada
+(Estimativa: 1.5 horas)
+   1. Integração Visual e Identificação de Lacunas de Mercado:
+         o Sobreponha as camadas: o heatmap de concorrência (com transparência)
+            sobre os mapas temáticos de população e renda.
+         o   Procure visualmente por áreas que apresentem uma combinação de:
+                Alta densidade populacional e/ou alta renda (indicado pelos
+                   mapas temáticos de setores censitários).
+                Baixa densidade de concorrentes (áreas "frias" ou de baixa
+                   intensidade no heatmap de concorrência).
+         o Essas são as suas "lacunas de mercado" – áreas com alto potencial de
+            clientes e menor saturação competitiva.
+2.     Seleção de Pontos Candidatos para a Nova Loja:
+         o Com base na sua análise visual, selecione 2 a 3 pontos hipotéticos
+            nessas lacunas de mercado. Tente escolher pontos que também pareçam
+            ter boa acessibilidade (próximos a vias principais, transporte público, etc.,
+            usando o mapa base OSM).
+         o Crie uma nova camada de pontos para esses locais: Camada > Criar
+            Nova Camada de Pontos Shapefile... (ex:
+            Pontos_Candidatos_Floripa.shp).
+         o Ative a edição na nova camada (lápis amarelo) e adicione os 2-3 pontos
+            no mapa, dando um ID a cada um. Salve e desative a edição.
+3.     Análise de Proximidade (Buffer) para os Pontos Candidatos:
+         o Vá em Processamento > Caixa de Ferramentas.
+            INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SANTA CATARINA
+            CAMPUS FLORIANÓPOLIS
+            DEPARTAMENTO ACADÊMICO DA CONSTRUÇAO CIVIL
+            CURSO TÉCNICO DE GEOPROCESSAMENTO – Disciplina: Geoprocessamento Aplicado.
+
+        o   Busque por "Buffer".
+        o   Em "Camada de entrada", selecione a camada
+            Pontos_Candidatos_Floripa.
+         o Em "Distância", digite 1000 (para 1 km).
+         o Em "Segmentos de quadrante", coloque 50.
+         o Em "Dissolver resultado", selecione "Sim".
+         o Em "Buffer", salve o arquivo (ex:
+            Areas_Influencia_Candidatos_Floripa.shp).
+         o Clique em Executar. Você terá os anéis de influência de 1km ao redor de
+            cada ponto candidato.
+4.     Cálculo de Estatísticas Zonais (População e Renda) dentro dos Buffers:
+         o Vá em Processamento > Caixa de Ferramentas.
+         o Busque por "Estatísticas Zonal".
+         o Em "Camada de polígonos", selecione a camada
+            Areas_Influencia_Candidatos_Floripa.
+         o Em "Camada contendo valores para calcular as estatísticas", selecione a
+            camada de setores censitários (a que está unida com os dados do
+            IBGE).
+         o Certifique-se de que as estatísticas "Soma" (para População Total) e
+            "Média" (para Renda Média) estão selecionadas.
+         o Em "Prefixo da coluna de saída", digite Buffer_.
+         o Em "Estatísticas Zonal", salve o arquivo (ex:
+            Estatisticas_Buffers_Candidatos_Floripa.shp).
+         o Clique em Executar.
+         o Abra a tabela de atributos da nova camada
+            Estatisticas_Buffers_Candidatos_Floripa.shp. As colunas com Buffer_sum
+            (para população) e Buffer_mean (para renda média) mostrarão os
+            totais/médias para cada anel de influência de 1km dos seus pontos
+            candidatos.
+Parte 4: Conclusão e Recomendação Estratégica (Estimativa: 0.5 hora)
+   1. Comparação e Análise Final:
+         o Analise a tabela de atributos Estatisticas_Buffers_Candidatos_Floripa.shp.
+            Qual ponto candidato apresenta a maior população e/ou renda média
+            dentro de seu raio de 1km?
+         o Cruze esses dados quantitativos com sua análise visual da concorrência.
+            O ponto com o maior potencial demográfico ainda está em uma "lacuna de
+            mercado" ou está próximo a muitos concorrentes?
+         o Síntese Profunda: A melhor localização é aquela que equilibra um
+            alto potencial de mercado com uma concorrência gerenciável.
+            Lembre-se que uma análise superficial levará a soluções fragmentadas.
+2.     Elaboração da Recomendação:
+         o Escreva um breve relatório (pode ser em um editor de texto simples)
+            recomendando a melhor localização para a nova loja do tipo de comércio
+            que você escolheu em Florianópolis.
+         o Justifique sua escolha com base nos dados e mapas que você gerou.
+            Mencione a população e renda da área de influência do ponto escolhido, e
+            como a concorrência se apresenta nesse local.
+         o Discuta as limitações da sua análise (ex: não considerou o aluguel, o fluxo
+            exato de pedestres, o perfil de consumo muito específico, etc.) e sugira
+            próximos passos para uma análise ainda mais aprofundada.
+Este exercício integrado permite que você explore todas as etapas de um projeto de
+Geomarketing, desde a coleta de dados até a recomendação estratégica, em um
+tempo gerenciável, com foco em uma análise profunda do território.
+         INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE SANTA CATARINA
+         CAMPUS FLORIANÓPOLIS
+         DEPARTAMENTO ACADÊMICO DA CONSTRUÇAO CIVIL
+         CURSO TÉCNICO DE GEOPROCESSAMENTO – Disciplina: Geoprocessamento Aplicado.
+
+
+
+
+5   Referências Bibliográficas
+
+BERTIN, J. Semiotics of Graphics: diagrams, networks, maps. Redlands, CA:
+Esri Press, 2010.
+
+BITTENCOURT, J. A.; SOUZA, R. C. Geomarketing: a utilização de Sistemas
+de Informações Geográficas (SIG) como ferramenta para análise de mercado.
+Revista Brasileira de Gestão Urbana, Curitiba, v. 8, n. 2, p. 222-234, maio/ago.
+2016.                                Disponível                             em:
+&lt;http://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S2175-
+336X2016000200222&amp;lng=en&amp;nrm=iso>. Acesso em: 22 jun. 2025.
+
+BRINKMANN, R. Geomarketing: fundamentos e aplicações. Rio de Janeiro:
+LTC, 2013.
+
+DIAS, L. A. V. Geomarketing: uma ferramenta estratégica para o
+desenvolvimento de negócios. Marketing & Turismo,, v. 1, n. 1, p. 1-15, 2017.
+Disponível                                                                em:
+https://revistas.ipca.pt/index.php/marketingeturismo/article/view/100. Acesso
+em: 22 jun. 2025.
+
+INSTITUTO BRASILEIRO DE GEOGRAFIA E ESTATÍSTICA (IBGE). Malhas
+Territoriais.    Rio      de       Janeiro,    [s.d.].    Disponível   em:
+https://www.ibge.gov.br/geociencias/cartas-e-mapas/bases-e-geodados/15742-
+bases-cartograficas-vetoriais-e-de-relacionamento.html. Acesso em: 22 jun.
+2025.
+
+LONGEN, E. V. Geomarketing: a chave para o sucesso do seu negócio. São
+Paulo: Atlas, 2010.
+
+OPENSTREETMAP. About OpenStreetMap., [s.d.].                     Disponível    em:
+https://www.openstreetmap.org/. Acesso em: 22 jun. 2025.
+
+PLANALTO. Lei nº 13.709, de 14 de agosto de 2018. Dispõe sobre a Proteção
+de Dados Pessoais. Brasília, DF: Diário Oficial da União, 2018. Disponível em:
+&lt;http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm>.
+Acesso em: 22 jun. 2025.
+
+QGIS. QGIS.org., [s.d.]. Disponível em: https://qgis.org/. Acesso em: 22 jun.
+2025.
+
+SILVA, J. A. L. Sistema de Informações Geográficas (SIG): aplicações no
+gerenciamento ambiental. 2. ed. São Paulo: Érica, 2014.
+

@@ -1,0 +1,6879 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5076436,
+          -27.5672817
+        ]
+      },
+      "properties": {
+        "name": "Madeireira Florianópolis",
+        "shop": "trade",
+        "source:name": "survey",
+        "trade": "wood",
+        "osm_type": "node",
+        "osm_id": 1833401945
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5054489,
+          -27.5661856
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1607",
+        "addr:street": "Rodovia José Carlos Daux",
+        "name": "Madeireira Madekalo",
+        "shop": "trade",
+        "source:name": "survey",
+        "trade": "wood",
+        "osm_type": "node",
+        "osm_id": 1833401951
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5091695,
+          -27.6785741
+        ]
+      },
+      "properties": {
+        "name": "Marmoraria Rezende",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 2397778911
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.087591,
+          -26.5068749
+        ]
+      },
+      "properties": {
+        "addr:city": "Jaraguá do Sul",
+        "addr:housenumber": "444",
+        "addr:street": "Rua Adolf Puttjer",
+        "addr:suburb": "Barra do Rio Molha",
+        "name": "Madeireira Flórida",
+        "phone": "+55 47 3370-7393",
+        "shop": "trade",
+        "source": "Bing;survey",
+        "trade": "timber_yard",
+        "osm_type": "node",
+        "osm_id": 3453269070
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6537726,
+          -27.6650755
+        ]
+      },
+      "properties": {
+        "description": "Material de construções",
+        "name": "Casas Moreira",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 3509198784
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0921827,
+          -26.4856585
+        ]
+      },
+      "properties": {
+        "addr:city": "Jaraguá do Sul",
+        "addr:housenumber": "807",
+        "addr:street": "Rua João Planincheck",
+        "name": "Mannes Mangueiras e Vedações",
+        "phone": "+55 47 2106 7777",
+        "shop": "trade",
+        "source": "Bing;survey",
+        "website": "https://www.mannesmangueiras.com.br/",
+        "osm_type": "node",
+        "osm_id": 3690617872
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.2006765,
+          -26.6201776
+        ]
+      },
+      "properties": {
+        "name": "Cooper Auriverde",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 3705288926
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.1976078,
+          -26.6191998
+        ]
+      },
+      "properties": {
+        "name": "Agropecuária Matão",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 3708712810
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.1967978,
+          -26.6194396
+        ]
+      },
+      "properties": {
+        "name": "Dal Mago Materiais de Construção",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 3708712815
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.1957947,
+          -26.6193821
+        ]
+      },
+      "properties": {
+        "name": "Agropecuária Santa Terezinha",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 3708719839
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1293544,
+          -26.9349005
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 3330-5025",
+        "name": "Construvelha",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 3967083716
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6127233,
+          -27.1224842
+        ]
+      },
+      "properties": {
+        "addr:city": "Itapema",
+        "addr:housenumber": "399",
+        "addr:postcode": "88220-000",
+        "addr:street": "Rua 412 A",
+        "addr:suburb": "Morretes",
+        "name": "Agropecuária Agromafe",
+        "opening_hours": "Mo-Fr 07:30-18:30",
+        "operator": "Henrique Cunha",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 4242860605
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5141192,
+          -27.656083
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1410",
+        "addr:street": "Rodovia Francisco Magno Vieira",
+        "name": "Real Madeiras Construtora",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "phone": "+55 48 3226-1657",
+        "shop": "trade",
+        "trade": "timber",
+        "website": "http://www.realmadeirasconstrutora.com.br/",
+        "osm_type": "node",
+        "osm_id": 4244415046
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7311673,
+          -28.3375152
+        ]
+      },
+      "properties": {
+        "name": "JJ Materiais de Construção",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 4365119183
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1173766,
+          -26.9194661
+        ]
+      },
+      "properties": {
+        "name": "Agro Sandra Agropecuária",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 4429424697
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9595217,
+          -28.0123338
+        ]
+      },
+      "properties": {
+        "shop": "trade",
+        "trade": "wood",
+        "osm_type": "node",
+        "osm_id": 4469422991
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9036075,
+          -28.0123652
+        ]
+      },
+      "properties": {
+        "name": "Agropecuária",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 4482022262
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0842299,
+          -26.9063494
+        ]
+      },
+      "properties": {
+        "addr:door": "3",
+        "craft": "hvac",
+        "name": "SOS Aquecedores",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 4518268908
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6438662,
+          -27.0274252
+        ]
+      },
+      "properties": {
+        "name": "Agropecuária Ludovico Tozzo",
+        "ref": "CH166",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 4561983969
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.6838471,
+          -26.8075153
+        ]
+      },
+      "properties": {
+        "addr:hamlet": "Linha Riqueza",
+        "fixme": "Conferir se ainda existe",
+        "produce": "strawberry",
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 4573565573
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1655838,
+          -26.8062218
+        ]
+      },
+      "properties": {
+        "contact:email": "caixatestocentral@hotmail.com",
+        "contact:facebook": "https://www.facebook.com/agropecuarialink.testocentral/",
+        "contact:phone": "+55 47 3387-6122",
+        "name": "Agropecuária Link",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 4607134503
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.7658971,
+          -27.8977935
+        ]
+      },
+      "properties": {
+        "name": "Loja Agropecuária",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 4619734736
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.3628825,
+          -27.7300722
+        ]
+      },
+      "properties": {
+        "amenity": "restaurant",
+        "description": "Café colonial",
+        "name": "Café da Tia Chica",
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 4644372403
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.2862656,
+          -27.6997949
+        ]
+      },
+      "properties": {
+        "amenity": "fast_food",
+        "description": "Produtos Coloniais",
+        "name": "Lanchonete Cruzeiro",
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 4644372405
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.2275342,
+          -27.6890931
+        ]
+      },
+      "properties": {
+        "description": "Produtos Coloniais",
+        "name": "Quitanda Colonial",
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 4644372406
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.0930512,
+          -27.9773435
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "km 261",
+        "addr:street": "SC-114",
+        "name": "Quitanda da Ceni",
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 4683841514
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.620674,
+          -27.1916518
+        ]
+      },
+      "properties": {
+        "name": "Pedras Molinari",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 4712209934
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1746212,
+          -26.735255
+        ]
+      },
+      "properties": {
+        "contact:email": "vendas@marmorariahardt.com.br",
+        "contact:facebook": "marmorariahardt",
+        "contact:instagram": "marmorariahardt",
+        "contact:phone": "+55 47 3387-1733;+55 47 99631-0857",
+        "contact:website": "https://marmorariahardt.com.br",
+        "name": "Marmoraria Hardt",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 4726959274
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6146922,
+          -27.0963998
+        ]
+      },
+      "properties": {
+        "name": "Materiais de Construção",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 4799924268
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0848582,
+          -26.9057012
+        ]
+      },
+      "properties": {
+        "check_date:opening_hours": "2025-04-30",
+        "contact:phone": "+55 47 3340-1775",
+        "name": "SOS Encanador",
+        "opening_hours": "Mo-Fr 07:30-18:00; Sa 08:00-12:00; Su off",
+        "shop": "trade",
+        "source:opening_hours": "survey",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 4838981452
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1792914,
+          -28.3278268
+        ]
+      },
+      "properties": {
+        "addr:street": "Rua João Wessler",
+        "craft": "bakery",
+        "name": "Feira de Produtos Coloniais",
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 4840878397
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1707572,
+          -26.7246872
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 3387-1719;+55 47 3387-1249",
+        "name": "Agropecuária Link",
+        "opening_hours": "Mo-Fr 08:00-12:00, 13:30-18:30; Sa 08:00-12:00",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 4850935209
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1644875,
+          -26.7099204
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 3387-4292",
+        "name": "Agropecuária Weiler",
+        "opening_hours": "Mo-Fr 08:00-12:00, 13:30-18:30; Sa 08:00-12:00",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 4876954894
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1617611,
+          -26.7033911
+        ]
+      },
+      "properties": {
+        "contact:facebook": "agropecuariatesto",
+        "contact:instagram": "agrotesto",
+        "contact:phone": "+55 47 3306-6383",
+        "contact:whatsapp": "+55 47 99157-6512",
+        "level": "0",
+        "name": "Agropecuária Testo",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 5072577063
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.3185614,
+          -28.5309936
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "104",
+        "addr:postcode": "88840-000",
+        "addr:street": "Rua João Maria Cancelier",
+        "addr:suburb": "Estação",
+        "contact:email": "furlan.material@hotmail.com",
+        "contact:facebook": "www.facebook.com/furlanmc",
+        "contact:phone": "+55 48 3465-6443",
+        "name": "Furlan Materiais de Construção",
+        "opening_hours": "Mo-Fr 08:00-11:30,13:30-18:00; Sa 08:00-12:00",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 5079026757
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6713737,
+          -27.6531253
+        ]
+      },
+      "properties": {
+        "name": "Aviário Palhoça",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 5308714692
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.4043817,
+          -26.2186586
+        ]
+      },
+      "properties": {
+        "addr:city": "São Bento do Sul",
+        "addr:street": "Rua Francisco Pauli",
+        "addr:suburb": "Oxford",
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 5350125052
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.091506,
+          -26.9037566
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 3323-6534;+55 47 3323-1414",
+        "fixme": "especificar tipo de loja",
+        "name": "Rolablu",
+        "shop": "trade",
+        "osm_type": "node",
+        "osm_id": 5423453548
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6411108,
+          -27.2438559
+        ]
+      },
+      "properties": {
+        "agrarian": "stihl",
+        "name": "Agro Steil",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 5470432740
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1453969,
+          -26.8771769
+        ]
+      },
+      "properties": {
+        "name": "Materias de Construção Morino",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 5481539801
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.4865748,
+          -28.9330111
+        ]
+      },
+      "properties": {
+        "addr:city": "Araranguá",
+        "addr:postcode": "88900-000",
+        "addr:street": "Rua Coronel Apolinário Pereira",
+        "addr:suburb": "Centro",
+        "agrarian": "feed;tools;fertilizer",
+        "contact:phone": "+55 48 3522-0207",
+        "name": "Casa do agricultor",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 5512132882
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.4267231,
+          -28.6546856
+        ]
+      },
+      "properties": {
+        "name": "Agropecuária Minhoca",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 5559379185
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.4311284,
+          -28.6587456
+        ]
+      },
+      "properties": {
+        "name": "Frello Materiais de Construção",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 5559390788
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.4358174,
+          -28.6626011
+        ]
+      },
+      "properties": {
+        "name": "Pizzoni Materiais para Construção",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 5559402800
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.3942341,
+          -28.6936864
+        ]
+      },
+      "properties": {
+        "name": "Alianda Pisos",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 5562918497
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.3825024,
+          -28.6813994
+        ]
+      },
+      "properties": {
+        "name": "SC Center",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 5564720111
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.3855401,
+          -28.6731876
+        ]
+      },
+      "properties": {
+        "name": "Peterle Materiais de Construção",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 5564831755
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.403793,
+          -28.6894929
+        ]
+      },
+      "properties": {
+        "name": "Mazieiro Materiais de Construção",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 5564865774
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.4121234,
+          -28.6879812
+        ]
+      },
+      "properties": {
+        "name": "Araújo Materiais de Construção",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 5564888781
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.3747383,
+          -28.6923608
+        ]
+      },
+      "properties": {
+        "name": "Artemag Mármores",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 5566705940
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.8035568,
+          -27.5666569
+        ]
+      },
+      "properties": {
+        "check_date": "2024-12-26",
+        "contact:email": "marlielzaribeiro@gmail.com",
+        "contact:phone": "+55 48 98433-2002;+55 48 98436-6639",
+        "name": "Casa do Agricultor e Produtos Artesanais",
+        "opening_hours": "Mo-Fr 13:00-17:00 || \"by appointment\"",
+        "payment:cash": "yes",
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 5577396259
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.7574502,
+          -27.8991188
+        ]
+      },
+      "properties": {
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 5591204356
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0914604,
+          -26.9117835
+        ]
+      },
+      "properties": {
+        "contact:email": "vedafer@vedafer.com.br",
+        "contact:fax": "+55 47 3326-4978",
+        "contact:phone": "+55 47 3326-5252",
+        "contact:website": "http://vedafer.com.br/",
+        "name": "Vedafer Vedações Industriais",
+        "shop": "trade",
+        "osm_type": "node",
+        "osm_id": 5686396294
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6560967,
+          -26.896236
+        ]
+      },
+      "properties": {
+        "name": "Benassi",
+        "shop": "trade",
+        "strapline": "Materiais de Construção",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 5687977223
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0872104,
+          -26.8903731
+        ]
+      },
+      "properties": {
+        "contact:email": "contato@empiblu.com.br",
+        "contact:phone": "+55 47 3323-3498",
+        "contact:website": "http://www.empiblu.com.br",
+        "description": "Peças para empilhadeiras e tratores",
+        "name": "Empiblu",
+        "shop": "trade",
+        "osm_type": "node",
+        "osm_id": 5757591827
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1642153,
+          -26.7095538
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 3395-1240",
+        "name": "GE Materiais Elétricos e Hidráulicos",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 5776345955
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1484533,
+          -26.6839556
+        ]
+      },
+      "properties": {
+        "level": "0",
+        "name": "Agropecuária Baumann",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 5776346089
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7007074,
+          -26.9111895
+        ]
+      },
+      "properties": {
+        "addr:street": "Avenida Campos Novos",
+        "name": "Rio Bonito Material de Construção",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 5784466053
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0606874,
+          -26.8932855
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 3209-1800",
+        "name": "Cardeal Agropecuária",
+        "old_name": "Blumix",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "wheelchair": "yes",
+        "osm_type": "node",
+        "osm_id": 5809160266
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.9987563,
+          -26.7902358
+        ]
+      },
+      "properties": {
+        "name": "Agrotudo",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 5809537153
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1735548,
+          -26.7494547
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 3306-6673",
+        "name": "Agropecuária RB Boaventura",
+        "opening_hours": "Mo-Fr 08:00-12:00, 13:30-18:30; Sa 08:00-12:00",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 5880244481
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.2842365,
+          -26.9493492
+        ]
+      },
+      "properties": {
+        "name": "Agrovale Agropecuária",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 5904425476
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0938905,
+          -26.8715461
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 3378-1999",
+        "name": "Bauer Telhas e Churrasqueiras",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 5941485350
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6264874,
+          -27.2228966
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 48 3263-1835",
+        "name": "Vidraçaria Feltz",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 5950239794
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1006751,
+          -26.8723608
+        ]
+      },
+      "properties": {
+        "name": "Marmoraria Grampedras",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 6151407385
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1718784,
+          -26.7311074
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 3387-1345",
+        "name": "Marmoraria Pomerode",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 6172033443
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.8146071,
+          -26.5025379
+        ]
+      },
+      "properties": {
+        "name": "Alfa - Agropecuária",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 6175820697
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.8547182,
+          -26.349494
+        ]
+      },
+      "properties": {
+        "level": "1",
+        "name": "Dal Piva e Scheffer",
+        "shop": "trade",
+        "wheelchair": "limited",
+        "osm_type": "node",
+        "osm_id": 6177061533
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.085624,
+          -26.8809283
+        ]
+      },
+      "properties": {
+        "contact:facebook": "AgroAvicolaLtda",
+        "name": "Agro Avícola",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 6185270749
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.7578038,
+          -27.8986311
+        ]
+      },
+      "properties": {
+        "name": "KS Materiais Elétricos",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 6203199707
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.5313283,
+          -26.9562993
+        ]
+      },
+      "properties": {
+        "name": "Agropecuária São João",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 6221728651
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.5321039,
+          -26.9578759
+        ]
+      },
+      "properties": {
+        "name": "Tomé Agropecuária",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 6221729153
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1413689,
+          -26.8777284
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 99148-5541",
+        "level": "0",
+        "name": "Aberturas Bauler",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 6226137165
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.7159378,
+          -26.7952489
+        ]
+      },
+      "properties": {
+        "name": "Família Cardozo produtos agro ecológicos",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 6231259599
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.8327885,
+          -26.4452221
+        ]
+      },
+      "properties": {
+        "name": "Agropecuária do valduga",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 6231259602
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.0670723,
+          -26.3943548
+        ]
+      },
+      "properties": {
+        "name": "Coopere",
+        "office": "cooperative",
+        "osm_type": "node",
+        "osm_id": 6231259616
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.101041,
+          -26.3918412
+        ]
+      },
+      "properties": {
+        "name": "Agropecuária Cara Branca",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 6231259788
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.9809325,
+          -26.8456944
+        ]
+      },
+      "properties": {
+        "name": "Agronomica",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 6240190899
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1155102,
+          -26.8866007
+        ]
+      },
+      "properties": {
+        "name": "JR Esquadrias",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 6268920833
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.1805899,
+          -26.9908367
+        ]
+      },
+      "properties": {
+        "name": "Cooperviso",
+        "office": "cooperative",
+        "osm_type": "node",
+        "osm_id": 6270433831
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1016018,
+          -26.8784533
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 3338-1772",
+        "name": "Pedras das Minas",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 6304843246
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1424492,
+          -26.8691762
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 3334-1300",
+        "name": "Agro Girassol",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 6312492888
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.2716125,
+          -26.361302
+        ]
+      },
+      "properties": {
+        "name": "Coopetradição",
+        "office": "cooperative",
+        "osm_type": "node",
+        "osm_id": 6312780989
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.2695609,
+          -26.3537439
+        ]
+      },
+      "properties": {
+        "name": "Cooperalfa",
+        "office": "cooperative",
+        "osm_type": "node",
+        "osm_id": 6312780991
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0992576,
+          -26.8872966
+        ]
+      },
+      "properties": {
+        "contact:email": "saablu@saablu.com.br",
+        "contact:phone": "+55 47 3036-8200",
+        "description": "Compressores, bombas hidráulicas, tubos e conexões, registros, válvulas",
+        "name": "Sul Ar e Água Equipamentos",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 6329903607
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.8005792,
+          -27.5644487
+        ]
+      },
+      "properties": {
+        "name": "Verde Vale",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 6333757924
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1638747,
+          -26.8155839
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 3304-4093",
+        "name": "Camponês Agro e Construção",
+        "opening_hours": "Mo-Fr 08:00-18:00; Sa 07:20-12:00; Su off",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 6334600157
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0827204,
+          -26.8737401
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 99149-3340",
+        "craft": "metal_construction",
+        "name": "Serralheria Metalteco",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 6338906551
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1001024,
+          -26.886311
+        ]
+      },
+      "properties": {
+        "contact:email": "contato@elevadoresblumenau.com.br",
+        "contact:phone": "+55 47 3323-6995",
+        "contact:website": "http://www.elevadoresblumenau.com.br",
+        "name": "Elevadores Blumenau",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 6410644446
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1099248,
+          -26.8751074
+        ]
+      },
+      "properties": {
+        "contact:email": "contato@masterbluequipamentos.com.br",
+        "contact:phone": "+55 47 3334-0021",
+        "contact:website": "https://www.masterbluequipamentos.com.br",
+        "name": "Masterblu",
+        "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-17:00",
+        "shop": "trade",
+        "trade": "catering_supplies",
+        "osm_type": "node",
+        "osm_id": 6432564033
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1146897,
+          -26.8712266
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 98463-8198",
+        "craft": "metal_construction",
+        "name": "Serralheria VF",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 6501311934
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1446763,
+          -26.5015592
+        ]
+      },
+      "properties": {
+        "name": "Agropecuaria Fazenda",
+        "phone": "+55 47 3276 0178",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 6556087198
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0676828,
+          -26.4915122
+        ]
+      },
+      "properties": {
+        "addr:city": "Jaraguá do Sul",
+        "addr:housenumber": "430",
+        "addr:postcode": "89258-071",
+        "addr:street": "Rua Rinaldo Bogo",
+        "addr:suburb": "Ilha da Figueira",
+        "name": "AgroePets",
+        "phone": "+55 47 3371-9765",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "website": "https://www.agroepets.com.br/",
+        "osm_type": "node",
+        "osm_id": 6570914191
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1135792,
+          -26.5104728
+        ]
+      },
+      "properties": {
+        "addr:city": "Jaraguá do Sul",
+        "addr:housenumber": "380",
+        "addr:street": "Rua Angelo Rubini",
+        "addr:suburb": "Barra do Rio Cerro",
+        "name": "Império das Máquinas & Agro Comercial",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 6594321472
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1618174,
+          -26.7039626
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 3387-2079",
+        "name": "Transportes e Aterros Borchardt",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 6642102849
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0934292,
+          -26.870534
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 3041-5610",
+        "name": "A Parada 1",
+        "shop": "trade",
+        "trade": "timber_yard",
+        "osm_type": "node",
+        "osm_id": 6737699305
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.5667343,
+          -26.9663916
+        ]
+      },
+      "properties": {
+        "name": "Bide Produtos Coloniais",
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 7063889754
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.7346163,
+          -27.1738768
+        ]
+      },
+      "properties": {
+        "name": "Mascarello Materiais de Construção",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 7112970927
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1832255,
+          -26.7641721
+        ]
+      },
+      "properties": {
+        "contact:email": "rpmmarmoraria@hotmail.com",
+        "contact:facebook": "marmorariarpm",
+        "contact:phone": "+55 47 3394-8414",
+        "contact:whatsapp": "+55 47 99938-0965",
+        "name": "Marmoraria RPM",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 7141182183
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1152194,
+          -26.5123383
+        ]
+      },
+      "properties": {
+        "name": "Agroevandro",
+        "shop": "trade",
+        "source": "Prefeitura Municipal de Jaraguá do Sul",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 7159481934
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.2144826,
+          -26.7302414
+        ]
+      },
+      "properties": {
+        "name": "Produto Artesanal Keske",
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 7185618115
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.115295,
+          -26.8710251
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 99680-6189",
+        "name": "Agro Henrique",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 7194552073
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1812339,
+          -26.7229083
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 3387-4952",
+        "name": "Comercial Sítio & Quintal",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 7234406762
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1334718,
+          -26.8790957
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "4465",
+        "addr:street": "BR-470",
+        "contact:phone": "+55 47 3334-0061",
+        "contact:website": "http://www.pedrasrampeloti.com.br",
+        "name": "Pedras Rampeloti",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 7330556973
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9233985,
+          -27.2708412
+        ]
+      },
+      "properties": {
+        "addr:street": "Rua Nossa Senhora do Bom Socorro",
+        "name": "Banotti Plantio e Comercio de Bananas",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 7519528446
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5700936,
+          -27.782738
+        ]
+      },
+      "properties": {
+        "check_date": "2024-08-19",
+        "currency:BRL": "yes",
+        "currency:XBT": "yes",
+        "name": "Kelicias Naturais",
+        "payment:cash": "yes",
+        "payment:lightning": "yes",
+        "payment:onchain": "yes",
+        "phone:mobile": "+55 48 98878 5155",
+        "shop": "farm",
+        "survey:date": "2024-08-08",
+        "osm_type": "node",
+        "osm_id": 7617031511
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5995781,
+          -27.1593534
+        ]
+      },
+      "properties": {
+        "name": "Marmoraria Trevo",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 7702519689
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5979594,
+          -27.1588379
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "2128",
+        "addr:street": "Avenida Governador Celso Ramos",
+        "name": "Catixaba",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 7702519694
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5972514,
+          -27.1587019
+        ]
+      },
+      "properties": {
+        "name": "Marmoraria Granitan",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 7702519695
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5962428,
+          -27.1583928
+        ]
+      },
+      "properties": {
+        "name": "Rei das Telhas",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 7702519697
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5953923,
+          -27.1581546
+        ]
+      },
+      "properties": {
+        "name": "Multicalhas",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 7702519701
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5947823,
+          -27.1579226
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1700",
+        "addr:street": "Avenida Governador Celso Ramos",
+        "name": "Madeirama",
+        "shop": "trade",
+        "trade": "timber",
+        "osm_type": "node",
+        "osm_id": 7702519705
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5944967,
+          -27.1579167
+        ]
+      },
+      "properties": {
+        "name": "LJ",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 7702519707
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5939576,
+          -27.157566
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1008",
+        "addr:street": "Avenida Colombo Machado Sales",
+        "description": "Fechadruas e Acessórios para Móveis",
+        "name": "TravaForte",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 7702519711
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5926822,
+          -27.1572903
+        ]
+      },
+      "properties": {
+        "name": "Madeireira SC",
+        "shop": "trade",
+        "trade": "timber",
+        "osm_type": "node",
+        "osm_id": 7702519713
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.583515,
+          -27.1584584
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1492",
+        "addr:street": "Avenida Governador Celso Ramos",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 7702519721
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6121956,
+          -27.5815177
+        ]
+      },
+      "properties": {
+        "addr:city": "São José",
+        "addr:milestone": "205",
+        "addr:postcode": "88117-901",
+        "addr:street": "BR-101",
+        "addr:suburb": "Barreiros",
+        "name": "Bino Frutícola Comércio de Frutas",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "payment:cash": "yes",
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 7787620211
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0018657,
+          -26.6078743
+        ]
+      },
+      "properties": {
+        "name": "Comércio de Material de Construção Micar",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 7854971955
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6170945,
+          -27.0918014
+        ]
+      },
+      "properties": {
+        "name": "Caiçara Equipamentos",
+        "shop": "trade",
+        "trade": "industrial_equipment",
+        "osm_type": "node",
+        "osm_id": 7975011020
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6165624,
+          -27.0905731
+        ]
+      },
+      "properties": {
+        "name": "Tesla Comercial",
+        "shop": "trade",
+        "trade": "industrial_equipment",
+        "website": "https://teslacomercial.com.br/",
+        "osm_type": "node",
+        "osm_id": 7993805235
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6161619,
+          -27.0899659
+        ]
+      },
+      "properties": {
+        "name": "Oberderfer",
+        "shop": "trade",
+        "trade": "industrial_equipment",
+        "osm_type": "node",
+        "osm_id": 8125185159
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6166612,
+          -27.0895101
+        ]
+      },
+      "properties": {
+        "name": "AMS Group",
+        "shop": "trade",
+        "trade": "business_automation",
+        "osm_type": "node",
+        "osm_id": 8125188724
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.293611,
+          -28.7073976
+        ]
+      },
+      "properties": {
+        "addr:city": "Içara",
+        "addr:housenumber": "544",
+        "addr:postcode": "88820-000",
+        "addr:street": "Rua Melchíades Bonifácio Espíndola",
+        "addr:suburb": "Jardim Silvana",
+        "name": "Distribuidora Dagostim",
+        "opening_hours": "Mo-Fr 07:30-17:30",
+        "operator": "Distribuidora Dagostim",
+        "phone": "+55 48 34680122",
+        "shop": "trade",
+        "trade": "construction_supplies",
+        "website": "https://www.distribuidoradagostim.com.br/",
+        "osm_type": "node",
+        "osm_id": 8390574240
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6958524,
+          -28.1652367
+        ]
+      },
+      "properties": {
+        "addr:city": "Imbituba",
+        "addr:milestone": "277",
+        "addr:postcode": "88780-000",
+        "addr:street": "BR-101",
+        "addr:suburb": "Alto Arroio",
+        "name": "Manuchar Comércio Exterior",
+        "shop": "trade",
+        "osm_type": "node",
+        "osm_id": 8493368368
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.3206777,
+          -27.0698103
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "2108",
+        "addr:street": "Avenida José Bressan",
+        "name": "Dorigon Agropecuária",
+        "old_name": "Biblioteca Pública Municipal Riqueza de Cultura",
+        "phone": "+55-49-3675-0256",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 8636263035
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.5972446,
+          -28.0184117
+        ]
+      },
+      "properties": {
+        "contact:facebook": "https://www.facebook.com/sucoscelestino/",
+        "contact:instagram": "https://www.instagram.com/sucos_celestino/?hl=en",
+        "contact:phone": "+55 49 99914-5334",
+        "contact:website": "https://sucoscelestino.negocio.site/",
+        "contact:whatsapp": "+55 49 99129-0443",
+        "name": "Sucos Celestino",
+        "opening_hours": "Mo-Su 08:00-18:00",
+        "produce": "juice",
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 8975894516
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.2097726,
+          -27.6840696
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 49 98804-7046",
+        "description": "Produtos coloniais",
+        "name": "Banca da Carroça",
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 8988317571
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1504687,
+          -26.695706
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "567",
+        "addr:street": "Rua Rega III",
+        "contact:facebook": "bgconcretos.artefatos",
+        "contact:phone": "+55 47 3387-0955",
+        "contact:whatsapp": "+55 47 99739-3059",
+        "description": "Artefatos de cimento",
+        "name": "BG Artefatos de Cimento",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 8989096889
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5216164,
+          -27.1721401
+        ]
+      },
+      "properties": {
+        "name": "Agro Silva",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 9061222916
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5192004,
+          -27.1656142
+        ]
+      },
+      "properties": {
+        "name": "Agro e Pesca Tradição",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 9061225118
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.4872499,
+          -27.1496222
+        ]
+      },
+      "properties": {
+        "name": "Veratoni",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 9061241072
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0730369,
+          -27.1968793
+        ]
+      },
+      "properties": {
+        "addr:city": "Botuverá",
+        "addr:housenumber": "77",
+        "addr:street": "Avenida Paulo VI",
+        "name": "Paloschi Materiais de Construção",
+        "phone": "+55 47 3359-1241",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 9127889374
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0726304,
+          -27.1967401
+        ]
+      },
+      "properties": {
+        "addr:city": "Botuverá",
+        "addr:housenumber": "78",
+        "addr:street": "Avenida Paulo VI",
+        "name": "Agropecuária Resini",
+        "phone": "+55 47 3359-1374",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 9127889375
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0736292,
+          -27.1986746
+        ]
+      },
+      "properties": {
+        "addr:city": "Botuverá",
+        "addr:housenumber": "2",
+        "addr:street": "Rua Augusto Maestri",
+        "name": "Agropecuária Venzon",
+        "old_name": "Agrocomercial Colzani",
+        "phone": "+55 47 3359-1483",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 9127916995
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.3319541,
+          -26.536425
+        ]
+      },
+      "properties": {
+        "name": "Pronalago",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 9155598560
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2491046,
+          -27.101356
+        ]
+      },
+      "properties": {
+        "name": "Cooperativa Agropecuaria Tangara",
+        "opening_hours": "Mo-Fr 08:30-12:00,13:30-18:00; Sa 08:00-12:00",
+        "shop": "agrarian",
+        "short_name": "Cootan",
+        "osm_type": "node",
+        "osm_id": 9243438069
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6898128,
+          -27.0645812
+        ]
+      },
+      "properties": {
+        "name": "Café Colonial Sabor do Campo",
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 9301565899
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0908299,
+          -26.5053855
+        ]
+      },
+      "properties": {
+        "name": "Top Forros",
+        "phone": "+55 47 99742-1339",
+        "shop": "trade",
+        "osm_type": "node",
+        "osm_id": 9334307096
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.164646,
+          -26.7108344
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 98483-3943",
+        "name": "Agropecuária Glasenapp",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 9335777267
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.3871409,
+          -26.2580026
+        ]
+      },
+      "properties": {
+        "name": "Agroshopping São Luís",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 9408459477
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0586068,
+          -26.8686479
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "2410",
+        "addr:street": "Rua Francisco Vahldieck",
+        "contact:phone": "+55 47 3340-3259",
+        "name": "Friomáquinas",
+        "shop": "trade",
+        "trade": "yes",
+        "osm_type": "node",
+        "osm_id": 9527306873
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5555524,
+          -27.5960732
+        ]
+      },
+      "properties": {
+        "name": "Casas da Água",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 9553138413
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6432257,
+          -27.1393972
+        ]
+      },
+      "properties": {
+        "name": "Comercial Sertão",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 9574058829
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9279623,
+          -27.2860233
+        ]
+      },
+      "properties": {
+        "name": "Fort Lar",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 9576802345
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5560392,
+          -27.5955194
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "582",
+        "addr:street": "Rua Francisco Tolentino",
+        "name": "Hidro Bombas",
+        "shop": "trade",
+        "trade": "plumbing",
+        "osm_type": "node",
+        "osm_id": 9616148717
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1716321,
+          -26.7584858
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 99228-8701",
+        "name": "Agropecuária Glasenapp",
+        "old_name": "Agro Pet WS",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 9673171306
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7047005,
+          -26.5886274
+        ]
+      },
+      "properties": {
+        "addr:street": "Estrada Prefeito Miguel Tito Rosa",
+        "name": "Agropecuária Morro Grande",
+        "phone": "+55 47 99235-3394",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 9695627010
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7282705,
+          -27.1913776
+        ]
+      },
+      "properties": {
+        "name": "Bianchezzi Pordutos Coloniais",
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 9711184385
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1196665,
+          -27.1886018
+        ]
+      },
+      "properties": {
+        "name": "Agro Lageado",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 9815808610
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0917424,
+          -26.4786963
+        ]
+      },
+      "properties": {
+        "name": "SOS Parabólicas",
+        "phone": "+55 47 99975-0045",
+        "shop": "trade",
+        "trade": "yes",
+        "osm_type": "node",
+        "osm_id": 9839672230
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.3426419,
+          -26.6885027
+        ]
+      },
+      "properties": {
+        "name": "Agropecuária Progresso",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 9883012734
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.272757,
+          -26.7380834
+        ]
+      },
+      "properties": {
+        "name": "Casa do Colono",
+        "phone": "+55 47 3386-1224",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 9917585048
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6173666,
+          -27.096575
+        ]
+      },
+      "properties": {
+        "air_conditioning": "yes",
+        "internet_access": "wlan",
+        "name": "Revestir Acabamentos",
+        "shop": "trade",
+        "stroller": "yes",
+        "trade": "building_supplies",
+        "wheelchair": "yes",
+        "osm_type": "node",
+        "osm_id": 9973662986
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0557001,
+          -26.9299304
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 3041-1642",
+        "name": "SZ Materiais de Construção",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 9977057364
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.6247333,
+          -28.3406316
+        ]
+      },
+      "properties": {
+        "name": "Agro Santo Antão",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 10007447102
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7651023,
+          -27.6854989
+        ]
+      },
+      "properties": {
+        "addr:city": "Santo Amaro da Imperatriz",
+        "addr:postcode": "88140-000",
+        "addr:street": "Rua Natividade",
+        "addr:suburb": "Vila Becker",
+        "name": "Traktor Haus",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 10102007879
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.1141308,
+          -27.5054
+        ]
+      },
+      "properties": {
+        "name": "Feira Agroecológica",
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 10247078914
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.1451864,
+          -26.4056762
+        ]
+      },
+      "properties": {
+        "name": "Agricol - Casa, Campo e Construção",
+        "phone": "+55 47 3653-6200",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "website": "https://www.agricol.net.br/",
+        "osm_type": "node",
+        "osm_id": 10260892652
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.1547444,
+          -26.4002183
+        ]
+      },
+      "properties": {
+        "name": "Cooperalfa Agropecuaria",
+        "phone": "+55 47 3653-2809",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 10260892660
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.1606988,
+          -26.397668
+        ]
+      },
+      "properties": {
+        "name": "Agropedrinho Comércio de Insumos e Cereais",
+        "phone": "+55 47 3653-1286",
+        "shop": "agrarian",
+        "website": "https://www.agropedrinho.com.br/",
+        "osm_type": "node",
+        "osm_id": 10260892663
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.162929,
+          -26.3957899
+        ]
+      },
+      "properties": {
+        "name": "Big Safra",
+        "phone": "+55 47 3653-2090",
+        "shop": "agrarian",
+        "website": "https://bigsafra.com.br/",
+        "osm_type": "node",
+        "osm_id": 10260892665
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.1636784,
+          -26.3942082
+        ]
+      },
+      "properties": {
+        "name": "Agrícola Igarashi",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 10260892672
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.0255824,
+          -26.4179399
+        ]
+      },
+      "properties": {
+        "name": "Frutas Komochena",
+        "phone": "+55 47 99795-8651",
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 10265091206
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.687098,
+          -26.9312831
+        ]
+      },
+      "properties": {
+        "email": "ecommerce@cleanpackdistribuidora.com.br",
+        "name": "CleanPack Distribuidora",
+        "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+        "phone": "+55 47 3346-3611;+55 47 99247-1716",
+        "shop": "trade",
+        "trade": "yes",
+        "website": "https://www.cleanpackdistribuidora.com.br",
+        "osm_type": "node",
+        "osm_id": 10293614854
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5053761,
+          -27.1439771
+        ]
+      },
+      "properties": {
+        "check_date": "2023-01-05",
+        "level": "0",
+        "name": "Bomac Materiais de Construção",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "trade",
+        "source": "survey",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 10307904178
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1595268,
+          -26.8236878
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 3387-6033",
+        "name": "Indústria de Madeiras Pomerode",
+        "shop": "trade",
+        "trade": "timber_yard",
+        "osm_type": "node",
+        "osm_id": 10560731906
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.133897,
+          -26.8527161
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 3334-4026",
+        "name": "Casa do Rodapé",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 10571709504
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.5929052,
+          -27.1096639
+        ]
+      },
+      "properties": {
+        "addr:street": "Estrada Geral Fortaleza",
+        "agrarian": "yes",
+        "email": "coopafasjo.nfe@gmail.com",
+        "name": "Agropecuária Coopafasjo",
+        "opening_hours": "Mo-Fr 07:30-11:30,13:00-18:00; Sa 07:30-11:30; PH off",
+        "operator": "Cooperativa Mista da Agricultura Familiar de São João do Oeste",
+        "operator:type": "cooperative",
+        "ownership": "private",
+        "phone": "+55-49-3636-3086",
+        "shop": "trade",
+        "short_name": "Agro Coopafa",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 10748608356
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.5031543,
+          -26.8233176
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "200",
+        "addr:street": "Avenida Santa Helena",
+        "brand": "Uniagro",
+        "name": "Agro Ivo",
+        "phone": "+55-49-3623-0909",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 10791280981
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.5487004,
+          -26.8301767
+        ]
+      },
+      "properties": {
+        "addr:street": "Rodovia Aurélio Francisco Marconatto",
+        "building": "hut",
+        "operator:type": "private",
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 10794036429
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.5672155,
+          -26.5059828
+        ]
+      },
+      "properties": {
+        "addr:city": "Rio Negrinho",
+        "addr:postcode": "89295-000",
+        "addr:street": "SC-112",
+        "addr:suburb": "Volta Grande",
+        "name": "Conservas Nova Aliança",
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 10803272784
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.8637299,
+          -27.0727579
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "480",
+        "addr:street": "Rua do Comércio",
+        "alt_name": "Cooperativa Agrícola Familiar Cooperare",
+        "contact:facebook": "https://www.facebook.com/cooperare/",
+        "description": "Loja de produtos da agricultura familiar de Planalto Alegre e região.",
+        "email": "cooperarepa@gmail.com",
+        "name": "Casa Colonial",
+        "opening_hours": "Mo-Fr 08:00-11:30,13:30-18:00; Sa 08:00-11:30; Su,PH off",
+        "operator": "Cooperativa Agrícola Familiar Cooperare",
+        "operator:type": "cooperative",
+        "phone": "+55-49-3335-0379",
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 10844714843
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.8888622,
+          -27.072451
+        ]
+      },
+      "properties": {
+        "addr:street": "Rodovia Plínio Arlindo de Nes",
+        "name": "Quiosque Francescon",
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 10844714865
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.3185103,
+          -26.9487841
+        ]
+      },
+      "properties": {
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 10985410823
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6995883,
+          -26.919835
+        ]
+      },
+      "properties": {
+        "addr:city": "Itajaí",
+        "addr:street": "Avenida Vereador Nilo Simas",
+        "addr:suburb": "Cidade Nova",
+        "name": "Itajaí Ferro & Aço",
+        "shop": "trade",
+        "trade": "yes",
+        "website": "https://www.itajaiferroeaco.ind.br/",
+        "osm_type": "node",
+        "osm_id": 11182227519
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1686893,
+          -26.6887354
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 3395-0050; +55 47 3394-1589",
+        "name": "Tratavale Madeiras",
+        "shop": "trade",
+        "trade": "timber_yard",
+        "osm_type": "node",
+        "osm_id": 11235061214
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0813632,
+          -26.8808326
+        ]
+      },
+      "properties": {
+        "contact:instagram": "vitalagropecuaria_",
+        "contact:phone": "+55 47 3080-0598",
+        "contact:whatsapp": "+55 47 99118-8020",
+        "name": "Vital Agropecuária",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 11469211106
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0728311,
+          -26.883524
+        ]
+      },
+      "properties": {
+        "name": "Gauchão Materiais de Construção",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 11474146628
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0756501,
+          -26.8821233
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 3338-4337",
+        "name": "AgroavicolaAJ",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 11474166286
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0784624,
+          -26.8795168
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 99183-7809",
+        "name": "Marmoraria SS",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 11474166513
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0707189,
+          -26.8966883
+        ]
+      },
+      "properties": {
+        "contact:email": "vendas@engetelhas.com",
+        "contact:facebook": "engetelhasltda",
+        "contact:instagram": "engetelhas",
+        "contact:phone": "+55 47 3323-0600",
+        "contact:website": "https://engetelhas.com",
+        "contact:whatsapp": "+55 47 99936-1053",
+        "description": "Venda de telhas e tijolos",
+        "name": "Engetelhas",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 11474801724
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0733635,
+          -26.9065826
+        ]
+      },
+      "properties": {
+        "name": "Base Forte",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 11477287090
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1211002,
+          -26.9092626
+        ]
+      },
+      "properties": {
+        "contact:facebook": "casajairblu",
+        "contact:instagram": "casajairblu",
+        "contact:phone": "+55 47 3323-4115",
+        "contact:website": "http://casajair.com.br",
+        "name": "Casa Jair",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 11505095467
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1191757,
+          -26.8878851
+        ]
+      },
+      "properties": {
+        "alt_name": "Top Max Soluções Hidráulicas",
+        "brand": "Krona",
+        "contact:email": "contato@topmax.ind.br",
+        "contact:facebook": "topmaxraloslineares",
+        "contact:instagram": "top_maxralos",
+        "contact:phone": "+55 47 3037-5323",
+        "contact:website": "https://topmax.ind.br",
+        "name": "Top-Max Soluções Hidráulicas",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 11512961349
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7571949,
+          -27.6767484
+        ]
+      },
+      "properties": {
+        "addr:city": "Santo Amaro da Imperatriz",
+        "addr:postcode": "88140-000",
+        "addr:street": "Rua Gilberto João Deucher",
+        "addr:suburb": "Vila Becker",
+        "name": "Diferpan",
+        "shop": "trade",
+        "osm_type": "node",
+        "osm_id": 11698005127
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.7225161,
+          -29.3229788
+        ]
+      },
+      "properties": {
+        "name": "Casa do agricultor",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 11802823138
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.2107222,
+          -26.725558
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 3387-1606",
+        "contact:whatsapp": "+55 47 99137-9742",
+        "name": "Marmoraria 3 Irmãos",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 11965423349
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.085353,
+          -26.8650704
+        ]
+      },
+      "properties": {
+        "contact:website": "https://cassol.com.br",
+        "name": "Cassol",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 12065698625
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1618818,
+          -26.8209112
+        ]
+      },
+      "properties": {
+        "check_date:opening_hours": "2025-09-01",
+        "name": "ART Britagem",
+        "opening_hours": "Mo-Fr 07:00-11:45, 13:00-16:45; Sa-Su off",
+        "shop": "trade",
+        "source:opening_hours": "entrance",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 12067219563
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0863612,
+          -26.8785611
+        ]
+      },
+      "properties": {
+        "name": "Diferglass",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 12079259344
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1399558,
+          -26.7003925
+        ]
+      },
+      "properties": {
+        "alt_name": "Jandre",
+        "contact:email": "vendas@jandre.com.br",
+        "contact:facebook": "JAndrePomerode",
+        "contact:instagram": "j.andrepomerode",
+        "contact:phone": "+55 47 3380-1111",
+        "contact:website": "https://jandre.com.br",
+        "man_made": "works",
+        "name": "J.André",
+        "shop": "trade",
+        "start_date": "2000",
+        "trade": "windows",
+        "osm_type": "node",
+        "osm_id": 12150141700
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7107566,
+          -27.6824865
+        ]
+      },
+      "properties": {
+        "addr:city": "Palhoça",
+        "addr:street": "Avenida São Cristóvão",
+        "addr:suburb": "Alto Aririu",
+        "name": "Alimentos Toscana",
+        "shop": "trade",
+        "osm_type": "node",
+        "osm_id": 12186771561
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5928541,
+          -27.8911719
+        ]
+      },
+      "properties": {
+        "addr:city": "Palhoça",
+        "addr:street": "Rua Aderbal Ramos da Silva",
+        "addr:suburb": "Pinheira",
+        "name": "Agro Morretes",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 12187092044
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7092128,
+          -27.6822368
+        ]
+      },
+      "properties": {
+        "addr:city": "Palhoça",
+        "addr:street": "Avenida São Cristóvão",
+        "addr:suburb": "Alto Aririu",
+        "name": "FortKampo Agropecuária",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 12253807061
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1247788,
+          -26.892892
+        ]
+      },
+      "properties": {
+        "name": "Agro Chiodini",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 12332791199
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0162136,
+          -28.4281965
+        ]
+      },
+      "properties": {
+        "addr:city": "Tubarão - Santa Catarina",
+        "addr:postcode": "88708-701",
+        "addr:street": "Rua José Alves dos Santos Passos",
+        "addr:suburb": "São Martinho",
+        "check_date": "2024-11-18",
+        "contact:email": "comercial@grupofigueiredo.com",
+        "contact:facebook": "https://www.facebook.com/grupofigueiredoaco",
+        "contact:instagram": "https://www.instagram.com/grupofigueiredoaco",
+        "currency:XBT": "yes",
+        "name": "Grupo Figueiredo",
+        "opening_hours": "Mo-Su 08:00-18:00",
+        "payment:lightning": "no",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "yes",
+        "phone": "+55 48 99664 9408",
+        "shop": "trade",
+        "trade": "yes",
+        "website": "https://www.grupofigueiredo.com/",
+        "osm_type": "node",
+        "osm_id": 12352136615
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7502845,
+          -27.6831846
+        ]
+      },
+      "properties": {
+        "name": "CRAVIL",
+        "opening_hours": "Mo-Sa 08:00-18:00",
+        "operator": "CRAVIL",
+        "phone": "+55 48 3374-7269",
+        "shop": "agrarian",
+        "website": "https://www.cravil.com.br",
+        "osm_type": "node",
+        "osm_id": 12449826206
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.5010177,
+          -26.8248312
+        ]
+      },
+      "properties": {
+        "name": "Agropecuária Natureza",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 12462901412
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5892963,
+          -27.1470651
+        ]
+      },
+      "properties": {
+        "name": "Agromais",
+        "phone": "+55 47 99705-6253",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 12497404817
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.2020787,
+          -26.7232126
+        ]
+      },
+      "properties": {
+        "contact:email": "agrotuim@gmail.com",
+        "contact:phone": "+55 47 3306-7078",
+        "contact:whatsapp": "+55 47 99101-2405",
+        "name": "Agropecuária Tuim",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 12526406687
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0802072,
+          -26.8789689
+        ]
+      },
+      "properties": {
+        "contact:email": "contato@imperiodastelhas.com.br",
+        "contact:facebook": "imperioblumenau",
+        "contact:instagram": "imperio_das_telhas_blumenau",
+        "contact:phone": "+55 47 3234-3001; +55 47 3234-3001",
+        "contact:website": "https://imperiodastelhas.com.br",
+        "contact:whatsapp": "+55 47 99232-1309",
+        "name": "Império das Telhas",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 12834931579
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1667621,
+          -26.7851365
+        ]
+      },
+      "properties": {
+        "name": "Feira de Produtos Coloniais",
+        "organic": "yes",
+        "produce": "vegetables",
+        "shop": "farm",
+        "osm_type": "node",
+        "osm_id": 12898413183
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.9511837,
+          -29.1976096
+        ]
+      },
+      "properties": {
+        "IBGE:COD_UNICO_ENDERECO": "217070552",
+        "addr:housenumber": "388",
+        "addr:postcode": "88990-000",
+        "addr:street": "Rua Irineu Bornhausen",
+        "addr:suburb": "Praia Grande",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 12923749920
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.9481651,
+          -29.1960249
+        ]
+      },
+      "properties": {
+        "IBGE:COD_UNICO_ENDERECO": "94798910",
+        "addr:housenumber": "364",
+        "addr:postcode": "88990-000",
+        "addr:street": "Rua Doutor Nereu Ramos",
+        "addr:suburb": "Praia Grande",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 12923749964
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.4036328,
+          -26.8760961
+        ]
+      },
+      "properties": {
+        "addr:city": "Xanxerê",
+        "addr:housenumber": "407",
+        "addr:postcode": "89820-000",
+        "addr:street": "Avenida Brasil",
+        "addr:suburb": "Centro",
+        "name": "Bortoluzzi Sementes",
+        "phone": "049 3441-6200",
+        "shop": "agrarian",
+        "osm_type": "node",
+        "osm_id": 12965545847
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.141373,
+          -26.8777691
+        ]
+      },
+      "properties": {
+        "contact:phone": "+55 47 99928-1932",
+        "level": "0",
+        "name": "Dafré Materiais de Construção",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "node",
+        "osm_id": 13044610876
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0552794,
+          -26.9313791
+        ]
+      },
+      "properties": {
+        "contact:instagram": "agroararangua",
+        "contact:phone": "+55 47 3035-3357",
+        "contact:whatsapp": "+55 47 99618-0331",
+        "level": "0",
+        "name": "Agro Araranguá",
+        "opening_hours": "Mo-Fr 08:00-12:00, 13:30-18:00; Sa 8:00-12:00; Su off",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "node",
+        "osm_id": 13130079412
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5144487,
+          -27.5919494
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "690",
+        "addr:street": "Avenida Madre Benvennuta",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Portobello Shop",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 132818299
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5135042,
+          -27.5018983
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "9220",
+        "addr:street": "Rodovia José Carlos Daux",
+        "building": "commercial",
+        "name": "Madeireira Monte Verde",
+        "shop": "trade",
+        "source:name": "survey",
+        "trade": "wood",
+        "osm_type": "way",
+        "osm_id": 172361471
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.3044661,
+          -27.8135877
+        ]
+      },
+      "properties": {
+        "addr:city": "Lages",
+        "addr:housenumber": "299",
+        "addr:postcode": "88509-000",
+        "addr:street": "Avenida Dom Pedro II",
+        "addr:suburb": "Coral",
+        "building": "retail",
+        "name": "Marin Agropecuária",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "phone": "+55 49 3221-2200",
+        "shop": "trade",
+        "smoking": "no",
+        "trade": "agricultural_supplies",
+        "osm_type": "way",
+        "osm_id": 180851315
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6070864,
+          -27.1239474
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "2232",
+        "addr:street": "Avenida Nereu Ramos - D",
+        "building": "commercial",
+        "name": "Agropecuária Parnoff",
+        "phone": "+55-49-3329-7743",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 193530966
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6086734,
+          -27.1189002
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1591",
+        "addr:postcode": "89812-111",
+        "addr:street": "Avenida Nereu Ramos - D",
+        "addr:suburb": "Universitário",
+        "building": "yes",
+        "craft": "stonemason",
+        "name": "Marmoraria Líder",
+        "operator": "Marmoraria Lider - Center Marmores e Granitos Ltda - ME",
+        "phone": "+55-49-3322-2317",
+        "shop": "trade",
+        "osm_type": "way",
+        "osm_id": 193751740
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.718482,
+          -27.0325167
+        ]
+      },
+      "properties": {
+        "building": "retail",
+        "name": "Comercial Schneiders",
+        "shop": "trade",
+        "osm_type": "way",
+        "osm_id": 223079219
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.7178894,
+          -27.0319942
+        ]
+      },
+      "properties": {
+        "building": "retail",
+        "name": "Comercial Kessler",
+        "shop": "trade",
+        "osm_type": "way",
+        "osm_id": 223079221
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6223596,
+          -27.0860095
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "2231",
+        "addr:street": "Avenida Fernando Machado - D",
+        "building": "yes",
+        "name": "Bigolin Materiais de Construção",
+        "operator": "Bigolin Materiais de Construção Ltda",
+        "phone": "+55-49-3361-8500",
+        "shop": "trade",
+        "osm_type": "way",
+        "osm_id": 243865809
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5015741,
+          -27.5574127
+        ]
+      },
+      "properties": {
+        "addr:city": "Florianópolis",
+        "addr:suburb": "Monte Verde",
+        "building": "commercial",
+        "name": "Angeloi / Balaroti",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 312154162
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9396217,
+          -26.1232744
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "description": "Loja de produtos coloniais com mesas para alimentação",
+        "organic": "yes",
+        "shop": "farm",
+        "osm_type": "way",
+        "osm_id": 329490265
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.5505783,
+          -27.818209
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "description": "Produtos Coloniais e pastel feito na hora",
+        "name": "Casa do Mel",
+        "organic": "yes",
+        "shop": "farm",
+        "osm_type": "way",
+        "osm_id": 368162381
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0959898,
+          -26.4701686
+        ]
+      },
+      "properties": {
+        "addr:city": "Jaraguá do Sul",
+        "addr:housenumber": "81",
+        "addr:street": "Rua Adolpho Augusto Alfredo Ziemann",
+        "building": "commercial",
+        "name": "Comércio de Areia Butzke",
+        "shop": "trade",
+        "osm_type": "way",
+        "osm_id": 370192244
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5033378,
+          -27.1925844
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "Vulcão Material de Construção",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 370459766
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0880348,
+          -26.4988859
+        ]
+      },
+      "properties": {
+        "addr:city": "Jaraguá do Sul",
+        "addr:housenumber": "364",
+        "addr:street": "Rua Walter Marquardt",
+        "addr:suburb": "Vila Nova",
+        "building": "commercial",
+        "name": "Agropecuária Jaraguá",
+        "phone": "+55 47 3371 8911",
+        "shop": "trade",
+        "source": "Bing;survey",
+        "trade": "agricultural_supplies",
+        "osm_type": "way",
+        "osm_id": 377206808
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1289766,
+          -26.9349857
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "50",
+        "addr:postcode": "89045-001",
+        "addr:street": "Rua José Reuter",
+        "building": "yes",
+        "contact:phone": "+55 47 3330-7868",
+        "name": "Agropecuária Taina",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "way",
+        "osm_id": 396326976
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.138667,
+          -26.9318884
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1094",
+        "addr:postcode": "89046-000",
+        "addr:street": "Rua José Reuter",
+        "building": "yes",
+        "contact:phone": "+55 47 3330-0244",
+        "name": "Dematec",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 397485555
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.7571298,
+          -27.8986462
+        ]
+      },
+      "properties": {
+        "building": "retail",
+        "loc_name": "Palito",
+        "name": "Agropecuária Barbosa",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "way",
+        "osm_id": 413035650
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.685153,
+          -26.773841
+        ]
+      },
+      "properties": {
+        "addr:city": "Balneário Piçarras",
+        "addr:housenumber": "Km 102, saída 103",
+        "addr:postcode": "88380-000",
+        "addr:street": "Avenida Vereador Antônio Pereira",
+        "addr:suburb": "Santo Antônio",
+        "building": "retail",
+        "name": "Planeta Mármore",
+        "phone": "+55 47 3347 1114",
+        "shop": "trade",
+        "website": "https://planetamarmore.com.br/",
+        "osm_type": "way",
+        "osm_id": 420280158
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1579852,
+          -26.8198267
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "10809",
+        "addr:street": "Rua dos Atiradores",
+        "addr:suburb": "Testo Central",
+        "building": "commercial",
+        "name": "Supremo Concretos",
+        "phone": "+55 47 3242-2128",
+        "shop": "trade",
+        "trade": "cement",
+        "website": "https://supremocimento.com.br",
+        "osm_type": "way",
+        "osm_id": 435706628
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1685502,
+          -26.750475
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "contact:email": "mineracaoriotesto@gmail.com",
+        "contact:phone": "+55 47 3387-3999;+55 47 3053-9449",
+        "name": "Mineração Rio Testo",
+        "shop": "trade",
+        "short_name": "MRT",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 436161848
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1609167,
+          -26.7012763
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1380",
+        "addr:street": "Rua Presidente Costa e Silva",
+        "alt_name": "Grützmacher Agro Industrial",
+        "building": "house",
+        "check_date:opening_hours": "2024-10-28",
+        "contact:email": "grutagro@gmail.com",
+        "contact:phone": "+55 47 3387-2433",
+        "description": "Posto de Vendas",
+        "name": "Grützmacher Produtos Artesanais",
+        "opening_hours": "Mo-Fr 09:00-12:00,13:30-18:00; Sa 08:00-12:00",
+        "shop": "farm",
+        "source:opening_hours": "survey",
+        "wheelchair": "no",
+        "osm_type": "way",
+        "osm_id": 437226858
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0779205,
+          -26.8941292
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1991",
+        "addr:street": "Rua 2 de Setembro",
+        "building": "yes",
+        "contact:email": "marmorarialaser@gmail.com",
+        "contact:facebook": "https://www.facebook.com/marmoraria.laser.5",
+        "contact:phone": "+55 47 3323-1491",
+        "contact:twitter": "@MarmorariaLaser",
+        "contact:website": "http://www.marmorarialaser.com.br/",
+        "name": "Marmoraria Laser",
+        "opening_hours": "Mo-Fr 08:00-18:00; Sa 08:00-12:00",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 443868991
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6492806,
+          -27.6185356
+        ]
+      },
+      "properties": {
+        "addr:city": "São José",
+        "addr:milestone": "210",
+        "addr:postcode": "88104-800",
+        "addr:street": "Rodovia Governador Mário Covas",
+        "addr:suburb": "Distrito Industrial",
+        "contact:phone": "+55 48 3257-1600",
+        "contact:website": "http://www.madepag.com.br/representantes.htm",
+        "name": "Madepag",
+        "shop": "trade",
+        "trade": "timber",
+        "osm_type": "way",
+        "osm_id": 444163759
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0981899,
+          -26.8926607
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "711",
+        "addr:street": "Rua Benjamin Constant",
+        "building": "retail",
+        "building:levels": "2",
+        "contact:phone": "+55 47 3144-2900",
+        "contact:website": "http://www.construcon.net.br/",
+        "name": "Construcon",
+        "opening_hours": "Mo-Fr 07:30-18:30; Sa 08:00-12:00",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 444210547
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.4075758,
+          -26.7769006
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "AgroTerra",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 451641893
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.2530797,
+          -26.8695242
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "building:levels": "2",
+        "contact:phone": "+55 47 3394-2695",
+        "name": "Construbem",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 458936509
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9172129,
+          -27.077387
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "440",
+        "addr:street": "Rua São Pedro",
+        "building": "retail",
+        "building:colour": "yellow",
+        "building:levels": "3",
+        "name": "Casa Própria",
+        "operator": "Rede Construir",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 459900478
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5437618,
+          -27.3226989
+        ]
+      },
+      "properties": {
+        "addr:city": "Governador Celso Ramos",
+        "addr:housenumber": "162",
+        "addr:postcode": "88190-000",
+        "addr:street": "Avenida Governador Irineu Bornhauser",
+        "addr:suburb": "Palmas",
+        "building": "retail",
+        "contact:phone": "+55 48 3262-8088",
+        "name": "ConstruPalmas Materiais de Construção",
+        "roof:shape": "gabled",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 470386763
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.1040756,
+          -27.9247636
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "km 255",
+        "addr:street": "SC-114",
+        "building": "yes",
+        "name": "Construserra",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 474381701
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.1037666,
+          -27.9249748
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "km 255",
+        "addr:street": "SC-114",
+        "building": "yes",
+        "name": "Agropecuária São Sebastião",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "way",
+        "osm_id": 474383753
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.96608,
+          -26.9256005
+        ]
+      },
+      "properties": {
+        "description": "Pedras Decorativas",
+        "landuse": "retail",
+        "name": "Rochas",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 486888241
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.9609233,
+          -29.1946265
+        ]
+      },
+      "properties": {
+        "IBGE:COD_UNICO_ENDERECO": "225164715",
+        "addr:housenumber": "1120",
+        "addr:postcode": "88990-000",
+        "addr:street": "Rua Mário Bordignon",
+        "addr:suburb": "Centro",
+        "building": "retail",
+        "name": "Agro Máquinas",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 488290745
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.136541,
+          -26.8987717
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "330",
+        "addr:street": "Rua Gerhard Stark",
+        "contact:phone": "+55 47 3330-2077",
+        "name": "Armazém da Madeira",
+        "shop": "trade",
+        "trade": "timber_yard",
+        "osm_type": "way",
+        "osm_id": 492449070
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6810344,
+          -27.0952436
+        ]
+      },
+      "properties": {
+        "addr:city": "Chapecó",
+        "addr:housenumber": "3350",
+        "addr:street": "Avenida Atílio Fontana",
+        "addr:suburb": "Efapi",
+        "branch": "Efapi",
+        "building": "retail",
+        "name": "Bigolin Materiais de Construção",
+        "operator": "Bigolin Materiais de Construção Ltda",
+        "phone": "+55-49-3322-8600",
+        "shop": "trade",
+        "short_name": "Bigolin",
+        "trade": "building_supplies",
+        "wheelchair": "limited",
+        "wikimedia_commons": "File:Bigolin Efapi.jpg",
+        "osm_type": "way",
+        "osm_id": 502140920
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1051344,
+          -26.8740611
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1025",
+        "addr:street": "Rua Pomerode",
+        "building": "yes",
+        "building:levels": "2",
+        "contact:email": "contato@fachadaspassold.com.br",
+        "contact:phone": "+55 47 3327-4756",
+        "contact:website": "https://fachadaspassold.com.br",
+        "contact:whatsapp": "+55 47 98844-8216",
+        "name": "Passold Sistemas de Fachadas",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 513326104
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9841462,
+          -28.500689
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "Agropecuária Mendes",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "way",
+        "osm_id": 516602940
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.093583,
+          -26.4980501
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "772",
+        "addr:postcode": "89253-100",
+        "addr:street": "Rua João Januário Ayroso",
+        "addr:suburb": "Jaraguá Esquerdo",
+        "industrial": "sawmill",
+        "landuse": "industrial",
+        "name": "Spezia Madeiras",
+        "opening_hours": "Mo-Fr 07:30-17:30",
+        "shop": "trade",
+        "trade": "timber_yard",
+        "osm_type": "way",
+        "osm_id": 516934251
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.8410521,
+          -26.8783941
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "Venturini Agropecuária",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "way",
+        "osm_id": 519706111
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.8414577,
+          -26.8784216
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "Venturini Materiais de Construção",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 519706112
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.098497,
+          -26.8979697
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1299",
+        "addr:street": "Rua Benjamin Constant",
+        "contact:phone": "+55 47 3327-0500",
+        "name": "Construvale",
+        "opening_hours": "Mo-Fr 07:30-18:30; Sa 07:30-12:00",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 542175325
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.9953791,
+          -26.7895722
+        ]
+      },
+      "properties": {
+        "shop": "trade",
+        "trade": "wood",
+        "osm_type": "way",
+        "osm_id": 543889567
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.4571581,
+          -26.7562252
+        ]
+      },
+      "properties": {
+        "addr:city": "Doutor Pedrinho",
+        "addr:housenumber": "137",
+        "addr:postcode": "89126-000",
+        "addr:street": "Rua da Glória",
+        "addr:suburb": "Salto Donner",
+        "building": "yes",
+        "name": "Agroloja Salto Donner",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 543980765
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0565795,
+          -26.4894672
+        ]
+      },
+      "properties": {
+        "addr:street": "Rua José Theodoro Ribeiro",
+        "addr:suburb": "Ilha da Figueira",
+        "building": "yes",
+        "name": "Comércio de Areia Vegini",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 547031282
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.8988104,
+          -27.1438157
+        ]
+      },
+      "properties": {
+        "name": "Madeireira Fuck",
+        "shop": "trade",
+        "trade": "timber",
+        "osm_type": "way",
+        "osm_id": 549850895
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.900368,
+          -27.1429161
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 549850896
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7291958,
+          -27.6883996
+        ]
+      },
+      "properties": {
+        "addr:city": "Santo Amaro da Imperatriz",
+        "addr:postcode": "88140-000",
+        "addr:street": "Rua Pedro Neri Schwinden",
+        "addr:suburb": "Vargem Pinheiros",
+        "agrarian": "yes",
+        "building": "industrial",
+        "contact:email": "sac@herbivale.com.br",
+        "contact:facebook": "http://www.facebook.com/herbivale/",
+        "contact:instagram": "https://www.instagram.com/herbivale/",
+        "contact:phone": "+55 48 3245 5112",
+        "contact:twitter": "@herbivale",
+        "name": "Herbivale",
+        "phone": "+55 48 3245 5090",
+        "shop": "agrarian",
+        "website": "https://www.herbivale.com.br/",
+        "osm_type": "way",
+        "osm_id": 554289648
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6604208,
+          -27.4952234
+        ]
+      },
+      "properties": {
+        "addr:city": "Biguaçu",
+        "addr:housenumber": "475",
+        "addr:postcode": "88164-106",
+        "addr:street": "Rua Marechal Deodoro",
+        "addr:suburb": "Vendaval",
+        "alt_name": "Guindaste Biguaçu",
+        "contact:email": "construtexconcretos@gmail.com",
+        "contact:instagram": "grupocoelhoconcreto",
+        "contact:phone": "+55 48 3296-0630;+55 48 99172-1001",
+        "contact:website": "https://www.construtexconcretos.com/",
+        "contact:whatsapp": "+55 48 99172-1001",
+        "landuse": "retail",
+        "name": "Construtex Concreto",
+        "opening_hours": "24/7",
+        "operator": "Grupo Coelho Concreto",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 558622426
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9721417,
+          -27.0849076
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 561636989
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.8493965,
+          -26.3566217
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "Centro de Comercialização Agrícola",
+        "shop": "farm",
+        "osm_type": "way",
+        "osm_id": 568266496
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0471802,
+          -26.9112406
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1889",
+        "addr:street": "Rua Itajaí",
+        "building": "retail",
+        "building:levels": "2",
+        "name": "Casas da Água",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 572756413
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0914379,
+          -26.9119891
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "790",
+        "addr:street": "Rua Marechal Deodoro",
+        "building": "yes",
+        "building:levels": "1",
+        "height": "6",
+        "name": "Casa Agropet",
+        "roof:height": "3",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "way",
+        "osm_id": 576932015
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0909595,
+          -26.9130941
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "668",
+        "addr:street": "Rua Marechal Deodoro",
+        "building": "yes",
+        "building:levels": "2",
+        "contact:email": "vendas@barni.com.br",
+        "contact:phone": "+55 47 3381-3000;+55 47 3329-1274",
+        "contact:website": "http://www.barni.com.br/",
+        "name": "Barni Materiais de Construção",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 576932017
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1790492,
+          -26.7190757
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "435",
+        "addr:street": "Rua Presidente Juscelino",
+        "contact:email": "madeirasdimade@gmail.com",
+        "contact:phone": "+55 47 98808-8700",
+        "landuse": "commercial",
+        "name": "Madeiras Dimade",
+        "shop": "trade",
+        "trade": "timber_yard",
+        "osm_type": "way",
+        "osm_id": 596256125
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0931951,
+          -26.886523
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "920",
+        "addr:street": "Rua Bahia",
+        "contact:phone": "+55 47 3334-3090",
+        "name": "Marmoraria Trevo",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 603557774
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0701006,
+          -26.8821735
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "477",
+        "addr:street": "Rua Francisco Vahldieck",
+        "contact:email": "isacelmadeiras@hotmail.com",
+        "contact:phone": "+55 47 3323-0145;+55 47 3041-0146",
+        "contact:whatsapp": "+55 47 99164-6318",
+        "description": "Portas e deck sob medida",
+        "landuse": "retail",
+        "name": "Madeireira Fortaleza",
+        "old_name": "Dunathi Madeiras",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 605424487
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6208535,
+          -27.5874877
+        ]
+      },
+      "properties": {
+        "addr:city": "São José",
+        "addr:housenumber": "2025",
+        "addr:postcode": "88108-167",
+        "addr:street": "Rua João Grumiché",
+        "addr:suburb": "Roçado",
+        "building": "yes",
+        "name": "Eletropar",
+        "opening_hours": "Mo-Fr 08:00-12:00,13:12-18:00; PH off",
+        "phone": "+55 48 2107 8000",
+        "shop": "trade",
+        "website": "https://www.eletropar.net/",
+        "osm_type": "way",
+        "osm_id": 605767102
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.533484,
+          -26.9950688
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 608682537
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.9968253,
+          -26.7899866
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "900",
+        "addr:postcode": "89510-610",
+        "addr:street": "Rodovia Municipal Honorino Moro",
+        "addr:suburb": "Alto Bonito",
+        "landuse": "retail",
+        "name": "Casa do Construtor",
+        "opening_hours": "Mo-Sa 08:00-18:00",
+        "phone": "+55 49 3563-2631",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 614673579
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1260602,
+          -26.8770527
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "3699",
+        "addr:street": "BR-470",
+        "building": "yes",
+        "contact:email": "bluchapas@terra.com.br",
+        "contact:phone": "+55 47 3378-3252",
+        "fixme": "Definir etiqueta mais específica para a atividade. Parece ser um ferro velho de peças de metal em geral.",
+        "name": "Blu Chapas",
+        "shop": "trade",
+        "osm_type": "way",
+        "osm_id": 621747163
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9601061,
+          -28.4375978
+        ]
+      },
+      "properties": {
+        "building": "retail",
+        "name": "Ferrari Marmoraria",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 633379316
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.8490508,
+          -26.3523037
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "Alfa Agropecuária",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 660200591
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.8142689,
+          -26.5039452
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "Agroveterinária Rissi",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 661052119
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1960143,
+          -26.7270697
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "2642",
+        "addr:street": "Rua Frederico Weege",
+        "contact:email": "guindastessell@terra.com.br",
+        "contact:phone": "+55 47 3387-0985;+55 47 3387-5335",
+        "contact:whatsapp": "+55 47 99981-4241",
+        "landuse": "industrial",
+        "name": "Sell Madeiras e Guindastes",
+        "shop": "trade",
+        "trade": "timber_yard",
+        "osm_type": "way",
+        "osm_id": 665700067
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.082752,
+          -26.8890466
+        ]
+      },
+      "properties": {
+        "contact:email": "areiasbeckhauser@gmail.com",
+        "contact:phone": "+55 47 3323-5987",
+        "name": "Areias Beckhauser",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 678310194
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9163396,
+          -27.2846553
+        ]
+      },
+      "properties": {
+        "name": "Beira Rio Artefatos de Cimento",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 681872363
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6284686,
+          -27.0703895
+        ]
+      },
+      "properties": {
+        "addr:city": "Chapecó",
+        "addr:housenumber": "79",
+        "addr:postcode": "89810-140",
+        "addr:street": "Rua Ibirama",
+        "addr:suburb": "Cristo Rei",
+        "name": "Madeireira Angonese",
+        "opening_hours": "Mo-Sa 08:00-18:00",
+        "shop": "trade",
+        "trade": "timber",
+        "osm_type": "way",
+        "osm_id": 684834648
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6569171,
+          -26.9109414
+        ]
+      },
+      "properties": {
+        "building": "retail",
+        "name": "Antonio Bittencourt Materiais de Construção",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 685310136
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.3212143,
+          -27.8237721
+        ]
+      },
+      "properties": {
+        "addr:city": "Lages",
+        "addr:housenumber": "55",
+        "addr:street": "Rua Clóvis Beviláqua",
+        "addr:suburb": "Universitário",
+        "landuse": "industrial",
+        "name": "Cantareli Comércio de Madeiras",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "shop": "trade",
+        "trade": "timber",
+        "osm_type": "way",
+        "osm_id": 686510691
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.3844377,
+          -26.8838845
+        ]
+      },
+      "properties": {
+        "addr:city": "Xanxerê",
+        "addr:postcode": "89820-000",
+        "addr:street": "Via Marginal",
+        "addr:suburb": "São Romero",
+        "agrarian": "agricultural_machinery",
+        "building": "yes",
+        "name": "Pipi Máquinas",
+        "operator": "Massey Ferguson",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 691074797
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.3844759,
+          -26.8843604
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 692842515
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.3850099,
+          -26.8825195
+        ]
+      },
+      "properties": {
+        "addr:city": "Xanxerê",
+        "addr:housenumber": "142",
+        "addr:postcode": "89820-000",
+        "addr:street": "Rua Palmedio Giordani",
+        "addr:suburb": "Maria Winckler",
+        "agrarian": "agricultural_machinery",
+        "building": "yes",
+        "name": "Tecnosafra",
+        "operator": "John Deere",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 693008749
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.009196,
+          -26.4747821
+        ]
+      },
+      "properties": {
+        "addr:city": "Guaramirim",
+        "addr:housenumber": "568",
+        "addr:street": "Rua 28 de Agosto",
+        "addr:suburb": "Centro",
+        "building": "yes",
+        "name": "Agropecuária Friedemann",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 703230958
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.7135807,
+          -27.2670694
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "268",
+        "addr:street": "Rua XV de Novembro",
+        "alt_name": "Materiais de Construção Neri Nardelli",
+        "building": "commercial",
+        "name": "Neri Nardelli",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 714007576
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.7165019,
+          -27.2681821
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "30",
+        "addr:street": "Rua 7 de Setembro",
+        "building": "retail",
+        "name": "Agropecuária Agronômica",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "way",
+        "osm_id": 714016846
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9806048,
+          -27.0993088
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 731171093
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.6273859,
+          -27.1898204
+        ]
+      },
+      "properties": {
+        "addr:city": "Rio do Sul",
+        "addr:housenumber": "736",
+        "addr:street": "Rua dos Vereadores",
+        "addr:suburb": "Itoupava",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Distribuidora Frei Bruno Ltda",
+        "shop": "trade",
+        "trade": "Distribuidora_de_Rações",
+        "osm_type": "way",
+        "osm_id": 733069451
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.609302,
+          -27.1395771
+        ]
+      },
+      "properties": {
+        "addr:city": "Porto Belo",
+        "addr:postcode": "88220-000",
+        "addr:street": "Marginal da BR-101",
+        "addr:suburb": "Alto Perequê",
+        "name": "Cassol Centerlar",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 733427354
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.5928456,
+          -27.1758002
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "165",
+        "addr:street": "Rua Prefeito Luiz Adelar Soldatelli",
+        "alt_name": "Madeireira Mariceli",
+        "building": "commercial",
+        "loc_name": "Mariceli Material de Construção",
+        "name": "Mariceli Madeiras e Materiais de Construção",
+        "nat_name": "Mariceli Madeiras",
+        "old_name": "Madeiras Mariceli",
+        "reg_name": "Mariceli Madeireira",
+        "shop": "trade",
+        "trade": "timber",
+        "osm_type": "way",
+        "osm_id": 740775913
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1419523,
+          -26.8724948
+        ]
+      },
+      "properties": {
+        "name": "BV Madeiras",
+        "shop": "trade",
+        "trade": "timber_yard",
+        "osm_type": "way",
+        "osm_id": 758803387
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.8769834,
+          -27.0630619
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "5470",
+        "addr:street": "Rodovia Antônio Heil",
+        "landuse": "retail",
+        "name": "Zucco",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 760265398
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.6661996,
+          -27.2025564
+        ]
+      },
+      "properties": {
+        "addr:city": "Rio do Sul",
+        "addr:housenumber": "1639",
+        "addr:street": "Estrada Boa Esperança",
+        "addr:suburb": "Fundo Canoas",
+        "building": "yes",
+        "name": "Agropecuária Agro Schreiber",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 760588630
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1357813,
+          -26.8984888
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "6674",
+        "addr:street": "Rua Bahia",
+        "contact:email": "vendas@madeirasblumenau.com.br",
+        "contact:phone": "+55 47 3330-4692;+55 47 3330-5132",
+        "contact:website": "https://www.madeirasblumenau.com.br",
+        "contact:whatsapp": "+55 47 98870-5703",
+        "name": "Madeiras Blumenau",
+        "shop": "trade",
+        "trade": "timber_yard",
+        "osm_type": "way",
+        "osm_id": 762561138
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9953463,
+          -26.4761932
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "Agrovisa",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "way",
+        "osm_id": 766120079
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.8270707,
+          -26.2710776
+        ]
+      },
+      "properties": {
+        "addr:city": "Joinville",
+        "addr:housenumber": "2003",
+        "addr:postcode": "89221-301",
+        "addr:street": "Rua Iririú",
+        "addr:suburb": "Iririú",
+        "building": "yes",
+        "name": "HortiFruti Corrêa",
+        "shop": "farm",
+        "osm_type": "way",
+        "osm_id": 777298923
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7967654,
+          -26.2812081
+        ]
+      },
+      "properties": {
+        "addr:city": "Joinville",
+        "addr:housenumber": "150",
+        "addr:postcode": "89228-410",
+        "addr:street": "Rua Max Boehm",
+        "addr:suburb": "Comasa",
+        "building": "yes",
+        "name": "Frutaria Espinheiros",
+        "phone": "+55 47 3433 0427, +55 47 9 9923 9729",
+        "shop": "farm",
+        "osm_type": "way",
+        "osm_id": 783034972
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.209783,
+          -27.3895915
+        ]
+      },
+      "properties": {
+        "name": "Napalha - John Deere",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 810338002
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.2143569,
+          -27.3896259
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "Loja Agropecuária Copercampos",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 810583242
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.7036879,
+          -26.9086861
+        ]
+      },
+      "properties": {
+        "addr:city": "Coronel Freitas",
+        "addr:housenumber": "420",
+        "addr:postcode": "89840-000",
+        "addr:street": "Rua Pará",
+        "building": "yes",
+        "name": "SuperAlfa - Agropecuária",
+        "phone": "+55 49 3347-0184",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 812636346
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1692194,
+          -26.8797206
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "8582",
+        "addr:street": "Rodovia Ingo Hering",
+        "building": "yes",
+        "building:levels": "2",
+        "contact:phone": "+55 47 3339-7856",
+        "internet_access": "no",
+        "name": "Pai e Filho",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "wheelchair": "yes",
+        "osm_type": "way",
+        "osm_id": 813293547
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.0173485,
+          -26.7733937
+        ]
+      },
+      "properties": {
+        "name": "Seleme Materias de Contrução",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 840221145
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.4571219,
+          -27.0751305
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "Xirú Agrocomercial",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 863036773
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.4593182,
+          -27.0745757
+        ]
+      },
+      "properties": {
+        "addr:city": "Arvoredo",
+        "addr:street": "Rua Hercílio Luz",
+        "building": "yes",
+        "name": "Copérdia",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 863036792
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6159615,
+          -27.0903643
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "Coltro",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 871461558
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.3019123,
+          -27.7976483
+        ]
+      },
+      "properties": {
+        "building": "retail",
+        "name": "Omega Telhas",
+        "shop": "trade",
+        "trade": "tiles",
+        "osm_type": "way",
+        "osm_id": 900962842
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.369966,
+          -27.8272842
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "Cooperativa Agropecuária Planalto Serrano",
+        "shop": "trade",
+        "short_name": "Cooperplan",
+        "trade": "agricultural_supplies",
+        "osm_type": "way",
+        "osm_id": 915113560
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0913569,
+          -26.9035646
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "1324",
+        "addr:street": "Rua Almirante Barroso",
+        "building": "yes",
+        "contact:phone": "+55 47 99728-0350;+55 47 99270-3529",
+        "contact:website": "https://verticalpecas.com.br/",
+        "contact:whatsapp": "+55 47 98858-5146",
+        "description": "Peças de reposição para empilhadeiras e tratores multimarcas",
+        "name": "Vertical Peças",
+        "opening_hours": "Mo-Fr 08:00-12:00,13:30-18:00; Sa,Su,PH off",
+        "shop": "trade",
+        "short_name": "VTL",
+        "osm_type": "way",
+        "osm_id": 943908936
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.204394,
+          -27.7163216
+        ]
+      },
+      "properties": {
+        "building": "house",
+        "building:levels": "1",
+        "building:material": "brick",
+        "name": "Empório Rota 114",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled",
+        "shop": "farm",
+        "osm_type": "way",
+        "osm_id": 952359669
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.1548872,
+          -27.0450713
+        ]
+      },
+      "properties": {
+        "building": "house",
+        "roof:material": "roof_tiles",
+        "roof:shape": "gabled",
+        "shop": "farm",
+        "osm_type": "way",
+        "osm_id": 969606547
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.1574351,
+          -27.0480515
+        ]
+      },
+      "properties": {
+        "building": "house",
+        "name": "Frutas Danielli",
+        "roof:material": "eternit",
+        "roof:orientation": "across",
+        "roof:shape": "gabled",
+        "shop": "farm",
+        "osm_type": "way",
+        "osm_id": 969606549
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6408555,
+          -26.9499467
+        ]
+      },
+      "properties": {
+        "building": "retail",
+        "name": "Rezean Materiais de Construção",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 969647477
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5728814,
+          -27.1593989
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "740",
+        "addr:street": "Avenida Governador Celso Ramos",
+        "building": "retail",
+        "contact:phone": "+55 47 3369-4330",
+        "contact:website": "https://www.casasdaagua.com.br/",
+        "name": "Casas da Água",
+        "opening_hours": "Mo-Fr 07:30-18:30; Sa 08:00-13:00; Su off",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 980666618
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.6229669,
+          -28.3400473
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "Ipirella Materiais de Construção",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 981084797
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7115912,
+          -27.6427079
+        ]
+      },
+      "properties": {
+        "name": "Silva Pré-Moldados",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 984547673
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -51.243358,
+          -27.1026839
+        ]
+      },
+      "properties": {
+        "building": "retail",
+        "name": "Valesan Materiais de Construção",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 1001847440
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.4928745,
+          -27.4940995
+        ]
+      },
+      "properties": {
+        "addr:city": "Florianopolis",
+        "addr:housenumber": "1158",
+        "addr:postcode": "88052-100",
+        "addr:street": "Estrada Intendente Antônio Damasco",
+        "addr:suburb": "Ratones",
+        "name": "Concreto Usinado Construtex",
+        "operator": "Concreto Construtex",
+        "phone": "+55 48 3296 0630",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "website": "https://www.construtexconcretos.com/",
+        "osm_type": "way",
+        "osm_id": 1002328130
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7511845,
+          -27.6797056
+        ]
+      },
+      "properties": {
+        "addr:city": "Santo Amaro da Imperatriz",
+        "addr:housenumber": "227",
+        "addr:postcode": "88140-000",
+        "addr:street": "Rua Presidente Castelo Branco",
+        "addr:suburb": "Vila Becker",
+        "building": "house",
+        "building:levels": "2",
+        "height": "5",
+        "name": "Agrocomercial Campolino",
+        "opening_hours": "Mo-Fr 07:00-19:00, Sa: 07:00-14:00",
+        "phone": "+55 48 99819-3627",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 1006262972
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7403374,
+          -27.6859579
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "Quitanda Sombrio",
+        "shop": "farm",
+        "osm_type": "way",
+        "osm_id": 1006555233
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.3886591,
+          -26.8805579
+        ]
+      },
+      "properties": {
+        "addr:city": "Xanxerê",
+        "addr:housenumber": "2040",
+        "addr:postcode": "89820-000",
+        "addr:street": "Avenida Brasil",
+        "addr:suburb": "Maria Winckler",
+        "building": "yes",
+        "name": "Valtra Shark",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 1019641270
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.3915626,
+          -26.8889152
+        ]
+      },
+      "properties": {
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 1026257026
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.5105784,
+          -27.1830618
+        ]
+      },
+      "properties": {
+        "name": "Italiano Materiais de Construção",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 1042494231
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.0881273,
+          -26.9110266
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "50",
+        "addr:postcode": "89035-066",
+        "addr:street": "Rua Konrad Keunecke",
+        "contact:phone": "+55 47 3323- 7923",
+        "contact:website": "https://www.tecnolixas.com.br/",
+        "name": "Lartok von Tecnolixas",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 1061157763
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.6280779,
+          -28.3399745
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "Tenda da Lili",
+        "shop": "farm",
+        "osm_type": "way",
+        "osm_id": 1063782267
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.6221935,
+          -28.3412266
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "Quiosque Lins",
+        "roof:shape": "pyramidal",
+        "shop": "farm",
+        "osm_type": "way",
+        "osm_id": 1063782316
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.620678,
+          -28.3409143
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "shop": "farm",
+        "osm_type": "way",
+        "osm_id": 1063782385
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1945069,
+          -26.872332
+        ]
+      },
+      "properties": {
+        "agrarian": "feed",
+        "building": "yes",
+        "contact:phone": "+55 47 3340-2406",
+        "name": "AgroFidélis",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 1083252962
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.9267734,
+          -27.2581781
+        ]
+      },
+      "properties": {
+        "name": "Ristow Materiais de Construção",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 1088038596
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.7839778,
+          -27.2853343
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "Mineração Trevo",
+        "old_name": "Pedras FB",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 1088038597
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.6171494,
+          -27.1894115
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "LG Motores Elétricos",
+        "shop": "trade",
+        "osm_type": "way",
+        "osm_id": 1088038606
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.5575183,
+          -27.159681
+        ]
+      },
+      "properties": {
+        "description": "Venda e Troca de Máquinas",
+        "name": "Scoz Máquinas",
+        "shop": "trade",
+        "osm_type": "way",
+        "osm_id": 1088038610
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.6279502,
+          -28.3403116
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "Quiosque Silva",
+        "shop": "farm",
+        "osm_type": "way",
+        "osm_id": 1092736950
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -50.9268255,
+          -27.0222722
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "349",
+        "addr:street": "Rua João Marques Vieira",
+        "building": "yes",
+        "name": "Casa do Agricultor Domingos Zonta",
+        "shop": "farm",
+        "osm_type": "way",
+        "osm_id": 1095733613
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7589901,
+          -27.6825374
+        ]
+      },
+      "properties": {
+        "addr:city": "Santo Amaro da Imperatriz",
+        "addr:postcode": "88140-000",
+        "addr:street": "Rua Natividade",
+        "addr:suburb": "Vila Becker",
+        "building": "office",
+        "building:levels": "2",
+        "height": "6",
+        "name": "BBS Comércio de produtos agropecuários",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 1101569155
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6744286,
+          -26.9232089
+        ]
+      },
+      "properties": {
+        "addr:city": "Itajaí",
+        "addr:housenumber": "61",
+        "addr:street": "Rua Vereador Abílio Otávio do Canto",
+        "addr:suburb": "Ressacada",
+        "building": "yes",
+        "name": "S1 Distribuidora",
+        "phone": "+55 47 2125-5536",
+        "shop": "trade",
+        "trade": "yes",
+        "website": "https://www.s1distribuidora.com.br",
+        "osm_type": "way",
+        "osm_id": 1119387939
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.9169708,
+          -28.2734087
+        ]
+      },
+      "properties": {
+        "addr:city": "São Joaquim",
+        "addr:housenumber": "55",
+        "addr:postcode": "88600-000",
+        "addr:street": "Avenida Coronel Antônio Palma",
+        "addr:suburb": "Boa Vista",
+        "name": "Santa Branca",
+        "shop": "trade",
+        "trade": "timber",
+        "osm_type": "way",
+        "osm_id": 1124982580
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.9151376,
+          -28.2717768
+        ]
+      },
+      "properties": {
+        "addr:city": "São Joaquim",
+        "addr:housenumber": "433",
+        "addr:postcode": "88600-000",
+        "addr:street": "Avenida Coronel Antônio Palma",
+        "addr:suburb": "Boa Vista",
+        "name": "Glimade Comercial",
+        "shop": "trade",
+        "trade": "timber",
+        "osm_type": "way",
+        "osm_id": 1124982582
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.921701,
+          -28.281465
+        ]
+      },
+      "properties": {
+        "building": "retail",
+        "name": "Olim Agro",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 1134479636
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7683086,
+          -27.6870536
+        ]
+      },
+      "properties": {
+        "addr:city": "Santo Amaro da Imperatriz",
+        "addr:housenumber": "931",
+        "addr:postcode": "88140-000",
+        "addr:street": "Rua João Jacinto Machado",
+        "addr:suburb": "Sul do Rio",
+        "building": "industrial",
+        "name": "Marmoraria Santo Amaro",
+        "opening_hours": "Mo-Fr 07:30-17:15",
+        "operator": "Silvio Rosa",
+        "phone": "(48) 3245-1516",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 1134502283
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.7643723,
+          -27.6887802
+        ]
+      },
+      "properties": {
+        "addr:city": "Santo Amaro da Imperatriz",
+        "addr:housenumber": "1312",
+        "addr:postcode": "88140-000",
+        "addr:street": "Rua João Jacinto Machado",
+        "addr:suburb": "Sul do Rio",
+        "building": "yes",
+        "contact:instagram": "https://www.instagram.com/hiperagua/",
+        "name": "Hiperágua Distribuidora",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "phone": "+55 48 3245-6176",
+        "shop": "trade",
+        "trade": "water",
+        "osm_type": "way",
+        "osm_id": 1134553436
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.5031947,
+          -26.7703781
+        ]
+      },
+      "properties": {
+        "building": "warehouse",
+        "name": "Afubra Loja Agrícola",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "osm_type": "way",
+        "osm_id": 1160031151
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.909302,
+          -26.7138749
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "Cravil",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 1197497841
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9093159,
+          -26.7141187
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "shop": "farm",
+        "osm_type": "way",
+        "osm_id": 1197497842
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9107714,
+          -26.7102924
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "117",
+        "addr:street": "Rua Paulo Kraisch",
+        "building": "yes",
+        "name": "Agrolio Agropecuaria",
+        "opening_hours": "Mo-Fr 07:30-12:00, 13:15-18:00; Sa 07:30–12:00; Su off",
+        "phone": "+55 47 3377-1414",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 1197720848
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.3221765,
+          -28.519687
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 1209909589
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.3238548,
+          -28.52142
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "shop": "trade",
+        "osm_type": "way",
+        "osm_id": 1209909629
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.3389339,
+          -27.2753638
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "Agropecuária Zanella",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 1211922651
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.9587044,
+          -29.1957983
+        ]
+      },
+      "properties": {
+        "shop": "trade",
+        "trade": "timber",
+        "osm_type": "way",
+        "osm_id": 1226770583
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.8993169,
+          -27.1486973
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "De Marchi",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 1229975322
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -52.6159701,
+          -27.1159589
+        ]
+      },
+      "properties": {
+        "addr:city": "Chapecó",
+        "addr:housenumber": "101",
+        "addr:street": "Avenida Irineu Bornhausen",
+        "addr:suburb": "Palmital",
+        "building": "yes",
+        "name": "Avanto Distribuidora e Comércio de Ferragens e Alumínio",
+        "shop": "trade",
+        "osm_type": "way",
+        "osm_id": 1231109595
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.9922223,
+          -26.8896614
+        ]
+      },
+      "properties": {
+        "name": "Schramm Areia e Terraplanagem",
+        "shop": "trade",
+        "trade": "building_supplies",
+        "osm_type": "way",
+        "osm_id": 1288382361
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.351113,
+          -28.693093
+        ]
+      },
+      "properties": {
+        "addr:city": "Criciúma",
+        "addr:housenumber": "1275",
+        "addr:postcode": "88815-240",
+        "addr:street": "Rua Miguel Patrício de Souza",
+        "addr:suburb": "Ceará",
+        "building": "yes",
+        "name": "JADLOG",
+        "phone": "+55 48 3433-1800",
+        "shop": "trade",
+        "website": "https://www.jadlog.com.br/",
+        "osm_type": "way",
+        "osm_id": 1386319673
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.4936919,
+          -28.7409239
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "name": "Centro de Distribuição Correa Back",
+        "operator": "Empresa Brasileira de Correios e Telégrafos",
+        "shop": "trade",
+        "osm_type": "way",
+        "osm_id": 1413944255
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.0057611,
+          -26.9244064
+        ]
+      },
+      "properties": {
+        "building": "yes",
+        "shop": "agrarian",
+        "osm_type": "way",
+        "osm_id": 1416392705
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -49.1630096,
+          -26.7441678
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "595",
+        "addr:street": "Rua Mato Grosso",
+        "contact:facebook": "Nls-Madeiras-100063808506689",
+        "contact:instagram": "nlsmadeiras",
+        "contact:phone": "+55 47 3387-0574;+55 47 99204-0574",
+        "name": "NLS Madeiras",
+        "opening_hours": "Mo-Fr 07:30-12:00, 13:30-17:00; Sa 08:00-11:00; Su off",
+        "shop": "trade",
+        "trade": "timber_yard",
+        "osm_type": "way",
+        "osm_id": 1421071332
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6302614,
+          -27.5380556
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "4633",
+        "addr:street": "Rua Heriberto Hülse",
+        "addr:suburb": "Serraria",
+        "name": "Copal Distribuidora",
+        "phone": "+55 48 3246 2244",
+        "shop": "trade",
+        "trade": "food",
+        "website": "https://www.copalalimentos.com.br/",
+        "osm_type": "way",
+        "osm_id": 1445250086
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -48.6550612,
+          -27.5016352
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "600",
+        "addr:postcode": "88161-080",
+        "addr:street": "Rua Cônego Rodolfo Machado",
+        "addr:suburb": "Centro",
+        "contact:facebook": "https://www.facebook.com/people/Rodima/61558255221713/",
+        "contact:instagram": "https://www.instagram.com/rodimaguerra/",
+        "industrial": "transport",
+        "name": "Rodima Guerra",
+        "opening_hours": "Mo-Fr 08:00-18:00; PH off",
+        "phone": "+55 48  3285 3311",
+        "shop": "trade",
+        "trade": "yes",
+        "website": "https://rodima.com.br/",
+        "osm_type": "way",
+        "osm_id": 1446378223
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.5932002,
+          -27.097564
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "203",
+        "addr:street": "Rua Santa Cruz",
+        "alt_name": "Lac Lélo Agropecuária",
+        "brand": "Lac Lélo",
+        "building": "commercial",
+        "building:levels": "3",
+        "email": "agropecuaria@laclelo.com.br",
+        "name": "Laticínios São João Agropecuária",
+        "operator": "Laticínios São João S/A",
+        "phone": "+55-49-3636-1136",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "type": "multipolygon",
+        "osm_type": "relation",
+        "osm_id": 15652009
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -53.593351,
+          -27.0973071
+        ]
+      },
+      "properties": {
+        "addr:housenumber": "255",
+        "addr:street": "Rua Santa Cruz",
+        "alt_name": "Lac Lélo Máquinas",
+        "brand": "Lac Lélo",
+        "building": "commercial",
+        "building:levels": "2",
+        "building:levels:underground": "1",
+        "email": "maquinas@laclelo.com.br",
+        "name": "Laticínios São João Máquinas",
+        "operator": "Laticínios São João S/A",
+        "phone": "+55-49-3636-1136",
+        "shop": "trade",
+        "trade": "agricultural_supplies",
+        "type": "multipolygon",
+        "website": "http://www.laclelo.com.br/grupo/lojas-de-maquinas",
+        "osm_type": "relation",
+        "osm_id": 15652010
+      }
+    }
+  ]
+}

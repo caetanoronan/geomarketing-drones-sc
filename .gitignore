@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data (arquivos muito grandes)
+data/bc25_geojson/*.geojson
+*.gpkg
+
+# Mapas pesados (>100 MB - GitHub não aceita)
+data/outputs/maps/mapa_interativo_REAL.html
+data/outputs/mapa_interativo_drones_agro_sc.html
+data/SC_setores_CD2022.geojson
+
+# Shapefiles grandes da Base Cartográfica (>100 MB)
+bc25_sc_shapefile_2020-10-01/hid_trecho_drenagem_l.shp
+bc25_sc_shapefile_2020-10-01/hid_trecho_drenagem_l.dbf
+bc25_sc_shapefile_2020-10-01/hid_trecho_drenagem_l.shx
+bc25_sc_shapefile_2020-10-01/rod_trecho_rodoviario_l.dbf
+bc25_sc_shapefile_2020-10-01/*.shp
+bc25_sc_shapefile_2020-10-01/*.dbf
+
+# Temporários
+*.tmp
+*.bak
+temp_*

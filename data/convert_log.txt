@@ -1,0 +1,14 @@
+﻿Conversion results:
+aer_pista_ponto_pouso_a: ERROR: module 'fiona' has no attribute 'path'
+aer_pista_ponto_pouso_l: ERROR: module 'fiona' has no attribute 'path'
+aer_pista_ponto_pouso_p: ERROR: module 'fiona' has no attribute 'path'
+tra_caminho_aereo_l: ERROR: module 'fiona' has no attribute 'path'
+enc_torre_energia_p: ERROR: module 'fiona' has no attribute 'path'
+enc_trecho_energia_l: ERROR: module 'fiona' has no attribute 'path'
+edf_edificacao_a: ERROR: module 'fiona' has no attribute 'path'
+edf_edificacao_p: ERROR: module 'fiona' has no attribute 'path'
+cbge_area_uso_especifico_a: ERROR: module 'fiona' has no attribute 'path'
+lml_area_densamente_edificada_a: ERROR: module 'fiona' has no attribute 'path'
+lml_municipio_a: ERROR: module 'fiona' has no attribute 'path'
+
+Done.

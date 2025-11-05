@@ -1,0 +1,2067 @@
+[
+  {
+    "cod_municipio":4200051,
+    "nome_municipio":"Abdon Batista",
+    "microrregiao":"Curitibanos",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4200101,
+    "nome_municipio":"Abelardo Luz",
+    "microrregiao":"Xanxerê",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4200200,
+    "nome_municipio":"Agrolândia",
+    "microrregiao":"Ituporanga",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4200309,
+    "nome_municipio":"Agronômica",
+    "microrregiao":"Rio do Sul",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4200408,
+    "nome_municipio":"Água Doce",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4200507,
+    "nome_municipio":"Águas de Chapecó",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4200556,
+    "nome_municipio":"Águas Frias",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4200606,
+    "nome_municipio":"Águas Mornas",
+    "microrregiao":"Tabuleiro",
+    "mesorregiao":"Grande Florianópolis",
+    "regiao_estimada":"Outras"
+  },
+  {
+    "cod_municipio":4200705,
+    "nome_municipio":"Alfredo Wagner",
+    "microrregiao":"Tabuleiro",
+    "mesorregiao":"Grande Florianópolis",
+    "regiao_estimada":"Outras"
+  },
+  {
+    "cod_municipio":4200754,
+    "nome_municipio":"Alto Bela Vista",
+    "microrregiao":"Concórdia",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4200804,
+    "nome_municipio":"Anchieta",
+    "microrregiao":"São Miguel do Oeste",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4200903,
+    "nome_municipio":"Angelina",
+    "microrregiao":"Tijucas",
+    "mesorregiao":"Grande Florianópolis",
+    "regiao_estimada":"Outras"
+  },
+  {
+    "cod_municipio":4201000,
+    "nome_municipio":"Anita Garibaldi",
+    "microrregiao":"Campos de Lages",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4201109,
+    "nome_municipio":"Anitápolis",
+    "microrregiao":"Tabuleiro",
+    "mesorregiao":"Grande Florianópolis",
+    "regiao_estimada":"Outras"
+  },
+  {
+    "cod_municipio":4201208,
+    "nome_municipio":"Antônio Carlos",
+    "microrregiao":"Florianópolis",
+    "mesorregiao":"Grande Florianópolis",
+    "regiao_estimada":"Outras"
+  },
+  {
+    "cod_municipio":4201257,
+    "nome_municipio":"Apiúna",
+    "microrregiao":"Blumenau",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4201273,
+    "nome_municipio":"Arabutã",
+    "microrregiao":"Concórdia",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4201307,
+    "nome_municipio":"Araquari",
+    "microrregiao":"Joinville",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4201406,
+    "nome_municipio":"Araranguá",
+    "microrregiao":"Araranguá",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4201505,
+    "nome_municipio":"Armazém",
+    "microrregiao":"Tubarão",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4201604,
+    "nome_municipio":"Arroio Trinta",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4201653,
+    "nome_municipio":"Arvoredo",
+    "microrregiao":"Concórdia",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4201703,
+    "nome_municipio":"Ascurra",
+    "microrregiao":"Blumenau",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4201802,
+    "nome_municipio":"Atalanta",
+    "microrregiao":"Ituporanga",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4201901,
+    "nome_municipio":"Aurora",
+    "microrregiao":"Rio do Sul",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4201950,
+    "nome_municipio":"Balneário Arroio do Silva",
+    "microrregiao":"Araranguá",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4202008,
+    "nome_municipio":"Balneário Camboriú",
+    "microrregiao":"Itajaí",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4202057,
+    "nome_municipio":"Balneário Barra do Sul",
+    "microrregiao":"Joinville",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4202073,
+    "nome_municipio":"Balneário Gaivota",
+    "microrregiao":"Araranguá",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4202081,
+    "nome_municipio":"Bandeirante",
+    "microrregiao":"São Miguel do Oeste",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4202099,
+    "nome_municipio":"Barra Bonita",
+    "microrregiao":"São Miguel do Oeste",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4202107,
+    "nome_municipio":"Barra Velha",
+    "microrregiao":"Itajaí",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4202131,
+    "nome_municipio":"Bela Vista do Toldo",
+    "microrregiao":"Canoinhas",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4202156,
+    "nome_municipio":"Belmonte",
+    "microrregiao":"São Miguel do Oeste",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4202206,
+    "nome_municipio":"Benedito Novo",
+    "microrregiao":"Blumenau",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4202305,
+    "nome_municipio":"Biguaçu",
+    "microrregiao":"Florianópolis",
+    "mesorregiao":"Grande Florianópolis",
+    "regiao_estimada":"Outras"
+  },
+  {
+    "cod_municipio":4202404,
+    "nome_municipio":"Blumenau",
+    "microrregiao":"Blumenau",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4202438,
+    "nome_municipio":"Bocaina do Sul",
+    "microrregiao":"Campos de Lages",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4202453,
+    "nome_municipio":"Bombinhas",
+    "microrregiao":"Itajaí",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4202503,
+    "nome_municipio":"Bom Jardim da Serra",
+    "microrregiao":"Campos de Lages",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4202537,
+    "nome_municipio":"Bom Jesus",
+    "microrregiao":"Xanxerê",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4202578,
+    "nome_municipio":"Bom Jesus do Oeste",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4202602,
+    "nome_municipio":"Bom Retiro",
+    "microrregiao":"Campos de Lages",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4202701,
+    "nome_municipio":"Botuverá",
+    "microrregiao":"Blumenau",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4202800,
+    "nome_municipio":"Braço do Norte",
+    "microrregiao":"Tubarão",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4202859,
+    "nome_municipio":"Braço do Trombudo",
+    "microrregiao":"Rio do Sul",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4202875,
+    "nome_municipio":"Brunópolis",
+    "microrregiao":"Curitibanos",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4202909,
+    "nome_municipio":"Brusque",
+    "microrregiao":"Blumenau",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4203006,
+    "nome_municipio":"Caçador",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4203105,
+    "nome_municipio":"Caibi",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4203154,
+    "nome_municipio":"Calmon",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4203204,
+    "nome_municipio":"Camboriú",
+    "microrregiao":"Itajaí",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4203253,
+    "nome_municipio":"Capão Alto",
+    "microrregiao":"Campos de Lages",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4203303,
+    "nome_municipio":"Campo Alegre",
+    "microrregiao":"São Bento do Sul",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4203402,
+    "nome_municipio":"Campo Belo do Sul",
+    "microrregiao":"Campos de Lages",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4203501,
+    "nome_municipio":"Campo Erê",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4203600,
+    "nome_municipio":"Campos Novos",
+    "microrregiao":"Curitibanos",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4203709,
+    "nome_municipio":"Canelinha",
+    "microrregiao":"Tijucas",
+    "mesorregiao":"Grande Florianópolis",
+    "regiao_estimada":"Outras"
+  },
+  {
+    "cod_municipio":4203808,
+    "nome_municipio":"Canoinhas",
+    "microrregiao":"Canoinhas",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4203907,
+    "nome_municipio":"Capinzal",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4203956,
+    "nome_municipio":"Capivari de Baixo",
+    "microrregiao":"Tubarão",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4204004,
+    "nome_municipio":"Catanduvas",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4204103,
+    "nome_municipio":"Caxambu do Sul",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4204152,
+    "nome_municipio":"Celso Ramos",
+    "microrregiao":"Campos de Lages",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4204178,
+    "nome_municipio":"Cerro Negro",
+    "microrregiao":"Campos de Lages",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4204194,
+    "nome_municipio":"Chapadão do Lageado",
+    "microrregiao":"Ituporanga",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4204202,
+    "nome_municipio":"Chapecó",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4204251,
+    "nome_municipio":"Cocal do Sul",
+    "microrregiao":"Criciúma",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4204301,
+    "nome_municipio":"Concórdia",
+    "microrregiao":"Concórdia",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4204350,
+    "nome_municipio":"Cordilheira Alta",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4204400,
+    "nome_municipio":"Coronel Freitas",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4204459,
+    "nome_municipio":"Coronel Martins",
+    "microrregiao":"Xanxerê",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4204509,
+    "nome_municipio":"Corupá",
+    "microrregiao":"Joinville",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4204558,
+    "nome_municipio":"Correia Pinto",
+    "microrregiao":"Campos de Lages",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4204608,
+    "nome_municipio":"Criciúma",
+    "microrregiao":"Criciúma",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4204707,
+    "nome_municipio":"Cunha Porã",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4204756,
+    "nome_municipio":"Cunhataí",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4204806,
+    "nome_municipio":"Curitibanos",
+    "microrregiao":"Curitibanos",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4204905,
+    "nome_municipio":"Descanso",
+    "microrregiao":"São Miguel do Oeste",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4205001,
+    "nome_municipio":"Dionísio Cerqueira",
+    "microrregiao":"São Miguel do Oeste",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4205100,
+    "nome_municipio":"Dona Emma",
+    "microrregiao":"Rio do Sul",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4205159,
+    "nome_municipio":"Doutor Pedrinho",
+    "microrregiao":"Blumenau",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4205175,
+    "nome_municipio":"Entre Rios",
+    "microrregiao":"Xanxerê",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4205191,
+    "nome_municipio":"Ermo",
+    "microrregiao":"Araranguá",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4205209,
+    "nome_municipio":"Erval Velho",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4205308,
+    "nome_municipio":"Faxinal dos Guedes",
+    "microrregiao":"Xanxerê",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4205357,
+    "nome_municipio":"Flor do Sertão",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4205407,
+    "nome_municipio":"Florianópolis",
+    "microrregiao":"Florianópolis",
+    "mesorregiao":"Grande Florianópolis",
+    "regiao_estimada":"Outras"
+  },
+  {
+    "cod_municipio":4205431,
+    "nome_municipio":"Formosa do Sul",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4205456,
+    "nome_municipio":"Forquilhinha",
+    "microrregiao":"Criciúma",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4205506,
+    "nome_municipio":"Fraiburgo",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4205555,
+    "nome_municipio":"Frei Rogério",
+    "microrregiao":"Curitibanos",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4205605,
+    "nome_municipio":"Galvão",
+    "microrregiao":"Xanxerê",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4205704,
+    "nome_municipio":"Garopaba",
+    "microrregiao":"Tubarão",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4205803,
+    "nome_municipio":"Garuva",
+    "microrregiao":"Joinville",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4205902,
+    "nome_municipio":"Gaspar",
+    "microrregiao":"Blumenau",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4206009,
+    "nome_municipio":"Governador Celso Ramos",
+    "microrregiao":"Florianópolis",
+    "mesorregiao":"Grande Florianópolis",
+    "regiao_estimada":"Outras"
+  },
+  {
+    "cod_municipio":4206108,
+    "nome_municipio":"Grão-Pará",
+    "microrregiao":"Tubarão",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4206207,
+    "nome_municipio":"Gravatal",
+    "microrregiao":"Tubarão",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4206306,
+    "nome_municipio":"Guabiruba",
+    "microrregiao":"Blumenau",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4206405,
+    "nome_municipio":"Guaraciaba",
+    "microrregiao":"São Miguel do Oeste",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4206504,
+    "nome_municipio":"Guaramirim",
+    "microrregiao":"Joinville",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4206603,
+    "nome_municipio":"Guarujá do Sul",
+    "microrregiao":"São Miguel do Oeste",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4206652,
+    "nome_municipio":"Guatambú",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4206702,
+    "nome_municipio":"Herval d'Oeste",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4206751,
+    "nome_municipio":"Ibiam",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4206801,
+    "nome_municipio":"Ibicaré",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4206900,
+    "nome_municipio":"Ibirama",
+    "microrregiao":"Rio do Sul",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4207007,
+    "nome_municipio":"Içara",
+    "microrregiao":"Criciúma",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4207106,
+    "nome_municipio":"Ilhota",
+    "microrregiao":"Itajaí",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4207205,
+    "nome_municipio":"Imaruí",
+    "microrregiao":"Tubarão",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4207304,
+    "nome_municipio":"Imbituba",
+    "microrregiao":"Tubarão",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4207403,
+    "nome_municipio":"Imbuia",
+    "microrregiao":"Ituporanga",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4207502,
+    "nome_municipio":"Indaial",
+    "microrregiao":"Blumenau",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4207577,
+    "nome_municipio":"Iomerê",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4207601,
+    "nome_municipio":"Ipira",
+    "microrregiao":"Concórdia",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4207650,
+    "nome_municipio":"Iporã do Oeste",
+    "microrregiao":"São Miguel do Oeste",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4207684,
+    "nome_municipio":"Ipuaçu",
+    "microrregiao":"Xanxerê",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4207700,
+    "nome_municipio":"Ipumirim",
+    "microrregiao":"Concórdia",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4207759,
+    "nome_municipio":"Iraceminha",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4207809,
+    "nome_municipio":"Irani",
+    "microrregiao":"Concórdia",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4207858,
+    "nome_municipio":"Irati",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4207908,
+    "nome_municipio":"Irineópolis",
+    "microrregiao":"Canoinhas",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4208005,
+    "nome_municipio":"Itá",
+    "microrregiao":"Concórdia",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4208104,
+    "nome_municipio":"Itaiópolis",
+    "microrregiao":"Canoinhas",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4208203,
+    "nome_municipio":"Itajaí",
+    "microrregiao":"Itajaí",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4208302,
+    "nome_municipio":"Itapema",
+    "microrregiao":"Itajaí",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4208401,
+    "nome_municipio":"Itapiranga",
+    "microrregiao":"São Miguel do Oeste",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4208450,
+    "nome_municipio":"Itapoá",
+    "microrregiao":"Joinville",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4208500,
+    "nome_municipio":"Ituporanga",
+    "microrregiao":"Ituporanga",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4208609,
+    "nome_municipio":"Jaborá",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4208708,
+    "nome_municipio":"Jacinto Machado",
+    "microrregiao":"Araranguá",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4208807,
+    "nome_municipio":"Jaguaruna",
+    "microrregiao":"Tubarão",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4208906,
+    "nome_municipio":"Jaraguá do Sul",
+    "microrregiao":"Joinville",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4208955,
+    "nome_municipio":"Jardinópolis",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4209003,
+    "nome_municipio":"Joaçaba",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4209102,
+    "nome_municipio":"Joinville",
+    "microrregiao":"Joinville",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4209151,
+    "nome_municipio":"José Boiteux",
+    "microrregiao":"Rio do Sul",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4209177,
+    "nome_municipio":"Jupiá",
+    "microrregiao":"Xanxerê",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4209201,
+    "nome_municipio":"Lacerdópolis",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4209300,
+    "nome_municipio":"Lages",
+    "microrregiao":"Campos de Lages",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4209409,
+    "nome_municipio":"Laguna",
+    "microrregiao":"Tubarão",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4209458,
+    "nome_municipio":"Lajeado Grande",
+    "microrregiao":"Xanxerê",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4209508,
+    "nome_municipio":"Laurentino",
+    "microrregiao":"Rio do Sul",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4209607,
+    "nome_municipio":"Lauro Müller",
+    "microrregiao":"Criciúma",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4209706,
+    "nome_municipio":"Lebon Régis",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4209805,
+    "nome_municipio":"Leoberto Leal",
+    "microrregiao":"Tijucas",
+    "mesorregiao":"Grande Florianópolis",
+    "regiao_estimada":"Outras"
+  },
+  {
+    "cod_municipio":4209854,
+    "nome_municipio":"Lindóia do Sul",
+    "microrregiao":"Concórdia",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4209904,
+    "nome_municipio":"Lontras",
+    "microrregiao":"Rio do Sul",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4210001,
+    "nome_municipio":"Luiz Alves",
+    "microrregiao":"Blumenau",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4210035,
+    "nome_municipio":"Luzerna",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4210050,
+    "nome_municipio":"Macieira",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4210100,
+    "nome_municipio":"Mafra",
+    "microrregiao":"Canoinhas",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4210209,
+    "nome_municipio":"Major Gercino",
+    "microrregiao":"Tijucas",
+    "mesorregiao":"Grande Florianópolis",
+    "regiao_estimada":"Outras"
+  },
+  {
+    "cod_municipio":4210308,
+    "nome_municipio":"Major Vieira",
+    "microrregiao":"Canoinhas",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4210407,
+    "nome_municipio":"Maracajá",
+    "microrregiao":"Araranguá",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4210506,
+    "nome_municipio":"Maravilha",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4210555,
+    "nome_municipio":"Marema",
+    "microrregiao":"Xanxerê",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4210605,
+    "nome_municipio":"Massaranduba",
+    "microrregiao":"Joinville",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4210704,
+    "nome_municipio":"Matos Costa",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4210803,
+    "nome_municipio":"Meleiro",
+    "microrregiao":"Araranguá",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4210852,
+    "nome_municipio":"Mirim Doce",
+    "microrregiao":"Rio do Sul",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4210902,
+    "nome_municipio":"Modelo",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4211009,
+    "nome_municipio":"Mondaí",
+    "microrregiao":"São Miguel do Oeste",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4211058,
+    "nome_municipio":"Monte Carlo",
+    "microrregiao":"Curitibanos",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4211108,
+    "nome_municipio":"Monte Castelo",
+    "microrregiao":"Canoinhas",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4211207,
+    "nome_municipio":"Morro da Fumaça",
+    "microrregiao":"Criciúma",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4211256,
+    "nome_municipio":"Morro Grande",
+    "microrregiao":"Araranguá",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4211306,
+    "nome_municipio":"Navegantes",
+    "microrregiao":"Itajaí",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4211405,
+    "nome_municipio":"Nova Erechim",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4211454,
+    "nome_municipio":"Nova Itaberaba",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4211504,
+    "nome_municipio":"Nova Trento",
+    "microrregiao":"Tijucas",
+    "mesorregiao":"Grande Florianópolis",
+    "regiao_estimada":"Outras"
+  },
+  {
+    "cod_municipio":4211603,
+    "nome_municipio":"Nova Veneza",
+    "microrregiao":"Criciúma",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4211652,
+    "nome_municipio":"Novo Horizonte",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4211702,
+    "nome_municipio":"Orleans",
+    "microrregiao":"Tubarão",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4211751,
+    "nome_municipio":"Otacílio Costa",
+    "microrregiao":"Campos de Lages",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4211801,
+    "nome_municipio":"Ouro",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4211850,
+    "nome_municipio":"Ouro Verde",
+    "microrregiao":"Xanxerê",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4211876,
+    "nome_municipio":"Paial",
+    "microrregiao":"Concórdia",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4211892,
+    "nome_municipio":"Painel",
+    "microrregiao":"Campos de Lages",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4211900,
+    "nome_municipio":"Palhoça",
+    "microrregiao":"Florianópolis",
+    "mesorregiao":"Grande Florianópolis",
+    "regiao_estimada":"Outras"
+  },
+  {
+    "cod_municipio":4212007,
+    "nome_municipio":"Palma Sola",
+    "microrregiao":"São Miguel do Oeste",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4212056,
+    "nome_municipio":"Palmeira",
+    "microrregiao":"Campos de Lages",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4212106,
+    "nome_municipio":"Palmitos",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4212205,
+    "nome_municipio":"Papanduva",
+    "microrregiao":"Canoinhas",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4212239,
+    "nome_municipio":"Paraíso",
+    "microrregiao":"São Miguel do Oeste",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4212254,
+    "nome_municipio":"Passo de Torres",
+    "microrregiao":"Araranguá",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4212270,
+    "nome_municipio":"Passos Maia",
+    "microrregiao":"Xanxerê",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4212304,
+    "nome_municipio":"Paulo Lopes",
+    "microrregiao":"Florianópolis",
+    "mesorregiao":"Grande Florianópolis",
+    "regiao_estimada":"Outras"
+  },
+  {
+    "cod_municipio":4212403,
+    "nome_municipio":"Pedras Grandes",
+    "microrregiao":"Tubarão",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4212502,
+    "nome_municipio":"Penha",
+    "microrregiao":"Itajaí",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4212601,
+    "nome_municipio":"Peritiba",
+    "microrregiao":"Concórdia",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4212650,
+    "nome_municipio":"Pescaria Brava",
+    "microrregiao":"Tubarão",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4212700,
+    "nome_municipio":"Petrolândia",
+    "microrregiao":"Ituporanga",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4212809,
+    "nome_municipio":"Balneário Piçarras",
+    "microrregiao":"Itajaí",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4212908,
+    "nome_municipio":"Pinhalzinho",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4213005,
+    "nome_municipio":"Pinheiro Preto",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4213104,
+    "nome_municipio":"Piratuba",
+    "microrregiao":"Concórdia",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4213153,
+    "nome_municipio":"Planalto Alegre",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4213203,
+    "nome_municipio":"Pomerode",
+    "microrregiao":"Blumenau",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4213302,
+    "nome_municipio":"Ponte Alta",
+    "microrregiao":"Curitibanos",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4213351,
+    "nome_municipio":"Ponte Alta do Norte",
+    "microrregiao":"Curitibanos",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4213401,
+    "nome_municipio":"Ponte Serrada",
+    "microrregiao":"Xanxerê",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4213500,
+    "nome_municipio":"Porto Belo",
+    "microrregiao":"Itajaí",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4213609,
+    "nome_municipio":"Porto União",
+    "microrregiao":"Canoinhas",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4213708,
+    "nome_municipio":"Pouso Redondo",
+    "microrregiao":"Rio do Sul",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4213807,
+    "nome_municipio":"Praia Grande",
+    "microrregiao":"Araranguá",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4213906,
+    "nome_municipio":"Presidente Castello Branco",
+    "microrregiao":"Concórdia",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4214003,
+    "nome_municipio":"Presidente Getúlio",
+    "microrregiao":"Rio do Sul",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4214102,
+    "nome_municipio":"Presidente Nereu",
+    "microrregiao":"Rio do Sul",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4214151,
+    "nome_municipio":"Princesa",
+    "microrregiao":"São Miguel do Oeste",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4214201,
+    "nome_municipio":"Quilombo",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4214300,
+    "nome_municipio":"Rancho Queimado",
+    "microrregiao":"Tabuleiro",
+    "mesorregiao":"Grande Florianópolis",
+    "regiao_estimada":"Outras"
+  },
+  {
+    "cod_municipio":4214409,
+    "nome_municipio":"Rio das Antas",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4214508,
+    "nome_municipio":"Rio do Campo",
+    "microrregiao":"Rio do Sul",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4214607,
+    "nome_municipio":"Rio do Oeste",
+    "microrregiao":"Rio do Sul",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4214706,
+    "nome_municipio":"Rio dos Cedros",
+    "microrregiao":"Blumenau",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4214805,
+    "nome_municipio":"Rio do Sul",
+    "microrregiao":"Rio do Sul",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4214904,
+    "nome_municipio":"Rio Fortuna",
+    "microrregiao":"Tubarão",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4215000,
+    "nome_municipio":"Rio Negrinho",
+    "microrregiao":"São Bento do Sul",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4215059,
+    "nome_municipio":"Rio Rufino",
+    "microrregiao":"Campos de Lages",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4215075,
+    "nome_municipio":"Riqueza",
+    "microrregiao":"São Miguel do Oeste",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4215109,
+    "nome_municipio":"Rodeio",
+    "microrregiao":"Blumenau",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4215208,
+    "nome_municipio":"Romelândia",
+    "microrregiao":"São Miguel do Oeste",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4215307,
+    "nome_municipio":"Salete",
+    "microrregiao":"Rio do Sul",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4215356,
+    "nome_municipio":"Saltinho",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4215406,
+    "nome_municipio":"Salto Veloso",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4215455,
+    "nome_municipio":"Sangão",
+    "microrregiao":"Tubarão",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4215505,
+    "nome_municipio":"Santa Cecília",
+    "microrregiao":"Curitibanos",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4215554,
+    "nome_municipio":"Santa Helena",
+    "microrregiao":"São Miguel do Oeste",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4215604,
+    "nome_municipio":"Santa Rosa de Lima",
+    "microrregiao":"Tubarão",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4215653,
+    "nome_municipio":"Santa Rosa do Sul",
+    "microrregiao":"Araranguá",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4215679,
+    "nome_municipio":"Santa Terezinha",
+    "microrregiao":"Canoinhas",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4215687,
+    "nome_municipio":"Santa Terezinha do Progresso",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4215695,
+    "nome_municipio":"Santiago do Sul",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4215703,
+    "nome_municipio":"Santo Amaro da Imperatriz",
+    "microrregiao":"Florianópolis",
+    "mesorregiao":"Grande Florianópolis",
+    "regiao_estimada":"Outras"
+  },
+  {
+    "cod_municipio":4215752,
+    "nome_municipio":"São Bernardino",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4215802,
+    "nome_municipio":"São Bento do Sul",
+    "microrregiao":"São Bento do Sul",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4215901,
+    "nome_municipio":"São Bonifácio",
+    "microrregiao":"Tabuleiro",
+    "mesorregiao":"Grande Florianópolis",
+    "regiao_estimada":"Outras"
+  },
+  {
+    "cod_municipio":4216008,
+    "nome_municipio":"São Carlos",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4216057,
+    "nome_municipio":"São Cristóvão do Sul",
+    "microrregiao":"Curitibanos",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4216107,
+    "nome_municipio":"São Domingos",
+    "microrregiao":"Xanxerê",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4216206,
+    "nome_municipio":"São Francisco do Sul",
+    "microrregiao":"Joinville",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4216255,
+    "nome_municipio":"São João do Oeste",
+    "microrregiao":"São Miguel do Oeste",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4216305,
+    "nome_municipio":"São João Batista",
+    "microrregiao":"Tijucas",
+    "mesorregiao":"Grande Florianópolis",
+    "regiao_estimada":"Outras"
+  },
+  {
+    "cod_municipio":4216354,
+    "nome_municipio":"São João do Itaperiú",
+    "microrregiao":"Itajaí",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4216404,
+    "nome_municipio":"São João do Sul",
+    "microrregiao":"Araranguá",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4216503,
+    "nome_municipio":"São Joaquim",
+    "microrregiao":"Campos de Lages",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4216602,
+    "nome_municipio":"São José",
+    "microrregiao":"Florianópolis",
+    "mesorregiao":"Grande Florianópolis",
+    "regiao_estimada":"Outras"
+  },
+  {
+    "cod_municipio":4216701,
+    "nome_municipio":"São José do Cedro",
+    "microrregiao":"São Miguel do Oeste",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4216800,
+    "nome_municipio":"São José do Cerrito",
+    "microrregiao":"Campos de Lages",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4216909,
+    "nome_municipio":"São Lourenço do Oeste",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4217006,
+    "nome_municipio":"São Ludgero",
+    "microrregiao":"Tubarão",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4217105,
+    "nome_municipio":"São Martinho",
+    "microrregiao":"Tubarão",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4217154,
+    "nome_municipio":"São Miguel da Boa Vista",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4217204,
+    "nome_municipio":"São Miguel do Oeste",
+    "microrregiao":"São Miguel do Oeste",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4217253,
+    "nome_municipio":"São Pedro de Alcântara",
+    "microrregiao":"Florianópolis",
+    "mesorregiao":"Grande Florianópolis",
+    "regiao_estimada":"Outras"
+  },
+  {
+    "cod_municipio":4217303,
+    "nome_municipio":"Saudades",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4217402,
+    "nome_municipio":"Schroeder",
+    "microrregiao":"Joinville",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4217501,
+    "nome_municipio":"Seara",
+    "microrregiao":"Concórdia",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4217550,
+    "nome_municipio":"Serra Alta",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4217600,
+    "nome_municipio":"Siderópolis",
+    "microrregiao":"Criciúma",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4217709,
+    "nome_municipio":"Sombrio",
+    "microrregiao":"Araranguá",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4217758,
+    "nome_municipio":"Sul Brasil",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4217808,
+    "nome_municipio":"Taió",
+    "microrregiao":"Rio do Sul",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4217907,
+    "nome_municipio":"Tangará",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4217956,
+    "nome_municipio":"Tigrinhos",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4218004,
+    "nome_municipio":"Tijucas",
+    "microrregiao":"Tijucas",
+    "mesorregiao":"Grande Florianópolis",
+    "regiao_estimada":"Outras"
+  },
+  {
+    "cod_municipio":4218103,
+    "nome_municipio":"Timbé do Sul",
+    "microrregiao":"Araranguá",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4218202,
+    "nome_municipio":"Timbó",
+    "microrregiao":"Blumenau",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4218251,
+    "nome_municipio":"Timbó Grande",
+    "microrregiao":"Canoinhas",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4218301,
+    "nome_municipio":"Três Barras",
+    "microrregiao":"Canoinhas",
+    "mesorregiao":"Norte Catarinense",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4218350,
+    "nome_municipio":"Treviso",
+    "microrregiao":"Criciúma",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4218400,
+    "nome_municipio":"Treze de Maio",
+    "microrregiao":"Tubarão",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4218509,
+    "nome_municipio":"Treze Tílias",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4218608,
+    "nome_municipio":"Trombudo Central",
+    "microrregiao":"Rio do Sul",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4218707,
+    "nome_municipio":"Tubarão",
+    "microrregiao":"Tubarão",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4218756,
+    "nome_municipio":"Tunápolis",
+    "microrregiao":"São Miguel do Oeste",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4218806,
+    "nome_municipio":"Turvo",
+    "microrregiao":"Araranguá",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4218855,
+    "nome_municipio":"União do Oeste",
+    "microrregiao":"Chapecó",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4218905,
+    "nome_municipio":"Urubici",
+    "microrregiao":"Campos de Lages",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4218954,
+    "nome_municipio":"Urupema",
+    "microrregiao":"Campos de Lages",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4219002,
+    "nome_municipio":"Urussanga",
+    "microrregiao":"Criciúma",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  },
+  {
+    "cod_municipio":4219101,
+    "nome_municipio":"Vargeão",
+    "microrregiao":"Xanxerê",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4219150,
+    "nome_municipio":"Vargem",
+    "microrregiao":"Curitibanos",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4219176,
+    "nome_municipio":"Vargem Bonita",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4219200,
+    "nome_municipio":"Vidal Ramos",
+    "microrregiao":"Ituporanga",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4219309,
+    "nome_municipio":"Videira",
+    "microrregiao":"Joaçaba",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4219358,
+    "nome_municipio":"Vitor Meireles",
+    "microrregiao":"Rio do Sul",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4219408,
+    "nome_municipio":"Witmarsum",
+    "microrregiao":"Rio do Sul",
+    "mesorregiao":"Vale do Itajaí",
+    "regiao_estimada":"Vale"
+  },
+  {
+    "cod_municipio":4219507,
+    "nome_municipio":"Xanxerê",
+    "microrregiao":"Xanxerê",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4219606,
+    "nome_municipio":"Xavantina",
+    "microrregiao":"Concórdia",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4219705,
+    "nome_municipio":"Xaxim",
+    "microrregiao":"Xanxerê",
+    "mesorregiao":"Oeste Catarinense",
+    "regiao_estimada":"Oeste"
+  },
+  {
+    "cod_municipio":4219853,
+    "nome_municipio":"Zortéa",
+    "microrregiao":"Curitibanos",
+    "mesorregiao":"Serrana",
+    "regiao_estimada":"Serrana"
+  },
+  {
+    "cod_municipio":4220000,
+    "nome_municipio":"Balneário Rincão",
+    "microrregiao":"Criciúma",
+    "mesorregiao":"Sul Catarinense",
+    "regiao_estimada":"Sul"
+  }
+]
