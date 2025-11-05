@@ -17,16 +17,23 @@
             background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
             min-height: 100vh;
             padding: 20px;
+            color: #1f2937;
+        }
+        /* Dark mode base */
+        body.dark {
+            background: linear-gradient(135deg, #0b1220 0%, #0e1b2a 100%);
+            color: #e5e7eb;
         }
         
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            background: white;
+            background: #ffffcc;
             border-radius: 20px;
             box-shadow: 0 20px 60px rgba(0,0,0,0.4);
             overflow: hidden;
         }
+        body.dark .container { background: #0f172a; box-shadow: 0 20px 60px rgba(0,0,0,0.7); }
         
         .cover {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -35,6 +42,7 @@
             text-align: center;
             position: relative;
         }
+        body.dark .cover { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); }
         
         .cover::after {
             content: '';
@@ -73,7 +81,12 @@
             border-bottom: 3px solid #667eea;
             overflow-x: auto;
             flex-wrap: wrap;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.06);
         }
+        body.dark .tabs { background: #0b1220; border-bottom-color: #60a5fa; box-shadow: 0 6px 14px rgba(0,0,0,0.35); }
         
         .tab-button {
             padding: 20px 30px;
@@ -93,11 +106,13 @@
         }
         
         .tab-button.active {
-            background: white;
+            background: #ffffcc;
             color: #667eea;
             border-bottom: 3px solid #667eea;
             font-weight: bold;
         }
+        body.dark .tab-button { color: #e5e7eb; }
+        body.dark .tab-button.active { background: #111827; color: #93c5fd; border-bottom-color: #60a5fa; }
         
         .tab-content {
             display: none;
@@ -125,12 +140,14 @@
             padding-bottom: 15px;
             border-bottom: 3px solid #667eea;
         }
+        body.dark .section h2 { color: #e5e7eb; border-bottom-color: #60a5fa; }
         
         .section h3 {
             font-size: 1.6em;
             color: #34495e;
             margin: 30px 0 20px 0;
         }
+        body.dark .section h3 { color: #93c5fd; }
         
         .highlight-box {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -148,6 +165,8 @@
             margin: 20px 0;
             border-radius: 8px;
         }
+        body.dark .info-box { background: #0b1220; border-left-color: #60a5fa; color: #e5e7eb; }
+        body.dark .info-box * { color: #e5e7eb !important; }
         
         .metric-grid {
             display: grid;
@@ -164,6 +183,7 @@
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
             transition: transform 0.3s;
         }
+        body.dark .metric-card { background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%); box-shadow: 0 5px 15px rgba(0,0,0,0.4); }
         
         .metric-card:hover {
             transform: translateY(-5px);
@@ -174,6 +194,7 @@
             font-size: 1.1em;
             margin-bottom: 15px;
         }
+        body.dark .metric-card h4 { color: #e5e7eb; }
         
         .metric-card .value {
             font-size: 2.5em;
@@ -181,21 +202,24 @@
             color: #667eea;
             margin-bottom: 10px;
         }
+        body.dark .metric-card .value { color: #93c5fd; }
         
         .metric-card .label {
             color: #7f8c8d;
             font-size: 0.95em;
         }
+        body.dark .metric-card .label { color: #cbd5e1; }
         
         table {
             width: 100%;
             border-collapse: collapse;
             margin: 25px 0;
-            background: white;
+            background: #ffffcc;
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
             border-radius: 10px;
             overflow: hidden;
         }
+        body.dark table { background: #111827; box-shadow: 0 5px 15px rgba(0,0,0,0.4); }
         
         thead {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -210,14 +234,17 @@
         tbody tr {
             border-bottom: 1px solid #ecf0f1;
         }
+        body.dark tbody tr { border-bottom-color: #334155; color: #e5e7eb; }
         
         tbody tr:hover {
             background: #f8f9fa;
         }
+        body.dark tbody tr:hover { background: #1f2937; }
         
         tbody tr:nth-child(even) {
             background: #fafafa;
         }
+        body.dark tbody tr:nth-child(even) { background: #0b1220; }
         
         .chart-container {
             position: relative;
@@ -227,6 +254,7 @@
             background: #f8f9fa;
             border-radius: 12px;
         }
+        body.dark .chart-container { background: #0b1220; }
         
         .timeline {
             position: relative;
@@ -338,12 +366,36 @@
                 display: none;
             }
         }
+        
+        /* Dark mode: global overrides for readability */
+        body.dark h4, body.dark h5, body.dark h6 { color: #e5e7eb; }
+        body.dark p, body.dark li, body.dark td { color: #e5e7eb; }
+        body.dark strong, body.dark b { color: #f3f4f6; }
+        body.dark th { color: white; }
+        
+        /* Theme toggle button */
+        .theme-toggle {
+            position: absolute;
+            right: 30px;
+            top: 30px;
+            background: rgba(255,255,255,0.2);
+            color: white;
+            border: 2px solid rgba(255,255,255,0.4);
+            padding: 10px 18px;
+            border-radius: 999px;
+            cursor: pointer;
+            font-weight: 600;
+            backdrop-filter: blur(8px);
+            z-index: 2000;
+        }
+        body.dark .theme-toggle { background: rgba(15,23,42,0.6); border-color: rgba(255,255,255,0.3); }
     </style>
 </head>
 <body>
     <div class="container">
         <!-- CAPA -->
         <div class="cover">
+            <button class="theme-toggle" id="themeToggle" aria-label="Alternar modo claro/escuro">🌙 Modo escuro</button>
             <h1>🚁 BUSINESS PLAN</h1>
             <div class="subtitle">Operação de Drones Agrícolas em Santa Catarina</div>
             <div class="meta">
@@ -1265,6 +1317,25 @@
             document.getElementById(tabName).classList.add("active");
             evt.currentTarget.classList.add("active");
         }
+        
+        // Theme toggle with localStorage + system preference
+        (function() {
+            const btn = document.getElementById('themeToggle');
+            const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const saved = localStorage.getItem('theme_business_plan');
+            const isDark = saved ? saved === 'dark' : prefersDark;
+
+            function applyTheme(dark) {
+                document.body.classList.toggle('dark', dark);
+                if (btn) {
+                    btn.textContent = dark ? '☀️ Modo claro' : '🌙 Modo escuro';
+                }
+                localStorage.setItem('theme_business_plan', dark ? 'dark' : 'light');
+            }
+
+            applyTheme(isDark);
+            if (btn) btn.addEventListener('click', () => applyTheme(!document.body.classList.contains('dark')));
+        })();
     </script>
 </body>
 </html>
