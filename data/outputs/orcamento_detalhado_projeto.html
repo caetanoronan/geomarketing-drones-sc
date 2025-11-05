@@ -362,6 +362,42 @@
             padding-left: 18px;
         }
 
+        .glossary-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+            margin: 30px 0;
+        }
+
+        .glossary-card {
+            background: rgba(229,245,249,0.78);
+            border: 1px solid rgba(44,162,95,0.22);
+            border-left: 6px solid var(--accent-strong);
+            padding: 20px 22px;
+            border-radius: 16px;
+            box-shadow: 0 12px 26px rgba(15,76,56,0.12);
+        }
+        body.dark .glossary-card {
+            background: rgba(15,32,44,0.88);
+            border-color: rgba(52,211,153,0.32);
+            border-left-color: #34d399;
+            box-shadow: 0 18px 38px rgba(0,0,0,0.5);
+        }
+
+        .glossary-card h4 {
+            font-size: 1.15em;
+            margin-bottom: 10px;
+            color: #0b422c;
+        }
+        body.dark .glossary-card h4 {
+            color: #6ee7b7;
+        }
+
+        .glossary-card p {
+            margin-bottom: 6px;
+            color: inherit;
+        }
+
         .alert {
             margin-top: 25px;
             padding: 18px 22px;
@@ -420,6 +456,7 @@
             <button class="tab-button" role="tab" aria-controls="tab-fase3" onclick="openTab(event, 'tab-fase3')">🚀 Fase 3</button>
             <button class="tab-button" role="tab" aria-controls="tab-consolidado" onclick="openTab(event, 'tab-consolidado')">📊 Consolidado</button>
             <button class="tab-button" role="tab" aria-controls="tab-projecoes" onclick="openTab(event, 'tab-projecoes')">💼 Projeções &amp; Contratos</button>
+            <button class="tab-button" role="tab" aria-controls="tab-glossario" onclick="openTab(event, 'tab-glossario')">📖 Glossário</button>
         </nav>
 
         <main class="content">
@@ -1334,6 +1371,86 @@
                 <h3>Contato Comercial</h3>
                 <p><strong>Ronan Armando Caetano</strong> &middot; Geoprocessamento (IFSC) | Ciências Biológicas (UFSC)</p>
                 <p>E-mail: <a href="mailto:ronan.caetano@ufsc.br">ronan.caetano@ufsc.br</a> &middot; GitHub: <a href="https://github.com/caetanoronan/geomarketing-drones-sc" target="_blank" rel="noopener">caetanoronan/geomarketing-drones-sc</a></p>
+            </section>
+
+            <section id="tab-glossario" class="tab-content" role="tabpanel">
+                <h2>Glossário de Termos Técnicos</h2>
+                <p>Lista de conceitos utilizados no projeto para facilitar a compreensão de leitores não especializados.</p>
+
+                <div class="glossary-grid">
+                    <article class="glossary-card" aria-label="Cold Spot">
+                        <h4>Cold Spot Estratégico</h4>
+                        <p>Cidade com menor atividade agrícola direta, mas infraestrutura superior (universidade, logística, custos) que serve como base operacional para atender diversos polos de produção próximos.</p>
+                    </article>
+                    <article class="glossary-card" aria-label="Hot Spot">
+                        <h4>Hot Spot</h4>
+                        <p>Município com alta concentração de produção agrícola (demanda). Normalmente apresenta custos mais altos e competição acirrada.</p>
+                    </article>
+                    <article class="glossary-card" aria-label="IBGE PAM 2024">
+                        <h4>IBGE PAM 2024</h4>
+                        <p>Produção Agrícola Municipal. Base oficial do IBGE com área plantada, produção e valor gerado por cultura agrícola em cada município brasileiro.</p>
+                    </article>
+                    <article class="glossary-card" aria-label="Censo Agro 2017">
+                        <h4>Censo Agro 2017</h4>
+                        <p>Levantamento nacional do IBGE sobre estrutura produtiva no campo, incluindo número de estabelecimentos, tamanho das propriedades e perfil dos produtores.</p>
+                    </article>
+                    <article class="glossary-card" aria-label="ROI">
+                        <h4>ROI &mdash; Return on Investment</h4>
+                        <p>Indicador que mostra o percentual de retorno obtido sobre um investimento. Ex.: ROI de 40% indica ganho de R$ 40 para cada R$ 100 investidos.</p>
+                    </article>
+                    <article class="glossary-card" aria-label="Payback">
+                        <h4>Payback</h4>
+                        <p>Tempo necessário para recuperar o valor investido em um projeto ou ativo. No estudo, o payback estimado para a operação é de 14 meses.</p>
+                    </article>
+                    <article class="glossary-card" aria-label="TIR">
+                        <h4>TIR &mdash; Taxa Interna de Retorno</h4>
+                        <p>Métrica financeira que indica a rentabilidade anualizada de um investimento considerando o fluxo de caixa projetado.</p>
+                    </article>
+                    <article class="glossary-card" aria-label="MRR e ARR">
+                        <h4>MRR / ARR</h4>
+                        <p>MRR (Monthly Recurring Revenue) é a receita recorrente mensal de um produto SaaS. ARR (Annual Recurring Revenue) é a mesma receita anualizada.</p>
+                    </article>
+                    <article class="glossary-card" aria-label="SaaS">
+                        <h4>SaaS</h4>
+                        <p>Software as a Service. Modelo em que o software é disponibilizado via assinatura na nuvem, sem necessidade de instalação local.</p>
+                    </article>
+                    <article class="glossary-card" aria-label="Multi-tenant">
+                        <h4>Arquitetura Multi-tenant</h4>
+                        <p>Estrutura de software em que uma única aplicação atende múltiplos clientes (tenants), garantindo isolamento e segurança dos dados.</p>
+                    </article>
+                    <article class="glossary-card" aria-label="RPAS">
+                        <h4>RPAS</h4>
+                        <p>Remotely Piloted Aircraft System. Termo usado pela ANAC para drones pilotados remotamente. Exige certificações específicas para operações comerciais.</p>
+                    </article>
+                    <article class="glossary-card" aria-label="NDVI">
+                        <h4>NDVI</h4>
+                        <p>Normalized Difference Vegetation Index. Índice gerado via sensores multiespectrais dos drones para avaliar vigor da vegetação e identificar pragas.</p>
+                    </article>
+                    <article class="glossary-card" aria-label="ETL">
+                        <h4>ETL</h4>
+                        <p>Processo de <em>Extract, Transform, Load</em>. Consiste em extrair dados, transformá-los (limpeza, padronização) e carregá-los em sistemas analíticos.</p>
+                    </article>
+                    <article class="glossary-card" aria-label="PostGIS">
+                        <h4>PostGIS</h4>
+                        <p>Extensão geoespacial do banco de dados PostgreSQL que permite armazenar e analisar dados ligados a coordenadas geográficas.</p>
+                    </article>
+                    <article class="glossary-card" aria-label="Folium">
+                        <h4>Folium</h4>
+                        <p>Biblioteca Python que facilita a criação de mapas interativos em HTML utilizando recursos do Leaflet.</p>
+                    </article>
+                    <article class="glossary-card" aria-label="Chart.js">
+                        <h4>Chart.js</h4>
+                        <p>Biblioteca JavaScript para construção de gráficos interativos (linhas, barras, pizzas) utilizados em dashboards web.</p>
+                    </article>
+                    <article class="glossary-card" aria-label="KPIs">
+                        <h4>KPI</h4>
+                        <p>Key Performance Indicator. Indicadores-chave de desempenho usados para monitorar metas (ex.: número de clientes ativos, hectares atendidos).</p>
+                    </article>
+                </div>
+
+                <div class="alert" role="note">
+                    Este glossário é atualizado conforme novas tecnologias ou conceitos forem incorporados às próximas fases do projeto.
+                </div>
             </section>
         </main>
 
