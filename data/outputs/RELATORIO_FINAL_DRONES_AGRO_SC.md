@@ -691,12 +691,48 @@ A análise com **dados REAIS IBGE PAM 2024** revolucionou completamente nossa co
 
 **Documentos Complementares:**
 - 📊 [Business Plan Completo](https://caetanoronan.github.io/geomarketing-drones-sc/data/outputs/business_plan_drones_agro_sc.html)
-- 🗺️ [Dashboard Interativo](https://caetanoronan.github.io/geomarketing-drones-sc/)
+- 🗺️ [Dashboard Interativo](https://caetanoronan.github.io/geomarketing-drones-sc/data/outputs/apresentacao_drones_agro_sc.html)
+- 🎯 [Pitch Deck](https://caetanoronan.github.io/geomarketing-drones-sc/data/outputs/pitch_deck_drones_agro_sc.html)
 - 🔥 [Mapas de Calor](https://caetanoronan.github.io/geomarketing-drones-sc/data/outputs/maps/heatmap_combinado.html)
-
-**Contato:** Ronan Armando Caetano | UFSC/IFSC | ronan.caetano@ufsc.br
+- 🧊 [Mapa Cold Spots](https://caetanoronan.github.io/geomarketing-drones-sc/data/outputs/maps/mapa_cold_spots_estrategicos.html)
 
 ---
 
-**Contato para dúvidas:** [Inserir contato]
+## 🎨 RECURSOS ADICIONAIS - APRESENTAÇÕES INTERATIVAS
+
+Todos os documentos HTML possuem **modo escuro/claro** com alternância via botão, **navegação sticky** (abas fixas no topo) e **paleta de cores otimizada** para acessibilidade:
+
+### 📱 **Recursos de UX implementados:**
+
+#### **1. Modo Escuro/Claro**
+- Toggle manual via botão (☀️/🌙)
+- Detecção automática de preferência do sistema operacional
+- Persistência via localStorage (escolha do usuário mantida entre sessões)
+- Paleta de cores otimizada:
+  - **Modo claro:** Fundo amarelo suave (#ffffcc) com texto escuro
+  - **Modo escuro:** Fundo azul profundo (#0f172a) com texto claro (#e5e7eb)
+
+#### **2. Navegação Aprimorada**
+- **Abas sticky:** Menu de navegação permanece visível ao rolar a página
+- **Alto contraste:** Todas as seções legíveis em ambos os modos
+- **Responsive:** Adaptável a desktop, tablet e mobile
+
+#### **3. Elementos com Contraste Otimizado**
+- Tabelas com linhas TOTAL destacadas
+- Info-boxes com fundos contrastantes
+- Timeline/Roadmap com marcadores visuais claros
+- Blocos de risco categorizados por cor (alto/médio/baixo)
+- Métricas financeiras (EBITDA, margens) com cores semânticas
+
+### 🔗 **Links Rápidos:**
+
+| Documento | Descrição | Ideal para |
+|-----------|-----------|------------|
+| [Dashboard](https://caetanoronan.github.io/geomarketing-drones-sc/data/outputs/apresentacao_drones_agro_sc.html) | 9 abas com análise completa, mapas interativos, rankings e cold spots | Investidores, cooperativas, análise técnica |
+| [Business Plan](https://caetanoronan.github.io/geomarketing-drones-sc/data/outputs/business_plan_drones_agro_sc.html) | Plano de negócio detalhado com projeções financeiras 3 anos | Investidores, bancos, rodadas de captação |
+| [Pitch Deck](https://caetanoronan.github.io/geomarketing-drones-sc/data/outputs/pitch_deck_drones_agro_sc.html) | Apresentação executiva compacta (slides) | Apresentações rápidas, networking, eventos |
+
+---
+
+**Contato:** Ronan Armando Caetano | UFSC/IFSC | ronan.caetano@ufsc.br
 
